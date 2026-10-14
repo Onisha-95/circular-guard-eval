@@ -1,0 +1,1352 @@
+[
+ {
+  "id": "e000",
+  "pair": "t000",
+  "concept": "while loop statement",
+  "text": "A while loop always runs its body at least once, then checks the condition afterward to decide whether to repeat.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c000"
+ },
+ {
+  "id": "e001",
+  "pair": "t001",
+  "concept": "for loops",
+  "text": "A for loop can only count upward and cannot decrease its counter or use a custom step size.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c001"
+ },
+ {
+  "id": "e002",
+  "pair": "t002",
+  "concept": "do-while loops",
+  "text": "A do-while loop checks its condition before the first iteration, so the body may never execute.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c002"
+ },
+ {
+  "id": "e003",
+  "pair": "t003",
+  "concept": "selection statements",
+  "text": "A switch statement evaluates every case branch in order regardless of matches, executing all of them.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c003"
+ },
+ {
+  "id": "e004",
+  "pair": "t004",
+  "concept": "expression -vs- statement",
+  "text": "An expression and a statement are the same thing; both always produce a value.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c004"
+ },
+ {
+  "id": "e005",
+  "pair": "t005",
+  "concept": "the return keyword",
+  "text": "The return keyword prints a value to the console and then continues executing the rest of the method.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c005"
+ },
+ {
+  "id": "e006",
+  "pair": "t006",
+  "concept": "method calling",
+  "text": "When you call a method, the arguments are always passed by reference, so changes inside always affect the caller.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c006"
+ },
+ {
+  "id": "e007",
+  "pair": "t007",
+  "concept": "the constructor",
+  "text": "A constructor must have a return type declared, just like any other method.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c007"
+ },
+ {
+  "id": "e008",
+  "pair": "t008",
+  "concept": "scope – java",
+  "text": "A variable declared inside a method is accessible anywhere in the class after it is declared.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c008"
+ },
+ {
+  "id": "e009",
+  "pair": "t009",
+  "concept": "arrays class",
+  "text": "Array indices in Java/C# start at 1, so the first element is at index 1.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c009"
+ },
+ {
+  "id": "e010",
+  "pair": "t010",
+  "concept": "converting input to numbers",
+  "text": "Console input in C# is already an integer, so you can do math on it without any conversion.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c010"
+ },
+ {
+  "id": "e011",
+  "pair": "t011",
+  "concept": "tangent function",
+  "text": "The tangent function is defined for all real numbers and has no undefined points.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c145"
+ },
+ {
+  "id": "e012",
+  "pair": "t012",
+  "concept": "pythagorean identities",
+  "text": "The identity is sin^2(x) - cos^2(x) = 1.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c012"
+ },
+ {
+  "id": "e013",
+  "pair": "t013",
+  "concept": "cosecant and secant",
+  "text": "Cosecant is the reciprocal of cosine, and secant is the reciprocal of sine.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c147"
+ },
+ {
+  "id": "e014",
+  "pair": "t014",
+  "concept": "complementary and supplementary angles",
+  "text": "Complementary angles sum to 180 degrees and supplementary angles sum to 90 degrees.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c014"
+ },
+ {
+  "id": "e015",
+  "pair": "t015",
+  "concept": "average rate of change",
+  "text": "The average rate of change of a function over an interval equals the function's value at the midpoint.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c015"
+ },
+ {
+  "id": "e016",
+  "pair": "t016",
+  "concept": "average rate of change: difference quotients",
+  "text": "The difference quotient (f(x+h)-f(x))/h gives the exact instantaneous rate of change for any h.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c016"
+ },
+ {
+  "id": "e017",
+  "pair": "t017",
+  "concept": "ipv4 vs. ipv6",
+  "text": "IPv4 addresses are longer than IPv6 addresses and support more total devices.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c017"
+ },
+ {
+  "id": "e018",
+  "pair": "t018",
+  "concept": "isp - internet service provider",
+  "text": "An ISP is the physical cable that carries internet signals into your home.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c018"
+ },
+ {
+  "id": "e019",
+  "pair": "t019",
+  "concept": "computer networking",
+  "text": "In a network, a switch broadcasts every message to all devices, while a hub sends only to the intended device.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c019"
+ },
+ {
+  "id": "e020",
+  "pair": "t020",
+  "concept": "network types",
+  "text": "A LAN covers a larger geographic area than a WAN.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c020"
+ },
+ {
+  "id": "e021",
+  "pair": "t021",
+  "concept": "symmetric encryption",
+  "text": "Symmetric encryption uses a different key for encryption and decryption.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c021"
+ },
+ {
+  "id": "e022",
+  "pair": "t022",
+  "concept": "types of hackers",
+  "text": "A white-hat hacker breaks into systems illegally for personal profit.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c022"
+ },
+ {
+  "id": "e023",
+  "pair": "t023",
+  "concept": "ram - random access memory",
+  "text": "RAM retains all its data permanently even after the computer is powered off.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c023"
+ },
+ {
+  "id": "e024",
+  "pair": "t024",
+  "concept": "gpu - graphics processing unit",
+  "text": "A GPU is designed for sequential single-threaded tasks and cannot do parallel processing.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c024"
+ },
+ {
+  "id": "e025",
+  "pair": "t025",
+  "concept": "operating systems (os)",
+  "text": "The operating system is application software that users must install separately, like a web browser.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c129"
+ },
+ {
+  "id": "e026",
+  "pair": "t026",
+  "concept": "artificial intelligence",
+  "text": "Artificial intelligence means a machine that is conscious and self-aware like a human.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c107"
+ },
+ {
+  "id": "e027",
+  "pair": "t027",
+  "concept": "pattern recognition",
+  "text": "Pattern recognition in computational thinking means memorizing the exact answer to every possible problem.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c027"
+ },
+ {
+  "id": "e028",
+  "pair": "t028",
+  "concept": "abstraction example",
+  "text": "Abstraction means adding as much detail as possible so nothing is hidden from the user.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c101"
+ },
+ {
+  "id": "e029",
+  "pair": "t029",
+  "concept": "algorithmic thinking",
+  "text": "An algorithm may be ambiguous and still be correct, as long as it usually works.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c029"
+ },
+ {
+  "id": "e030",
+  "pair": "t030",
+  "concept": "importance of algorithmic thinking",
+  "text": "Algorithms must always produce different output each time they run on the same input.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c030"
+ },
+ {
+  "id": "e031",
+  "pair": "t031",
+  "concept": "database languages",
+  "text": "SQL is a procedural language where you must specify exactly how to retrieve each row step by step.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c031"
+ },
+ {
+  "id": "e032",
+  "pair": "t032",
+  "concept": "data definition language (ddl)",
+  "text": "DDL commands like SELECT are used to query and read data from tables.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c032"
+ },
+ {
+  "id": "e033",
+  "pair": "t033",
+  "concept": "types of dbms",
+  "text": "In a relational DBMS, data is stored as a single long text file with no structure.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c033"
+ },
+ {
+  "id": "e034",
+  "pair": "t034",
+  "concept": "html element",
+  "text": "An HTML element's closing tag is optional for all elements and never required.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c034"
+ },
+ {
+  "id": "e035",
+  "pair": "t035",
+  "concept": "html links",
+  "text": "The href attribute of an anchor tag specifies the image to display inside the link.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c035"
+ },
+ {
+  "id": "e036",
+  "pair": "t036",
+  "concept": "html headings",
+  "text": "HTML headings range from <h1> to <h10>, with <h10> being the largest.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c036"
+ },
+ {
+  "id": "e037",
+  "pair": "t037",
+  "concept": "disadvantages of robots",
+  "text": "A key disadvantage of robots is that they get tired and lose accuracy over long shifts like humans.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c037"
+ },
+ {
+  "id": "e038",
+  "pair": "t038",
+  "concept": "cloud computing",
+  "text": "Cloud computing means all data is stored only on your local hard drive with no internet needed.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c142"
+ },
+ {
+  "id": "e039",
+  "pair": "t039",
+  "concept": "cloud computing security",
+  "text": "Data stored in the cloud is automatically fully secure and needs no encryption or access control.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c039"
+ },
+ {
+  "id": "e040",
+  "pair": "t040",
+  "concept": "conditional statement",
+  "text": "An if statement must always be paired with an else block, or the program will not compile.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c040"
+ },
+ {
+  "id": "e041",
+  "pair": "t041",
+  "concept": "match vs switch",
+  "text": "In C#, switch can only compare integer values and cannot be used with strings.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c041"
+ },
+ {
+  "id": "e042",
+  "pair": "t042",
+  "concept": "example of continue",
+  "text": "The continue keyword exits the loop entirely, like break.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c042"
+ },
+ {
+  "id": "e043",
+  "pair": "t043",
+  "concept": "method definition",
+  "text": "A method must always return a value; methods cannot have a void return type.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c043"
+ },
+ {
+  "id": "e044",
+  "pair": "t044",
+  "concept": "declaring classes",
+  "text": "A class can only contain methods, not variables or fields.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c044"
+ },
+ {
+  "id": "e045",
+  "pair": "t045",
+  "concept": "resizing arrays",
+  "text": "In Java/C#, you can resize an array after creation by simply assigning a larger length to it.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c045"
+ },
+ {
+  "id": "e046",
+  "pair": "t046",
+  "concept": "string multiplication",
+  "text": "In Java, multiplying a string by an integer (\"ab\" * 3) repeats the string three times.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c046"
+ },
+ {
+  "id": "e047",
+  "pair": "t047",
+  "concept": "trigonometric functions",
+  "text": "Sine and cosine can take any real value, including values greater than 1.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c146"
+ },
+ {
+  "id": "e048",
+  "pair": "t048",
+  "concept": "inverse tangent function",
+  "text": "The inverse tangent function returns angles across the full range 0 to 2pi.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c048"
+ },
+ {
+  "id": "e049",
+  "pair": "t049",
+  "concept": "function notation: an example",
+  "text": "In function notation f(x), the expression f(x) means f multiplied by x.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c049"
+ },
+ {
+  "id": "e050",
+  "pair": "t050",
+  "concept": "user datagram protocol",
+  "text": "UDP guarantees reliable, ordered delivery of all packets, just like TCP.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c050"
+ },
+ {
+  "id": "e051",
+  "pair": "t051",
+  "concept": "domain name system (dns)",
+  "text": "DNS converts IP addresses into physical MAC addresses for routing.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c051"
+ },
+ {
+  "id": "e052",
+  "pair": "t052",
+  "concept": "internet protocols",
+  "text": "HTTP is a protocol used to send email between mail servers.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c052"
+ },
+ {
+  "id": "e053",
+  "pair": "t053",
+  "concept": "types of artificial intelligence",
+  "text": "Narrow AI can perform any intellectual task a human can, across all domains.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c053"
+ },
+ {
+  "id": "e054",
+  "pair": "t054",
+  "concept": "computational thinking",
+  "text": "Computational thinking requires writing code in a programming language; it cannot be done on paper.",
+  "kind": "error",
+  "in_dev55": true,
+  "dup_cluster": "c054"
+ },
+ {
+  "id": "e055",
+  "pair": "t055",
+  "concept": "boolean variables and comparisons",
+  "text": "In a boolean comparison, the operator = checks equality, while == is used only to assign a value.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c055"
+ },
+ {
+  "id": "e056",
+  "pair": "t056",
+  "concept": "nested conditionals",
+  "text": "A nested if statement runs its inner condition even when the outer condition is false.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c056"
+ },
+ {
+  "id": "e057",
+  "pair": "t057",
+  "concept": "controlling loops – break and continue",
+  "text": "The break statement skips the current iteration and continues with the next one, while continue exits the loop.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c057"
+ },
+ {
+  "id": "e058",
+  "pair": "t058",
+  "concept": "the for loop",
+  "text": "A for loop must always start counting at 0 and cannot begin at any other number.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c058"
+ },
+ {
+  "id": "e059",
+  "pair": "t059",
+  "concept": "the while loop",
+  "text": "A while loop checks its condition only once at the start and never re-checks it.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c059"
+ },
+ {
+  "id": "e060",
+  "pair": "t060",
+  "concept": "the if statement",
+  "text": "An if statement can only test numeric values, not boolean or string conditions.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c060"
+ },
+ {
+  "id": "e061",
+  "pair": "t061",
+  "concept": "the if-elif-else statement",
+  "text": "In an if-elif-else chain, every branch is evaluated and executed in order.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c061"
+ },
+ {
+  "id": "e062",
+  "pair": "t062",
+  "concept": "using range() with for",
+  "text": "range(1, 5) in Python produces the numbers 1, 2, 3, 4, 5 including the upper bound.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c062"
+ },
+ {
+  "id": "e063",
+  "pair": "t063",
+  "concept": "nested loops",
+  "text": "In nested loops, the outer loop completes all its iterations before the inner loop runs even once.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c063"
+ },
+ {
+  "id": "e064",
+  "pair": "t064",
+  "concept": "data types in python",
+  "text": "In Python you must declare a variable's data type explicitly before assigning a value to it.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c064"
+ },
+ {
+  "id": "e065",
+  "pair": "t065",
+  "concept": "dynamic typing in python",
+  "text": "Dynamic typing means a variable's type is fixed permanently once it is first assigned.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c065"
+ },
+ {
+  "id": "e066",
+  "pair": "t066",
+  "concept": "working with integers and floats",
+  "text": "Dividing two integers in Python with / always returns an integer, never a decimal.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c066"
+ },
+ {
+  "id": "e067",
+  "pair": "t067",
+  "concept": "scope",
+  "text": "A variable declared inside a function in Python is automatically accessible everywhere in the program.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c067"
+ },
+ {
+  "id": "e068",
+  "pair": "t068",
+  "concept": "reading input with input()",
+  "text": "The input() function in Python returns an integer whenever the user types a number.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c068"
+ },
+ {
+  "id": "e069",
+  "pair": "t069",
+  "concept": "slicing",
+  "text": "In Python, the slice s[1:4] includes the character at index 4.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c069"
+ },
+ {
+  "id": "e070",
+  "pair": "t070",
+  "concept": "string variables in detail",
+  "text": "In Python, strings are mutable, so you can change a character in place using s[0] = 'x'.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c070"
+ },
+ {
+  "id": "e071",
+  "pair": "t071",
+  "concept": "using functions",
+  "text": "Calling a function with def runs all the code in the program from the top again.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c071"
+ },
+ {
+  "id": "e072",
+  "pair": "t072",
+  "concept": "naming conventions",
+  "text": "In Python, variable names are allowed to start with a digit, such as 2count.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c072"
+ },
+ {
+  "id": "e073",
+  "pair": "t073",
+  "concept": "logical operators (and and or)",
+  "text": "The and operator returns true if at least one of its operands is true.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c073"
+ },
+ {
+  "id": "e074",
+  "pair": "t074",
+  "concept": "logical operators (not)",
+  "text": "The not operator returns the same boolean value it is given, leaving it unchanged.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c074"
+ },
+ {
+  "id": "e075",
+  "pair": "t075",
+  "concept": "comparison operators",
+  "text": "The operator <= returns true only when the left value is strictly less than the right value.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c075"
+ },
+ {
+  "id": "e076",
+  "pair": "t076",
+  "concept": "arithmetic operators (reminder)",
+  "text": "The modulus operator % returns the result of integer division, not the remainder.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c076"
+ },
+ {
+  "id": "e077",
+  "pair": "t077",
+  "concept": "math operators – floor division",
+  "text": "Floor division // always rounds the result up to the next whole number.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c077"
+ },
+ {
+  "id": "e078",
+  "pair": "t078",
+  "concept": "converting between types",
+  "text": "Converting a float to an int in Python rounds it to the nearest whole number.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c078"
+ },
+ {
+  "id": "e079",
+  "pair": "t079",
+  "concept": "objects",
+  "text": "An object and a class are the same thing; the words are interchangeable in programming.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c079"
+ },
+ {
+  "id": "e080",
+  "pair": "t080",
+  "concept": "classes",
+  "text": "A class is created fresh in memory every time you access one of its methods.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c080"
+ },
+ {
+  "id": "e081",
+  "pair": "t081",
+  "concept": "classes are data types",
+  "text": "A class cannot be used as a data type for a variable or parameter.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c081"
+ },
+ {
+  "id": "e082",
+  "pair": "t082",
+  "concept": "creating and using objects",
+  "text": "Every object created from the same class shares one single copy of all its instance fields.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c082"
+ },
+ {
+  "id": "e083",
+  "pair": "t083",
+  "concept": "object identity, state and behavior",
+  "text": "Two objects created from the same class are always considered equal because they have the same type.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c083"
+ },
+ {
+  "id": "e084",
+  "pair": "t084",
+  "concept": "designing the constructor",
+  "text": "A constructor is called manually by the programmer after the object has already been created.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c084"
+ },
+ {
+  "id": "e085",
+  "pair": "t085",
+  "concept": "the constructor – initializing fields",
+  "text": "If a constructor does not set a field, the field cannot be used at all later.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c085"
+ },
+ {
+  "id": "e086",
+  "pair": "t086",
+  "concept": "defining methods",
+  "text": "A method must always be defined before the main program and can never appear after it.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c086"
+ },
+ {
+  "id": "e087",
+  "pair": "t087",
+  "concept": "method parameters",
+  "text": "Parameters and arguments are unrelated; parameters are the values passed when calling a method.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c087"
+ },
+ {
+  "id": "e088",
+  "pair": "t088",
+  "concept": "method optional parameters",
+  "text": "An optional parameter must always be supplied a value or the program will crash.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c088"
+ },
+ {
+  "id": "e089",
+  "pair": "t089",
+  "concept": "boolean expressions",
+  "text": "A boolean expression always evaluates to a number between 0 and 100.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c089"
+ },
+ {
+  "id": "e090",
+  "pair": "t090",
+  "concept": "sentinel values",
+  "text": "A sentinel value is the first value in a loop and signals where the loop should begin.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c090"
+ },
+ {
+  "id": "e091",
+  "pair": "t091",
+  "concept": "input validation",
+  "text": "Input validation means automatically correcting any wrong input the user enters without telling them.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c091"
+ },
+ {
+  "id": "e092",
+  "pair": "t092",
+  "concept": "infinite loops",
+  "text": "An infinite loop always stops on its own after a fixed number of iterations.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c092"
+ },
+ {
+  "id": "e093",
+  "pair": "t093",
+  "concept": "multi-dimensional arrays",
+  "text": "A two-dimensional array can only store numbers, not other data types.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c093"
+ },
+ {
+  "id": "e094",
+  "pair": "t094",
+  "concept": "comparing arrays",
+  "text": "In Java, comparing two arrays with == returns true whenever their contents are equal.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c094"
+ },
+ {
+  "id": "e095",
+  "pair": "t095",
+  "concept": "searching arrays",
+  "text": "Linear search requires the array to be sorted before it can find an element.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c095"
+ },
+ {
+  "id": "e096",
+  "pair": "t096",
+  "concept": "slicing arrays",
+  "text": "Slicing an array always modifies the original array in place.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c096"
+ },
+ {
+  "id": "e097",
+  "pair": "t097",
+  "concept": "traversing a string",
+  "text": "You cannot use a loop to go through the characters of a string one at a time.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c097"
+ },
+ {
+  "id": "e098",
+  "pair": "t098",
+  "concept": "decomposition",
+  "text": "Decomposition means combining many small problems into one large problem to solve at once.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c098"
+ },
+ {
+  "id": "e099",
+  "pair": "t099",
+  "concept": "what is decomposition?",
+  "text": "Decomposition in computing means writing all code in a single function without breaking it up.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c099"
+ },
+ {
+  "id": "e100",
+  "pair": "t100",
+  "concept": "pattern recognition in computational thinking",
+  "text": "Pattern recognition means every problem must have a completely unique solution with nothing in common.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c100"
+ },
+ {
+  "id": "e101",
+  "pair": "t101",
+  "concept": "abstraction",
+  "text": "Abstraction means including every possible detail so that nothing is hidden from the user.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c101"
+ },
+ {
+  "id": "e102",
+  "pair": "t102",
+  "concept": "levels of abstraction",
+  "text": "Higher levels of abstraction expose more low-level hardware detail to the user.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c102"
+ },
+ {
+  "id": "e103",
+  "pair": "t103",
+  "concept": "what is computational thinking?",
+  "text": "Computational thinking can only be performed by a computer and never by a person.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c103"
+ },
+ {
+  "id": "e104",
+  "pair": "t104",
+  "concept": "what is an algorithm?",
+  "text": "An algorithm is allowed to be ambiguous as long as it produces an answer most of the time.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c104"
+ },
+ {
+  "id": "e105",
+  "pair": "t105",
+  "concept": "components of algorithm",
+  "text": "A correct algorithm may give a different result each time it runs on the same input.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c105"
+ },
+ {
+  "id": "e106",
+  "pair": "t106",
+  "concept": "flowcharts and algorithms",
+  "text": "In a flowchart, a diamond shape represents the start or end of the process.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c106"
+ },
+ {
+  "id": "e107",
+  "pair": "t107",
+  "concept": "what is artificial intelligence?",
+  "text": "Artificial intelligence means a machine that is truly conscious and self-aware like a person.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c107"
+ },
+ {
+  "id": "e108",
+  "pair": "t108",
+  "concept": "how does ai work?",
+  "text": "AI systems learn by memorizing every possible input and its exact output in advance.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c108"
+ },
+ {
+  "id": "e109",
+  "pair": "t109",
+  "concept": "classification",
+  "text": "In machine learning, classification predicts a continuous numeric value rather than a category.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c109"
+ },
+ {
+  "id": "e110",
+  "pair": "t110",
+  "concept": "what is a network device?",
+  "text": "A router and a modem are exactly the same device with two different names.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c110"
+ },
+ {
+  "id": "e111",
+  "pair": "t111",
+  "concept": "public vs. private ip addresses",
+  "text": "Private IP addresses are routable on the public internet just like public ones.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c111"
+ },
+ {
+  "id": "e112",
+  "pair": "t112",
+  "concept": "ip – internet protocol",
+  "text": "The Internet Protocol guarantees that every packet arrives in order and without loss.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c112"
+ },
+ {
+  "id": "e113",
+  "pair": "t113",
+  "concept": "http vs. https",
+  "text": "HTTP encrypts all data during transfer, while HTTPS sends everything in plain text.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c113"
+ },
+ {
+  "id": "e114",
+  "pair": "t114",
+  "concept": "dns – domain name system",
+  "text": "DNS converts a domain name into a physical MAC address for the network card.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c114"
+ },
+ {
+  "id": "e115",
+  "pair": "t115",
+  "concept": "packets",
+  "text": "When data is sent over a network, it always travels as one single large unit, never split up.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c115"
+ },
+ {
+  "id": "e116",
+  "pair": "t116",
+  "concept": "routing",
+  "text": "A router forwards every packet to all devices on the network at the same time.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c116"
+ },
+ {
+  "id": "e117",
+  "pair": "t117",
+  "concept": "networking protocol layers (osi/tcp-ip models)",
+  "text": "The OSI model has exactly three layers that all perform the same function.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c117"
+ },
+ {
+  "id": "e118",
+  "pair": "t118",
+  "concept": "udp",
+  "text": "UDP guarantees reliable, ordered, error-checked delivery exactly like TCP.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c118"
+ },
+ {
+  "id": "e119",
+  "pair": "t119",
+  "concept": "modem",
+  "text": "A modem stores all the files on a network and serves them to connected devices.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c119"
+ },
+ {
+  "id": "e120",
+  "pair": "t120",
+  "concept": "encryption",
+  "text": "Encryption permanently deletes data so that no one, including the owner, can ever read it.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c120"
+ },
+ {
+  "id": "e121",
+  "pair": "t121",
+  "concept": "types of encryption",
+  "text": "Symmetric encryption uses two different keys, while asymmetric uses a single shared key.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c121"
+ },
+ {
+  "id": "e122",
+  "pair": "t122",
+  "concept": "asymmetric encryption",
+  "text": "In asymmetric encryption, the same key is used to both encrypt and decrypt the message.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c122"
+ },
+ {
+  "id": "e123",
+  "pair": "t123",
+  "concept": "hashing",
+  "text": "A hash function is designed so that the original input can always be easily recovered from the hash.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c123"
+ },
+ {
+  "id": "e124",
+  "pair": "t124",
+  "concept": "phishing",
+  "text": "Phishing is a hardware failure where network cables are physically cut by attackers.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c124"
+ },
+ {
+  "id": "e125",
+  "pair": "t125",
+  "concept": "social engineering in the workplace",
+  "text": "Social engineering attacks rely only on breaking encryption, never on tricking people.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c125"
+ },
+ {
+  "id": "e126",
+  "pair": "t126",
+  "concept": "firewalls",
+  "text": "A firewall speeds up the internet connection by storing copies of frequently visited websites.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c126"
+ },
+ {
+  "id": "e127",
+  "pair": "t127",
+  "concept": "cpu - central processing unit",
+  "text": "The CPU is used for long-term storage of files even after the computer is turned off.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c127"
+ },
+ {
+  "id": "e128",
+  "pair": "t128",
+  "concept": "storage devices",
+  "text": "RAM and a hard drive are the same thing and serve the exact same purpose.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c128"
+ },
+ {
+  "id": "e129",
+  "pair": "t129",
+  "concept": "what is an operating system (os)?",
+  "text": "An operating system is an optional application that users install separately like a web browser.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c129"
+ },
+ {
+  "id": "e130",
+  "pair": "t130",
+  "concept": "functions of an operating system",
+  "text": "The operating system's only job is to display the desktop wallpaper.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c130"
+ },
+ {
+  "id": "e131",
+  "pair": "t131",
+  "concept": "logic gates",
+  "text": "An AND gate outputs 1 whenever at least one of its inputs is 1.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c131"
+ },
+ {
+  "id": "e132",
+  "pair": "t132",
+  "concept": "how an and gate works",
+  "text": "An AND gate produces an output of 1 only when exactly one input is 1.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c132"
+ },
+ {
+  "id": "e133",
+  "pair": "t133",
+  "concept": "counting in binary",
+  "text": "In binary, each position represents a power of 10, just like in decimal.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c133"
+ },
+ {
+  "id": "e134",
+  "pair": "t134",
+  "concept": "decimal",
+  "text": "In the decimal system, each position to the left represents a power of 2.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c134"
+ },
+ {
+  "id": "e135",
+  "pair": "t135",
+  "concept": "what is a dbms?",
+  "text": "A DBMS stores data only as a single unstructured text file with no organization.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c135"
+ },
+ {
+  "id": "e136",
+  "pair": "t136",
+  "concept": "data manipulation language (dml)",
+  "text": "DML commands like CREATE TABLE are used to define the structure of a database.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c136"
+ },
+ {
+  "id": "e137",
+  "pair": "t137",
+  "concept": "advantages of dbms",
+  "text": "A key advantage of a DBMS is that it makes data redundancy and inconsistency increase.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c137"
+ },
+ {
+  "id": "e138",
+  "pair": "t138",
+  "concept": "what is html?",
+  "text": "HTML is a programming language used to perform calculations and run algorithms.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c138"
+ },
+ {
+  "id": "e139",
+  "pair": "t139",
+  "concept": "html images",
+  "text": "The alt attribute of an img tag sets the width of the image in pixels.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c139"
+ },
+ {
+  "id": "e140",
+  "pair": "t140",
+  "concept": "what is css?",
+  "text": "CSS is used to define the logic and behavior of a web page, not its appearance.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c140"
+ },
+ {
+  "id": "e141",
+  "pair": "t141",
+  "concept": "what is javascript?",
+  "text": "JavaScript and Java are the same language with two different names.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c141"
+ },
+ {
+  "id": "e142",
+  "pair": "t142",
+  "concept": "what is cloud computing?",
+  "text": "Cloud computing means all data is stored only on your local hard drive with no internet required.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c142"
+ },
+ {
+  "id": "e143",
+  "pair": "t143",
+  "concept": "benefits of cloud computing",
+  "text": "A drawback of cloud computing is that it never allows you to scale resources up or down.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c143"
+ },
+ {
+  "id": "e144",
+  "pair": "t144",
+  "concept": "service models",
+  "text": "In the SaaS model, the customer is responsible for managing all the underlying servers and hardware.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c144"
+ },
+ {
+  "id": "e145",
+  "pair": "t145",
+  "concept": "the tangent",
+  "text": "The tangent function is defined for all real numbers and is never undefined.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c145"
+ },
+ {
+  "id": "e146",
+  "pair": "t146",
+  "concept": "sine, cosine, and tangent",
+  "text": "The sine of an angle can take any real value, including values greater than 1.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c146"
+ },
+ {
+  "id": "e147",
+  "pair": "t147",
+  "concept": "reciprocal identities",
+  "text": "Cosecant is the reciprocal of cosine, and secant is the reciprocal of sine.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c147"
+ },
+ {
+  "id": "e148",
+  "pair": "t148",
+  "concept": "radian measure",
+  "text": "One full revolution around a circle is equal to pi radians.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c148"
+ },
+ {
+  "id": "e149",
+  "pair": "t149",
+  "concept": "a radian",
+  "text": "A radian is exactly equal to one degree.",
+  "kind": "error",
+  "in_dev55": false,
+  "dup_cluster": "c149"
+ }
+]

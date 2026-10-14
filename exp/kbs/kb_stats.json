@@ -1,0 +1,138 @@
+{
+  "baseline_rule": {
+    "concepts": 662,
+    "facts": 5214,
+    "words_per_fact_median": 10.0,
+    "words_per_fact_mean": 13.0,
+    "pct_multi_sentence": 16.4,
+    "pct_exact_duplicates": 23.7,
+    "pct_rule_negation_fallback": 67.4,
+    "pct_negation_flagged_facts": 1.7
+  },
+  "sentence_split": {
+    "concepts": 542,
+    "facts": 2716,
+    "words_per_fact_median": 9.0,
+    "words_per_fact_mean": 10.3,
+    "pct_multi_sentence": 0.0,
+    "pct_exact_duplicates": 6.3,
+    "pct_rule_negation_fallback": 71.2,
+    "pct_negation_flagged_facts": 0.0
+  },
+  "llm_only": {
+    "concepts": 529,
+    "facts": 2659,
+    "words_per_fact_median": 9,
+    "words_per_fact_mean": 10.3,
+    "pct_multi_sentence": 0.8,
+    "pct_exact_duplicates": 2.7,
+    "pct_rule_negation_fallback": 63.0,
+    "pct_negation_flagged_facts": 0.0
+  },
+  "kca": {
+    "concepts": 527,
+    "facts": 2545,
+    "words_per_fact_median": 9,
+    "words_per_fact_mean": 10.2,
+    "pct_multi_sentence": 0.7,
+    "pct_exact_duplicates": 2.8,
+    "pct_rule_negation_fallback": 63.5,
+    "pct_negation_flagged_facts": 0.0
+  },
+  "_source": {
+    "courses": [
+      "COURSE_A",
+      "COURSE_B"
+    ],
+    "decks": [
+      "COURSE_A-ai.pptx",
+      "COURSE_A-cloud-computing.pptx",
+      "COURSE_A-compliance.pptx",
+      "COURSE_A-computing_and_society.pptx",
+      "COURSE_A-controlling_hardware.pptx",
+      "COURSE_A-data-organisation.pptx",
+      "COURSE_A-dbms.pptx",
+      "COURSE_A-ethical-hacking.pptx",
+      "COURSE_A-internet-networkig.pptx",
+      "COURSE_A-m1.2-intro-to-computing-v3.0.pptx",
+      "COURSE_A-m1.3-computer-components-3.1.pptx",
+      "COURSE_A-m1.4-binary-v1.1.pptx",
+      "COURSE_A-m1.5-logic-gates-v1.1.pptx",
+      "COURSE_A-m2.1-computational-thinking.pptx",
+      "COURSE_A-m2.2-decomposition.pptx",
+      "COURSE_A-m2.3-algorithmic-thinking-v1.1.pptx",
+      "COURSE_A-m2.4-abstraction-v1.1.pptx",
+      "COURSE_A-m2.5-pattern-recognition-v1.1.pptx",
+      "COURSE_A-os.pptx",
+      "COURSE_A-python_continued.pptx",
+      "COURSE_A-security.pptx",
+      "COURSE_A-software_engg.pptx",
+      "COURSE_A-web_development.pptx",
+      "COURSE_A_intro_to_python_io_variables.pptx",
+      "m0_algorithms_and_abstraction (1).pptx",
+      "m1_p1-skeleton_variables_and_io_v2 (1).pptx",
+      "m1_p2-types_and_expressions (1).pptx",
+      "m2_p1-selection_v2 (1).pptx",
+      "m2_p2-repetition (1).pptx",
+      "m3-methods (1).pptx",
+      "m6-oop_v3 (2).pptx",
+      "m7_p1_java_basics_io_types.pptx",
+      "m7_p2_operators_expressions.pptx",
+      "m7_p3_flow_control.pptx",
+      "m7_p4_arrays.pptx",
+      "m7_p5_classes_objects.pptx",
+      "m7_python_review (1).pptx"
+    ],
+    "baseline_ocr": false
+  },
+  "fever_sentence": {
+    "concepts": 297,
+    "facts": 2050,
+    "words_per_fact_median": 21.0,
+    "words_per_fact_mean": 22.7,
+    "pct_multi_sentence": 5.1,
+    "pct_exact_duplicates": 0.1,
+    "pct_rule_negation_fallback": 38.9,
+    "pct_negation_flagged_facts": 0.0
+  },
+  "fever_fragment": {
+    "concepts": 297,
+    "facts": 789,
+    "words_per_fact_median": 60,
+    "words_per_fact_mean": 58.9,
+    "pct_multi_sentence": 88.2,
+    "pct_exact_duplicates": 0.0,
+    "pct_rule_negation_fallback": 14.8,
+    "pct_negation_flagged_facts": 0.0
+  },
+  "fever_llm_only": {
+    "concepts": 297,
+    "facts": 3083,
+    "words_per_fact_median": 14,
+    "words_per_fact_mean": 15.3,
+    "pct_multi_sentence": 3.8,
+    "pct_exact_duplicates": 0.1,
+    "pct_rule_negation_fallback": 46.9,
+    "pct_negation_flagged_facts": 0.0
+  },
+  "fever_kca": {
+    "concepts": 297,
+    "facts": 3076,
+    "words_per_fact_median": 14.0,
+    "words_per_fact_mean": 15.3,
+    "pct_multi_sentence": 3.8,
+    "pct_exact_duplicates": 0.1,
+    "pct_rule_negation_fallback": 46.9,
+    "pct_negation_flagged_facts": 0.0
+  },
+  "kca_regate_minicheck_flan_t5_large": {
+    "concepts": 526,
+    "facts": 2465,
+    "words_per_fact_median": 9,
+    "words_per_fact_mean": 10.5,
+    "pct_multi_sentence": 0.7,
+    "pct_exact_duplicates": 2.3,
+    "pct_rule_negation_fallback": 63.1,
+    "pct_negation_flagged_facts": 0.0
+  }
+}

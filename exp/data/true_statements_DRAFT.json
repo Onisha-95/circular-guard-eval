@@ -1,0 +1,1502 @@
+[
+ {
+  "id": "t000",
+  "pair": "e000",
+  "concept": "while loop statement",
+  "text": "A while loop checks its condition before each iteration, so its body may not run at all if the condition is false at the start.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c000",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t001",
+  "pair": "e001",
+  "concept": "for loops",
+  "text": "A for loop can count down as well as up, and its counter can change by any step size.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c001",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t002",
+  "pair": "e002",
+  "concept": "do-while loops",
+  "text": "A do-while loop runs its body once before checking the condition, so the body always executes at least once.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c002",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t003",
+  "pair": "e003",
+  "concept": "selection statements",
+  "text": "A switch statement jumps to the case that matches the value and executes that branch, not every branch.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c003",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t004",
+  "pair": "e004",
+  "concept": "expression -vs- statement",
+  "text": "An expression produces a value, while a statement performs an action and does not necessarily produce a value.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c004",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t005",
+  "pair": "e005",
+  "concept": "the return keyword",
+  "text": "The return keyword ends the method and sends a value back to the caller; code after it on that path does not run.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c005",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t006",
+  "pair": "e006",
+  "concept": "method calling",
+  "text": "In Java, arguments are passed by value, so reassigning a parameter inside a method does not change the caller's variable.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c006",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t007",
+  "pair": "e007",
+  "concept": "the constructor",
+  "text": "A constructor has no return type and has the same name as its class.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c007",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t008",
+  "pair": "e008",
+  "concept": "scope – java",
+  "text": "A variable declared inside a method is local to that method and cannot be accessed from other methods of the class.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c008",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t009",
+  "pair": "e009",
+  "concept": "arrays class",
+  "text": "Array indices in Java and C# start at 0, so the first element is at index 0.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c009",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t010",
+  "pair": "e010",
+  "concept": "converting input to numbers",
+  "text": "Console input in C# is read as a string, so it must be converted, for example with int.Parse, before doing arithmetic.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c010",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t011",
+  "pair": "e011",
+  "concept": "tangent function",
+  "text": "The tangent function is undefined where cosine equals zero, such as at pi/2 plus any integer multiple of pi.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c145",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t012",
+  "pair": "e012",
+  "concept": "pythagorean identities",
+  "text": "The Pythagorean identity is sin^2(x) + cos^2(x) = 1.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c012",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t013",
+  "pair": "e013",
+  "concept": "cosecant and secant",
+  "text": "Cosecant is the reciprocal of sine, and secant is the reciprocal of cosine.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c147",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t014",
+  "pair": "e014",
+  "concept": "complementary and supplementary angles",
+  "text": "Complementary angles sum to 90 degrees and supplementary angles sum to 180 degrees.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c014",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t015",
+  "pair": "e015",
+  "concept": "average rate of change",
+  "text": "The average rate of change of a function over an interval [a, b] equals (f(b) - f(a)) / (b - a).",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c015",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t016",
+  "pair": "e016",
+  "concept": "average rate of change: difference quotients",
+  "text": "The difference quotient (f(x+h)-f(x))/h gives the average rate of change over an interval of width h, not the exact instantaneous rate.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c016",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t017",
+  "pair": "e017",
+  "concept": "ipv4 vs. ipv6",
+  "text": "IPv6 addresses are longer than IPv4 addresses, 128 bits versus 32 bits, and support far more devices.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c017",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t018",
+  "pair": "e018",
+  "concept": "isp - internet service provider",
+  "text": "An ISP is a company that provides customers with access to the internet.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c018",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t019",
+  "pair": "e019",
+  "concept": "computer networking",
+  "text": "A hub broadcasts every message to all connected devices, while a switch sends each message only to the intended device.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c019",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t020",
+  "pair": "e020",
+  "concept": "network types",
+  "text": "A WAN covers a larger geographic area than a LAN.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c020",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t021",
+  "pair": "e021",
+  "concept": "symmetric encryption",
+  "text": "Symmetric encryption uses the same key for both encryption and decryption.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c021",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t022",
+  "pair": "e022",
+  "concept": "types of hackers",
+  "text": "A white-hat hacker tests systems for vulnerabilities with permission in order to improve their security.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c022",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t023",
+  "pair": "e023",
+  "concept": "ram - random access memory",
+  "text": "RAM is volatile memory, so it loses its contents when the computer is powered off.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c023",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t024",
+  "pair": "e024",
+  "concept": "gpu - graphics processing unit",
+  "text": "A GPU is designed for parallel processing, running many simple calculations at the same time.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c024",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t025",
+  "pair": "e025",
+  "concept": "operating systems (os)",
+  "text": "The operating system is system software that manages the hardware and provides services to application programs.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c129",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t026",
+  "pair": "e026",
+  "concept": "artificial intelligence",
+  "text": "Artificial intelligence refers to machines performing tasks that normally require human intelligence, without requiring consciousness or self-awareness.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c107",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t027",
+  "pair": "e027",
+  "concept": "pattern recognition",
+  "text": "Pattern recognition in computational thinking means identifying similarities between problems so that a solution can be reused.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c027",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t028",
+  "pair": "e028",
+  "concept": "abstraction example",
+  "text": "Abstraction means hiding unnecessary details and focusing on the information that matters for the problem.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c101",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t029",
+  "pair": "e029",
+  "concept": "algorithmic thinking",
+  "text": "An algorithm must be unambiguous, with each step precisely defined.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c029",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t030",
+  "pair": "e030",
+  "concept": "importance of algorithmic thinking",
+  "text": "An algorithm should produce the same output each time it runs on the same input.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c030",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t031",
+  "pair": "e031",
+  "concept": "database languages",
+  "text": "SQL is a declarative language where you specify what data you want rather than how to retrieve it step by step.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c031",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t032",
+  "pair": "e032",
+  "concept": "data definition language (ddl)",
+  "text": "DDL commands such as CREATE, ALTER and DROP define the structure of tables, while SELECT is used to query data.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c032",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t033",
+  "pair": "e033",
+  "concept": "types of dbms",
+  "text": "In a relational DBMS, data is organized into tables made of rows and columns.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c033",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t034",
+  "pair": "e034",
+  "concept": "html element",
+  "text": "Most HTML elements require a closing tag, although a few empty elements such as <br> and <img> do not have one.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c034",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t035",
+  "pair": "e035",
+  "concept": "html links",
+  "text": "The href attribute of an anchor tag specifies the URL that the link points to.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c035",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t036",
+  "pair": "e036",
+  "concept": "html headings",
+  "text": "HTML headings range from <h1> to <h6>, with <h1> being the largest.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c036",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t037",
+  "pair": "e037",
+  "concept": "disadvantages of robots",
+  "text": "Unlike humans, robots do not get tired or lose accuracy over long shifts.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c037",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t038",
+  "pair": "e038",
+  "concept": "cloud computing",
+  "text": "Cloud computing means storing data and running services on remote servers that are accessed over the internet.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c142",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t039",
+  "pair": "e039",
+  "concept": "cloud computing security",
+  "text": "Data stored in the cloud still needs protection such as encryption and access control.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c039",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t040",
+  "pair": "e040",
+  "concept": "conditional statement",
+  "text": "An if statement can be used on its own without an else block.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c040",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t041",
+  "pair": "e041",
+  "concept": "match vs switch",
+  "text": "In C#, a switch statement can compare strings as well as integer values.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c041",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t042",
+  "pair": "e042",
+  "concept": "example of continue",
+  "text": "The continue keyword skips the rest of the current iteration and moves on to the next iteration of the loop.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c042",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t043",
+  "pair": "e043",
+  "concept": "method definition",
+  "text": "A method can have a void return type, in which case it does not return a value.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c043",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t044",
+  "pair": "e044",
+  "concept": "declaring classes",
+  "text": "A class can contain both fields and methods.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c044",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t045",
+  "pair": "e045",
+  "concept": "resizing arrays",
+  "text": "In Java and C#, an array has a fixed length once created; to grow it you must create a new, larger array and copy the elements.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c045",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t046",
+  "pair": "e046",
+  "concept": "string multiplication",
+  "text": "In Java, a string cannot be multiplied by an integer with the * operator; repetition requires a method such as repeat() or a loop.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c046",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t047",
+  "pair": "e047",
+  "concept": "trigonometric functions",
+  "text": "Sine and cosine only take values between -1 and 1.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c146",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t048",
+  "pair": "e048",
+  "concept": "inverse tangent function",
+  "text": "The inverse tangent function returns angles between -pi/2 and pi/2.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c048",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t049",
+  "pair": "e049",
+  "concept": "function notation: an example",
+  "text": "In function notation f(x), the expression f(x) means the value of the function f at the input x.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c049",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t050",
+  "pair": "e050",
+  "concept": "user datagram protocol",
+  "text": "UDP does not guarantee reliable or ordered delivery of packets, unlike TCP.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c050",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t051",
+  "pair": "e051",
+  "concept": "domain name system (dns)",
+  "text": "DNS translates domain names into IP addresses.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c051",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t052",
+  "pair": "e052",
+  "concept": "internet protocols",
+  "text": "HTTP is a protocol used to transfer web pages between web servers and browsers.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c052",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t053",
+  "pair": "e053",
+  "concept": "types of artificial intelligence",
+  "text": "Narrow AI is designed to perform one specific task and cannot handle every intellectual task a human can.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c053",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t054",
+  "pair": "e054",
+  "concept": "computational thinking",
+  "text": "Computational thinking is a problem-solving approach that can be applied without a computer, including on paper.",
+  "kind": "true",
+  "in_dev55": true,
+  "dup_cluster": "c054",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t055",
+  "pair": "e055",
+  "concept": "boolean variables and comparisons",
+  "text": "In a boolean comparison, the operator == checks equality, while = assigns a value.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c055",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t056",
+  "pair": "e056",
+  "concept": "nested conditionals",
+  "text": "The inner condition of a nested if statement is only checked when the outer condition is true.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c056",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t057",
+  "pair": "e057",
+  "concept": "controlling loops – break and continue",
+  "text": "The break statement exits the loop entirely, while continue skips the current iteration and continues with the next one.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c057",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t058",
+  "pair": "e058",
+  "concept": "the for loop",
+  "text": "A for loop can start counting at any number, not only at 0.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c058",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t059",
+  "pair": "e059",
+  "concept": "the while loop",
+  "text": "A while loop re-checks its condition before every iteration.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c059",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t060",
+  "pair": "e060",
+  "concept": "the if statement",
+  "text": "An if statement can test any boolean condition, including comparisons of strings.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c060",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t061",
+  "pair": "e061",
+  "concept": "the if-elif-else statement",
+  "text": "In an if-elif-else chain, only the first branch whose condition is true is executed.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c061",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t062",
+  "pair": "e062",
+  "concept": "using range() with for",
+  "text": "range(1, 5) in Python produces the numbers 1, 2, 3, 4 and excludes the upper bound.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c062",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t063",
+  "pair": "e063",
+  "concept": "nested loops",
+  "text": "In nested loops, the inner loop runs through all of its iterations for each single iteration of the outer loop.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c063",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t064",
+  "pair": "e064",
+  "concept": "data types in python",
+  "text": "In Python you do not declare a variable's data type; the type is determined by the value assigned.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c064",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t065",
+  "pair": "e065",
+  "concept": "dynamic typing in python",
+  "text": "Dynamic typing means a variable can refer to values of different types at different times.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c065",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t066",
+  "pair": "e066",
+  "concept": "working with integers and floats",
+  "text": "Dividing two integers in Python with / returns a float; for example, 7 / 2 gives 3.5.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c066",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t067",
+  "pair": "e067",
+  "concept": "scope",
+  "text": "A variable declared inside a function in Python is local to that function and cannot be accessed outside it.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c067",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t068",
+  "pair": "e068",
+  "concept": "reading input with input()",
+  "text": "The input() function in Python always returns a string, even when the user types a number.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c068",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t069",
+  "pair": "e069",
+  "concept": "slicing",
+  "text": "In Python, the slice s[1:4] includes indices 1, 2 and 3 but excludes index 4.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c069",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t070",
+  "pair": "e070",
+  "concept": "string variables in detail",
+  "text": "In Python, strings are immutable, so assigning to s[0] raises an error.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c070",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t071",
+  "pair": "e071",
+  "concept": "using functions",
+  "text": "Defining a function with def does not run it; the function body runs only when the function is called.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c071",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t072",
+  "pair": "e072",
+  "concept": "naming conventions",
+  "text": "In Python, variable names cannot start with a digit.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c072",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t073",
+  "pair": "e073",
+  "concept": "logical operators (and and or)",
+  "text": "The and operator returns true only if both of its operands are true.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c073",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t074",
+  "pair": "e074",
+  "concept": "logical operators (not)",
+  "text": "The not operator returns the opposite boolean value of its operand.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c074",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t075",
+  "pair": "e075",
+  "concept": "comparison operators",
+  "text": "The operator <= returns true when the left value is less than or equal to the right value.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c075",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t076",
+  "pair": "e076",
+  "concept": "arithmetic operators (reminder)",
+  "text": "The modulus operator % returns the remainder of a division.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c076",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t077",
+  "pair": "e077",
+  "concept": "math operators – floor division",
+  "text": "Floor division // rounds the result down to the nearest whole number.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c077",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t078",
+  "pair": "e078",
+  "concept": "converting between types",
+  "text": "Converting a float to an int in Python with int() truncates toward zero instead of rounding.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c078",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t079",
+  "pair": "e079",
+  "concept": "objects",
+  "text": "A class is a blueprint, and an object is a specific instance created from that class.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c079",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t080",
+  "pair": "e080",
+  "concept": "classes",
+  "text": "A class is defined once, and its methods can be called many times without recreating the class.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c080",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t081",
+  "pair": "e081",
+  "concept": "classes are data types",
+  "text": "A class can be used as a data type for variables and parameters.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c081",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t082",
+  "pair": "e082",
+  "concept": "creating and using objects",
+  "text": "Each object created from a class has its own copy of the instance fields.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c082",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t083",
+  "pair": "e083",
+  "concept": "object identity, state and behavior",
+  "text": "Two objects created from the same class are distinct objects with their own identity, even if their fields hold the same values.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c083",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t084",
+  "pair": "e084",
+  "concept": "designing the constructor",
+  "text": "A constructor is called automatically when an object is created with new.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c084",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t085",
+  "pair": "e085",
+  "concept": "the constructor – initializing fields",
+  "text": "If a constructor does not set a field, the field still exists and holds its default value, such as 0 or null.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c085",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t086",
+  "pair": "e086",
+  "concept": "defining methods",
+  "text": "In Java and C#, methods within a class can be defined in any order, before or after the main method.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c086",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t087",
+  "pair": "e087",
+  "concept": "method parameters",
+  "text": "Parameters are the variables listed in a method's definition, and arguments are the values passed in when the method is called.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c087",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t088",
+  "pair": "e088",
+  "concept": "method optional parameters",
+  "text": "An optional parameter has a default value, so it can be omitted when the method is called.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c088",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t089",
+  "pair": "e089",
+  "concept": "boolean expressions",
+  "text": "A boolean expression evaluates to either true or false.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c089",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t090",
+  "pair": "e090",
+  "concept": "sentinel values",
+  "text": "A sentinel value is a special value that signals the end of input and causes the loop to stop.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c090",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t091",
+  "pair": "e091",
+  "concept": "input validation",
+  "text": "Input validation means checking that user input meets the required conditions and rejecting or re-requesting invalid input.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c091",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t092",
+  "pair": "e092",
+  "concept": "infinite loops",
+  "text": "An infinite loop never stops on its own because its condition never becomes false.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c092",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t093",
+  "pair": "e093",
+  "concept": "multi-dimensional arrays",
+  "text": "A two-dimensional array can store values of any one data type, such as strings or objects, not only numbers.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c093",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t094",
+  "pair": "e094",
+  "concept": "comparing arrays",
+  "text": "In Java, comparing two arrays with == checks whether they are the same object; Arrays.equals compares their contents.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c094",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t095",
+  "pair": "e095",
+  "concept": "searching arrays",
+  "text": "Linear search does not require the array to be sorted.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c095",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t096",
+  "pair": "e096",
+  "concept": "slicing arrays",
+  "text": "Slicing a list in Python creates a new list and leaves the original unchanged.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c096",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t097",
+  "pair": "e097",
+  "concept": "traversing a string",
+  "text": "You can use a loop to go through the characters of a string one at a time.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c097",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t098",
+  "pair": "e098",
+  "concept": "decomposition",
+  "text": "Decomposition means breaking a large problem into smaller, more manageable parts.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c098",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t099",
+  "pair": "e099",
+  "concept": "what is decomposition?",
+  "text": "Decomposition in computing means breaking a program into smaller parts, such as separate functions.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c099",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t100",
+  "pair": "e100",
+  "concept": "pattern recognition in computational thinking",
+  "text": "Pattern recognition means finding similarities among problems so that common solutions can be reused.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c100",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t101",
+  "pair": "e101",
+  "concept": "abstraction",
+  "text": "Abstraction means hiding unnecessary details so that the user can focus on what is important.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c101",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t102",
+  "pair": "e102",
+  "concept": "levels of abstraction",
+  "text": "Higher levels of abstraction hide more of the low-level hardware detail from the user.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c102",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t103",
+  "pair": "e103",
+  "concept": "what is computational thinking?",
+  "text": "Computational thinking can be performed by people as well as by computers.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c103",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t104",
+  "pair": "e104",
+  "concept": "what is an algorithm?",
+  "text": "An algorithm must be a precise, unambiguous sequence of steps.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c104",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t105",
+  "pair": "e105",
+  "concept": "components of algorithm",
+  "text": "A correct algorithm gives the same result each time it runs on the same input.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c105",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t106",
+  "pair": "e106",
+  "concept": "flowcharts and algorithms",
+  "text": "In a flowchart, a diamond shape represents a decision, while an oval represents the start or end.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c106",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t107",
+  "pair": "e107",
+  "concept": "what is artificial intelligence?",
+  "text": "Artificial intelligence means machines performing tasks that normally require human intelligence, not machines that are conscious.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c107",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t108",
+  "pair": "e108",
+  "concept": "how does ai work?",
+  "text": "AI systems learn patterns from training data so they can make predictions on new inputs they have not seen before.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c108",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t109",
+  "pair": "e109",
+  "concept": "classification",
+  "text": "In machine learning, classification predicts a category, while regression predicts a continuous numeric value.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c109",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t110",
+  "pair": "e110",
+  "concept": "what is a network device?",
+  "text": "A modem connects a home network to the internet service provider, while a router directs traffic between devices and networks.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c110",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t111",
+  "pair": "e111",
+  "concept": "public vs. private ip addresses",
+  "text": "Private IP addresses are not routable on the public internet.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c111",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t112",
+  "pair": "e112",
+  "concept": "ip – internet protocol",
+  "text": "The Internet Protocol does not guarantee that packets arrive in order or without loss; TCP provides that reliability.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c112",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t113",
+  "pair": "e113",
+  "concept": "http vs. https",
+  "text": "HTTPS encrypts data during transfer, while HTTP sends data in plain text.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c113",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t114",
+  "pair": "e114",
+  "concept": "dns – domain name system",
+  "text": "DNS converts a domain name into an IP address.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c114",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t115",
+  "pair": "e115",
+  "concept": "packets",
+  "text": "When data is sent over a network, it is split into smaller packets that can travel separately.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c115",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t116",
+  "pair": "e116",
+  "concept": "routing",
+  "text": "A router forwards each packet toward its destination based on its address rather than sending it to every device.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c116",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t117",
+  "pair": "e117",
+  "concept": "networking protocol layers (osi/tcp-ip models)",
+  "text": "The OSI model has seven layers, each with a different function.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c117",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t118",
+  "pair": "e118",
+  "concept": "udp",
+  "text": "UDP is connectionless and does not guarantee reliable or ordered delivery, unlike TCP.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c118",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t119",
+  "pair": "e119",
+  "concept": "modem",
+  "text": "A modem converts signals so that a home network can connect to an internet service provider.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c119",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t120",
+  "pair": "e120",
+  "concept": "encryption",
+  "text": "Encryption converts data into an unreadable form that can be decrypted by someone who has the correct key.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c120",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t121",
+  "pair": "e121",
+  "concept": "types of encryption",
+  "text": "Symmetric encryption uses a single shared key, while asymmetric encryption uses a public and private key pair.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c121",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t122",
+  "pair": "e122",
+  "concept": "asymmetric encryption",
+  "text": "In asymmetric encryption, one key encrypts the message and a different, paired key decrypts it.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c122",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t123",
+  "pair": "e123",
+  "concept": "hashing",
+  "text": "A hash function is designed to be one-way, so the original input cannot feasibly be recovered from the hash.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c123",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t124",
+  "pair": "e124",
+  "concept": "phishing",
+  "text": "Phishing is a social engineering attack that uses deceptive messages to trick people into revealing information such as passwords.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c124",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t125",
+  "pair": "e125",
+  "concept": "social engineering in the workplace",
+  "text": "Social engineering attacks rely on manipulating or tricking people rather than on breaking encryption.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c125",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t126",
+  "pair": "e126",
+  "concept": "firewalls",
+  "text": "A firewall monitors and filters network traffic according to security rules.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c126",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t127",
+  "pair": "e127",
+  "concept": "cpu - central processing unit",
+  "text": "The CPU executes program instructions, while long-term storage of files is the job of storage devices such as hard drives.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c127",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t128",
+  "pair": "e128",
+  "concept": "storage devices",
+  "text": "RAM is temporary working memory, while a hard drive provides long-term storage, so they serve different purposes.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c128",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t129",
+  "pair": "e129",
+  "concept": "what is an operating system (os)?",
+  "text": "An operating system is essential system software that manages the computer's hardware and runs applications.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c129",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t130",
+  "pair": "e130",
+  "concept": "functions of an operating system",
+  "text": "The operating system manages memory, processes, files and hardware devices.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c130",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t131",
+  "pair": "e131",
+  "concept": "logic gates",
+  "text": "An AND gate outputs 1 only when all of its inputs are 1.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c131",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t132",
+  "pair": "e132",
+  "concept": "how an and gate works",
+  "text": "An AND gate produces an output of 1 only when both inputs are 1.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c132",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t133",
+  "pair": "e133",
+  "concept": "counting in binary",
+  "text": "In binary, each position represents a power of 2.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c133",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t134",
+  "pair": "e134",
+  "concept": "decimal",
+  "text": "In the decimal system, each position to the left represents a power of 10.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c134",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t135",
+  "pair": "e135",
+  "concept": "what is a dbms?",
+  "text": "A DBMS stores data in an organized, structured way and manages access to it.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c135",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t136",
+  "pair": "e136",
+  "concept": "data manipulation language (dml)",
+  "text": "DML commands such as INSERT, UPDATE and DELETE change the data in tables, while CREATE TABLE is a DDL command.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c136",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t137",
+  "pair": "e137",
+  "concept": "advantages of dbms",
+  "text": "A key advantage of a DBMS is that it reduces data redundancy and inconsistency.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c137",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t138",
+  "pair": "e138",
+  "concept": "what is html?",
+  "text": "HTML is a markup language used to structure the content of web pages, not a language for calculations.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c138",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t139",
+  "pair": "e139",
+  "concept": "html images",
+  "text": "The alt attribute of an img tag provides alternative text that describes the image.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c139",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t140",
+  "pair": "e140",
+  "concept": "what is css?",
+  "text": "CSS is used to define the appearance and layout of a web page.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c140",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t141",
+  "pair": "e141",
+  "concept": "what is javascript?",
+  "text": "JavaScript and Java are different programming languages despite their similar names.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c141",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t142",
+  "pair": "e142",
+  "concept": "what is cloud computing?",
+  "text": "Cloud computing means storing and accessing data and programs over the internet on remote servers.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c142",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t143",
+  "pair": "e143",
+  "concept": "benefits of cloud computing",
+  "text": "A benefit of cloud computing is that it allows you to scale resources up or down as needed.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c143",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t144",
+  "pair": "e144",
+  "concept": "service models",
+  "text": "In the SaaS model, the provider manages the underlying servers and hardware, and the customer simply uses the software.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c144",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t145",
+  "pair": "e145",
+  "concept": "the tangent",
+  "text": "The tangent function is undefined at angles where cosine is zero, such as pi/2.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c145",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t146",
+  "pair": "e146",
+  "concept": "sine, cosine, and tangent",
+  "text": "The sine of an angle always lies between -1 and 1.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c146",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t147",
+  "pair": "e147",
+  "concept": "reciprocal identities",
+  "text": "Cosecant is the reciprocal of sine, and secant is the reciprocal of cosine.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c147",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t148",
+  "pair": "e148",
+  "concept": "radian measure",
+  "text": "One full revolution around a circle is equal to 2 pi radians.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c148",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ },
+ {
+  "id": "t149",
+  "pair": "e149",
+  "concept": "a radian",
+  "text": "A radian is the angle formed by an arc whose length equals the radius, about 57.3 degrees.",
+  "kind": "true",
+  "in_dev55": false,
+  "dup_cluster": "c149",
+  "status": "DRAFT - needs two-annotator review (written by Claude as minimal-pair corrections)"
+ }
+]

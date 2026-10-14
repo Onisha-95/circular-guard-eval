@@ -1,0 +1,94 @@
+{
+ "baseline_rule|hhem": {
+  "guard": "Vectara HHEM-2.1-Open",
+  "catch": {
+   "k": 53,
+   "n": 85,
+   "rate": 62.4,
+   "ci": [
+    51.7,
+    71.9
+   ]
+  },
+  "fcr": {
+   "k": 46,
+   "n": 85,
+   "rate": 54.1,
+   "ci": [
+    43.6,
+    64.3
+   ]
+  },
+  "auroc": 0.527,
+  "catch_at_fcr5": 9.4
+ },
+ "baseline_rule|minicheck": {
+  "guard": "MiniCheck-Flan-T5-Large",
+  "catch": {
+   "k": 64,
+   "n": 85,
+   "rate": 75.3,
+   "ci": [
+    65.2,
+    83.2
+   ]
+  },
+  "fcr": {
+   "k": 64,
+   "n": 85,
+   "rate": 75.3,
+   "ci": [
+    65.2,
+    83.2
+   ]
+  },
+  "auroc": 0.529,
+  "catch_at_fcr5": 7.1
+ },
+ "kca|hhem": {
+  "guard": "Vectara HHEM-2.1-Open",
+  "catch": {
+   "k": 43,
+   "n": 85,
+   "rate": 50.6,
+   "ci": [
+    40.2,
+    61.0
+   ]
+  },
+  "fcr": {
+   "k": 47,
+   "n": 85,
+   "rate": 55.3,
+   "ci": [
+    44.7,
+    65.4
+   ]
+  },
+  "auroc": 0.476,
+  "catch_at_fcr5": 4.7
+ },
+ "kca|minicheck": {
+  "guard": "MiniCheck-Flan-T5-Large",
+  "catch": {
+   "k": 53,
+   "n": 85,
+   "rate": 62.4,
+   "ci": [
+    51.7,
+    71.9
+   ]
+  },
+  "fcr": {
+   "k": 56,
+   "n": 85,
+   "rate": 65.9,
+   "ci": [
+    55.3,
+    75.1
+   ]
+  },
+  "auroc": 0.507,
+  "catch_at_fcr5": 14.1
+ }
+}

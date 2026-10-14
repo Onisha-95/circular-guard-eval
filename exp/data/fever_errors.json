@@ -1,0 +1,1343 @@
+[
+ {
+  "id": "e000",
+  "concept": "matt bomer",
+  "text": "Matt Bomer is 21 years old.",
+  "kind": "error",
+  "fever_id": 71138,
+  "in_dev55": false,
+  "dup_cluster": "fe000"
+ },
+ {
+  "id": "e001",
+  "concept": "sausage party",
+  "text": "Sausage Party is a computer-animated horror comedy.",
+  "kind": "error",
+  "fever_id": 54951,
+  "in_dev55": false,
+  "dup_cluster": "fe001"
+ },
+ {
+  "id": "e002",
+  "concept": "spider-man 2",
+  "text": "Spider-Man 2 was written by robots.",
+  "kind": "error",
+  "fever_id": 55978,
+  "in_dev55": false,
+  "dup_cluster": "fe002"
+ },
+ {
+  "id": "e003",
+  "concept": "hezbollah",
+  "text": "Hezbollah received zero support from Iran.",
+  "kind": "error",
+  "fever_id": 164885,
+  "in_dev55": false,
+  "dup_cluster": "fe003"
+ },
+ {
+  "id": "e004",
+  "concept": "levoamphetamine",
+  "text": "Levoamphetamine causes lack of focus.",
+  "kind": "error",
+  "fever_id": 160065,
+  "in_dev55": false,
+  "dup_cluster": "fe004"
+ },
+ {
+  "id": "e005",
+  "concept": "jackpot (2013 film)",
+  "text": "Jackpot was released in 2000.",
+  "kind": "error",
+  "fever_id": 21607,
+  "in_dev55": false,
+  "dup_cluster": "fe005"
+ },
+ {
+  "id": "e006",
+  "concept": "nestor carbonell",
+  "text": "Nestor Carbonell is unknown to the world.",
+  "kind": "error",
+  "fever_id": 114720,
+  "in_dev55": false,
+  "dup_cluster": "fe006"
+ },
+ {
+  "id": "e007",
+  "concept": "angela bassett",
+  "text": "Angela Bassett has only received a bachelors degree.",
+  "kind": "error",
+  "fever_id": 28864,
+  "in_dev55": false,
+  "dup_cluster": "fe007"
+ },
+ {
+  "id": "e008",
+  "concept": "don bradman",
+  "text": "Don Bradman was called the \"greatest living Australian\" by Sir Ian McKellen.",
+  "kind": "error",
+  "fever_id": 167974,
+  "in_dev55": false,
+  "dup_cluster": "fe008"
+ },
+ {
+  "id": "e009",
+  "concept": "jackie (2016 film)",
+  "text": "Jackie (2016 film) was incapable of being written by Noah Oppenheim.",
+  "kind": "error",
+  "fever_id": 143556,
+  "in_dev55": false,
+  "dup_cluster": "fe009"
+ },
+ {
+  "id": "e010",
+  "concept": "charles howard hinton",
+  "text": "Charles Howard Hinton was a fantasy writer.",
+  "kind": "error",
+  "fever_id": 120846,
+  "in_dev55": false,
+  "dup_cluster": "fe010"
+ },
+ {
+  "id": "e011",
+  "concept": "chumlee",
+  "text": "The American actor that plays Chumlee was born in 1980.",
+  "kind": "error",
+  "fever_id": 79347,
+  "in_dev55": false,
+  "dup_cluster": "fe011"
+ },
+ {
+  "id": "e012",
+  "concept": "black canary",
+  "text": "Black Canary is a villain.",
+  "kind": "error",
+  "fever_id": 126942,
+  "in_dev55": false,
+  "dup_cluster": "fe012"
+ },
+ {
+  "id": "e013",
+  "concept": "concacaf champions league",
+  "text": "The CONCACAF Champions League is rarely organized for the top football clubs.",
+  "kind": "error",
+  "fever_id": 143494,
+  "in_dev55": false,
+  "dup_cluster": "fe013"
+ },
+ {
+  "id": "e014",
+  "concept": "the cry of the owl (2009 film)",
+  "text": "The Cry of the Owl is based on Patricia Highsmith's eighth movie.",
+  "kind": "error",
+  "fever_id": 175736,
+  "in_dev55": false,
+  "dup_cluster": "fe014"
+ },
+ {
+  "id": "e015",
+  "concept": "floyd mayweather jr.",
+  "text": "Floyd Mayweather Jr. has a record 27 world title wins without a loss.",
+  "kind": "error",
+  "fever_id": 100617,
+  "in_dev55": false,
+  "dup_cluster": "fe015"
+ },
+ {
+  "id": "e016",
+  "concept": "miranda otto",
+  "text": "Miranda Otto is the mother of Lindsay Otto.",
+  "kind": "error",
+  "fever_id": 22220,
+  "in_dev55": false,
+  "dup_cluster": "fe016"
+ },
+ {
+  "id": "e017",
+  "concept": "stanford prison experiment",
+  "text": "The Stanford prison experiment was funded by a grandmother.",
+  "kind": "error",
+  "fever_id": 119829,
+  "in_dev55": false,
+  "dup_cluster": "fe017"
+ },
+ {
+  "id": "e018",
+  "concept": "clueless (film)",
+  "text": "Clueless (film) was preceded by a spin-off television sitcom.",
+  "kind": "error",
+  "fever_id": 25564,
+  "in_dev55": false,
+  "dup_cluster": "fe018"
+ },
+ {
+  "id": "e019",
+  "concept": "hedda gabler",
+  "text": "Hedda Gabler's world premiere took place outside Munich.",
+  "kind": "error",
+  "fever_id": 75587,
+  "in_dev55": false,
+  "dup_cluster": "fe019"
+ },
+ {
+  "id": "e020",
+  "concept": "t2 trainspotting",
+  "text": "T2 Trainspotting is set in and around the capital city of Wales.",
+  "kind": "error",
+  "fever_id": 29688,
+  "in_dev55": false,
+  "dup_cluster": "fe020"
+ },
+ {
+  "id": "e021",
+  "concept": "josh hutcherson",
+  "text": "Josh Hutcherson wasn't in a lead role in films.",
+  "kind": "error",
+  "fever_id": 68327,
+  "in_dev55": false,
+  "dup_cluster": "fe021"
+ },
+ {
+  "id": "e022",
+  "concept": "lost (tv series)",
+  "text": "Lost (TV series) is a series of plays.",
+  "kind": "error",
+  "fever_id": 100429,
+  "in_dev55": false,
+  "dup_cluster": "fe022"
+ },
+ {
+  "id": "e023",
+  "concept": "francis i of france",
+  "text": "Francis I of France was born in December.",
+  "kind": "error",
+  "fever_id": 90589,
+  "in_dev55": false,
+  "dup_cluster": "fe023"
+ },
+ {
+  "id": "e024",
+  "concept": "marnie (film)",
+  "text": "Marnie is exclusively an Italian film.",
+  "kind": "error",
+  "fever_id": 196762,
+  "in_dev55": false,
+  "dup_cluster": "fe024"
+ },
+ {
+  "id": "e025",
+  "concept": "alex jones (radio host)",
+  "text": "Alex Jones is a novelist.",
+  "kind": "error",
+  "fever_id": 126799,
+  "in_dev55": false,
+  "dup_cluster": "fe025"
+ },
+ {
+  "id": "e026",
+  "concept": "emilia clarke",
+  "text": "Emilia Clarke is a car.",
+  "kind": "error",
+  "fever_id": 110209,
+  "in_dev55": false,
+  "dup_cluster": "fe026"
+ },
+ {
+  "id": "e027",
+  "concept": "gray matter interactive",
+  "text": "Gray Matter Interactive Studios, Inc. was a computer game developer founded after 2000.",
+  "kind": "error",
+  "fever_id": 213948,
+  "in_dev55": false,
+  "dup_cluster": "fe027"
+ },
+ {
+  "id": "e028",
+  "concept": "solanum",
+  "text": "Solanum contains the leopards.",
+  "kind": "error",
+  "fever_id": 4251,
+  "in_dev55": false,
+  "dup_cluster": "fe028"
+ },
+ {
+  "id": "e029",
+  "concept": "castlevania (1986 video game)",
+  "text": "Castlevania was developed by Konami in 1983.",
+  "kind": "error",
+  "fever_id": 96303,
+  "in_dev55": false,
+  "dup_cluster": "fe029"
+ },
+ {
+  "id": "e030",
+  "concept": "brubaker",
+  "text": "Brubaker is a 1950 film.",
+  "kind": "error",
+  "fever_id": 222041,
+  "in_dev55": false,
+  "dup_cluster": "fe030"
+ },
+ {
+  "id": "e031",
+  "concept": "mutiny on the bounty (1962 film)",
+  "text": "Mutiny on the Bounty is the second American film based on Mutiny on the Bounty, the Disneyland ride.",
+  "kind": "error",
+  "fever_id": 121765,
+  "in_dev55": false,
+  "dup_cluster": "fe031"
+ },
+ {
+  "id": "e032",
+  "concept": "heart",
+  "text": "Exercise raises resting heart rate in the long term.",
+  "kind": "error",
+  "fever_id": 135338,
+  "in_dev55": false,
+  "dup_cluster": "fe032"
+ },
+ {
+  "id": "e033",
+  "concept": "skopje",
+  "text": "Skopje was rarely a town.",
+  "kind": "error",
+  "fever_id": 73491,
+  "in_dev55": false,
+  "dup_cluster": "fe033"
+ },
+ {
+  "id": "e034",
+  "concept": "andrew moray",
+  "text": "Andrew Moray favored English occupation of Scotland.",
+  "kind": "error",
+  "fever_id": 62513,
+  "in_dev55": false,
+  "dup_cluster": "fe034"
+ },
+ {
+  "id": "e035",
+  "concept": "samsung",
+  "text": "Samsung never entered the shipbuilding industries.",
+  "kind": "error",
+  "fever_id": 58423,
+  "in_dev55": false,
+  "dup_cluster": "fe035"
+ },
+ {
+  "id": "e036",
+  "concept": "saxony",
+  "text": "Saxony is in Ireland.",
+  "kind": "error",
+  "fever_id": 129441,
+  "in_dev55": false,
+  "dup_cluster": "fe036"
+ },
+ {
+  "id": "e037",
+  "concept": "hanford site",
+  "text": "The Hanford Site is incapable of hosting the LIGO Hanford Observatory.",
+  "kind": "error",
+  "fever_id": 218462,
+  "in_dev55": false,
+  "dup_cluster": "fe037"
+ },
+ {
+  "id": "e038",
+  "concept": "no strings attached (film)",
+  "text": "No Strings Attached only ever came out in 2007.",
+  "kind": "error",
+  "fever_id": 160315,
+  "in_dev55": false,
+  "dup_cluster": "fe038"
+ },
+ {
+  "id": "e039",
+  "concept": "jenny mccarthy",
+  "text": "Jenny McCarthy did not begin her career in 1993.",
+  "kind": "error",
+  "fever_id": 78498,
+  "in_dev55": false,
+  "dup_cluster": "fe039"
+ },
+ {
+  "id": "e040",
+  "concept": "michigan",
+  "text": "Michigan is not a top destination for recreational boating.",
+  "kind": "error",
+  "fever_id": 33578,
+  "in_dev55": false,
+  "dup_cluster": "fe040"
+ },
+ {
+  "id": "e041",
+  "concept": "tv choice",
+  "text": "TV Choice is on monthly.",
+  "kind": "error",
+  "fever_id": 88217,
+  "in_dev55": false,
+  "dup_cluster": "fe041"
+ },
+ {
+  "id": "e042",
+  "concept": "africa cup of nations",
+  "text": "The Africa Cup of Nations is held every five years.",
+  "kind": "error",
+  "fever_id": 81121,
+  "in_dev55": false,
+  "dup_cluster": "fe042"
+ },
+ {
+  "id": "e043",
+  "concept": "warcraft (film)",
+  "text": "Warcraft premiered in America on June 10, 2016.",
+  "kind": "error",
+  "fever_id": 155647,
+  "in_dev55": false,
+  "dup_cluster": "fe043"
+ },
+ {
+  "id": "e044",
+  "concept": "dub music",
+  "text": "Dub music grew out of R&B.",
+  "kind": "error",
+  "fever_id": 177185,
+  "in_dev55": false,
+  "dup_cluster": "fe044"
+ },
+ {
+  "id": "e045",
+  "concept": "scaramouche",
+  "text": "Scaramouche is a stock character of a horse.",
+  "kind": "error",
+  "fever_id": 155989,
+  "in_dev55": false,
+  "dup_cluster": "fe045"
+ },
+ {
+  "id": "e046",
+  "concept": "hourglass (james taylor album)",
+  "text": "Hourglass was released in 1987.",
+  "kind": "error",
+  "fever_id": 90367,
+  "in_dev55": false,
+  "dup_cluster": "fe046"
+ },
+ {
+  "id": "e047",
+  "concept": "padua",
+  "text": "Padua is unconnected politically to the province of Padua.",
+  "kind": "error",
+  "fever_id": 191889,
+  "in_dev55": false,
+  "dup_cluster": "fe047"
+ },
+ {
+  "id": "e048",
+  "concept": "leslie alexander (businessman)",
+  "text": "Leslie Alexander hasn't ever been to New Jersey.",
+  "kind": "error",
+  "fever_id": 75013,
+  "in_dev55": false,
+  "dup_cluster": "fe048"
+ },
+ {
+  "id": "e049",
+  "concept": "riverdale (2017 tv series)",
+  "text": "Riverdale's executive producer is someone other than Greg Berlanti.",
+  "kind": "error",
+  "fever_id": 82934,
+  "in_dev55": false,
+  "dup_cluster": "fe049"
+ },
+ {
+  "id": "e050",
+  "concept": "taylor lautner",
+  "text": "Taylor Lautner was unable to appear on My Wife and Kids.",
+  "kind": "error",
+  "fever_id": 117056,
+  "in_dev55": false,
+  "dup_cluster": "fe050"
+ },
+ {
+  "id": "e051",
+  "concept": "angelsberg",
+  "text": "Angelsberg is not a town.",
+  "kind": "error",
+  "fever_id": 46508,
+  "in_dev55": false,
+  "dup_cluster": "fe051"
+ },
+ {
+  "id": "e052",
+  "concept": "life",
+  "text": "Life is inapplicable to animate objects.",
+  "kind": "error",
+  "fever_id": 110396,
+  "in_dev55": false,
+  "dup_cluster": "fe052"
+ },
+ {
+  "id": "e053",
+  "concept": "samwell tarly",
+  "text": "Samwell Tarly makes zero appearances in Game of Thrones.",
+  "kind": "error",
+  "fever_id": 206715,
+  "in_dev55": false,
+  "dup_cluster": "fe053"
+ },
+ {
+  "id": "e054",
+  "concept": "two and a half men",
+  "text": "Two and a Half Men starred Max Weber.",
+  "kind": "error",
+  "fever_id": 106526,
+  "in_dev55": false,
+  "dup_cluster": "fe054"
+ },
+ {
+  "id": "e055",
+  "concept": "peking university",
+  "text": "Peking University is in Thailand.",
+  "kind": "error",
+  "fever_id": 27497,
+  "in_dev55": false,
+  "dup_cluster": "fe055"
+ },
+ {
+  "id": "e056",
+  "concept": "tennessee",
+  "text": "Tennessee is the smallest American state.",
+  "kind": "error",
+  "fever_id": 13212,
+  "in_dev55": false,
+  "dup_cluster": "fe056"
+ },
+ {
+  "id": "e057",
+  "concept": "the disaster artist (film)",
+  "text": "The principal photography of The Disaster Artist (film) is incapable of starting.",
+  "kind": "error",
+  "fever_id": 223346,
+  "in_dev55": false,
+  "dup_cluster": "fe057"
+ },
+ {
+  "id": "e058",
+  "concept": "mary of teck",
+  "text": "Mary of Teck's son never abdicated the throne.",
+  "kind": "error",
+  "fever_id": 29857,
+  "in_dev55": false,
+  "dup_cluster": "fe058"
+ },
+ {
+  "id": "e059",
+  "concept": "happiness in slavery",
+  "text": "Happiness in Slavery is not from the EP Broken.",
+  "kind": "error",
+  "fever_id": 194341,
+  "in_dev55": false,
+  "dup_cluster": "fe059"
+ },
+ {
+  "id": "e060",
+  "concept": "catherine hardwicke",
+  "text": "Catherine Hardwicke refused to ever work as a screenwriter.",
+  "kind": "error",
+  "fever_id": 198554,
+  "in_dev55": false,
+  "dup_cluster": "fe060"
+ },
+ {
+  "id": "e061",
+  "concept": "baja 1000",
+  "text": "There has been no media coverage of the Baja 1000.",
+  "kind": "error",
+  "fever_id": 223274,
+  "in_dev55": false,
+  "dup_cluster": "fe061"
+ },
+ {
+  "id": "e062",
+  "concept": "middle-earth",
+  "text": "Middle-earth was created by J. K. Rowling.",
+  "kind": "error",
+  "fever_id": 168987,
+  "in_dev55": false,
+  "dup_cluster": "fe062"
+ },
+ {
+  "id": "e063",
+  "concept": "doxycycline",
+  "text": "Doxycycline may not cause diarrhea.",
+  "kind": "error",
+  "fever_id": 50223,
+  "in_dev55": false,
+  "dup_cluster": "fe063"
+ },
+ {
+  "id": "e064",
+  "concept": "fabian nicieza",
+  "text": "Fabian Nicieza was born December 3, 1967.",
+  "kind": "error",
+  "fever_id": 175639,
+  "in_dev55": false,
+  "dup_cluster": "fe064"
+ },
+ {
+  "id": "e065",
+  "concept": "the adventures of pluto nash",
+  "text": "The Adventures of Pluto Nash was released in 2005.",
+  "kind": "error",
+  "fever_id": 151247,
+  "in_dev55": false,
+  "dup_cluster": "fe065"
+ },
+ {
+  "id": "e066",
+  "concept": "times higher education world university rankings",
+  "text": "Times Higher Education World University Rankings is a publication of unranked universities.",
+  "kind": "error",
+  "fever_id": 63896,
+  "in_dev55": false,
+  "dup_cluster": "fe066"
+ },
+ {
+  "id": "e067",
+  "concept": "sarah hyland",
+  "text": "Sarah Hyland is a brand of hot dog.",
+  "kind": "error",
+  "fever_id": 123112,
+  "in_dev55": false,
+  "dup_cluster": "fe067"
+ },
+ {
+  "id": "e068",
+  "concept": "taran killam",
+  "text": "Taran Killam isn't an actor.",
+  "kind": "error",
+  "fever_id": 33496,
+  "in_dev55": false,
+  "dup_cluster": "fe068"
+ },
+ {
+  "id": "e069",
+  "concept": "the road to el dorado",
+  "text": "The Road to El Dorado stars Ryan Gosling.",
+  "kind": "error",
+  "fever_id": 59290,
+  "in_dev55": false,
+  "dup_cluster": "fe069"
+ },
+ {
+  "id": "e070",
+  "concept": "monk",
+  "text": "A monk is a squid.",
+  "kind": "error",
+  "fever_id": 217197,
+  "in_dev55": false,
+  "dup_cluster": "fe070"
+ },
+ {
+  "id": "e071",
+  "concept": "rage against the machine",
+  "text": "Rage Against the Machine was not a band.",
+  "kind": "error",
+  "fever_id": 130959,
+  "in_dev55": false,
+  "dup_cluster": "fe071"
+ },
+ {
+  "id": "e072",
+  "concept": "ripon college (wisconsin)",
+  "text": "Most of Ripon College's student body die on campus.",
+  "kind": "error",
+  "fever_id": 25089,
+  "in_dev55": false,
+  "dup_cluster": "fe072"
+ },
+ {
+  "id": "e073",
+  "concept": "lalla ward",
+  "text": "Lalla Ward was named Margaret Ward.",
+  "kind": "error",
+  "fever_id": 171086,
+  "in_dev55": false,
+  "dup_cluster": "fe073"
+ },
+ {
+  "id": "e074",
+  "concept": "melilla",
+  "text": "Mellila is a Spanish town.",
+  "kind": "error",
+  "fever_id": 128539,
+  "in_dev55": false,
+  "dup_cluster": "fe074"
+ },
+ {
+  "id": "e075",
+  "concept": "the gifted (tv series)",
+  "text": "The Gifted was created by Judd Apatow.",
+  "kind": "error",
+  "fever_id": 154613,
+  "in_dev55": false,
+  "dup_cluster": "fe075"
+ },
+ {
+  "id": "e076",
+  "concept": "always (1989 film)",
+  "text": "Always is a Swiss film.",
+  "kind": "error",
+  "fever_id": 46827,
+  "in_dev55": false,
+  "dup_cluster": "fe076"
+ },
+ {
+  "id": "e077",
+  "concept": "neil diamond",
+  "text": "Neil Diamond was not born on January 24th, 1941.",
+  "kind": "error",
+  "fever_id": 77480,
+  "in_dev55": false,
+  "dup_cluster": "fe077"
+ },
+ {
+  "id": "e078",
+  "concept": "cyclades",
+  "text": "The Cyclades are north of mainland Greece.",
+  "kind": "error",
+  "fever_id": 85467,
+  "in_dev55": false,
+  "dup_cluster": "fe078"
+ },
+ {
+  "id": "e079",
+  "concept": "joseph goebbels",
+  "text": "Joseph Goebbels' Propaganda Ministry gained nothing after the Nazi Seizure of Power.",
+  "kind": "error",
+  "fever_id": 108107,
+  "in_dev55": false,
+  "dup_cluster": "fe079"
+ },
+ {
+  "id": "e080",
+  "concept": "pitch perfect 2",
+  "text": "Pitch Perfect 2 centers on a mining town.",
+  "kind": "error",
+  "fever_id": 188582,
+  "in_dev55": false,
+  "dup_cluster": "fe080"
+ },
+ {
+  "id": "e081",
+  "concept": "shooter (tv series)",
+  "text": "Shooter is not about an expert marksman.",
+  "kind": "error",
+  "fever_id": 61823,
+  "in_dev55": false,
+  "dup_cluster": "fe081"
+ },
+ {
+  "id": "e082",
+  "concept": "polynomial",
+  "text": "A polynomial consists of exclusively indeterminates.",
+  "kind": "error",
+  "fever_id": 122391,
+  "in_dev55": false,
+  "dup_cluster": "fe082"
+ },
+ {
+  "id": "e083",
+  "concept": "moscovium",
+  "text": "Moscovium is a synthetic element, first synthesized in 1997.",
+  "kind": "error",
+  "fever_id": 41811,
+  "in_dev55": false,
+  "dup_cluster": "fe083"
+ },
+ {
+  "id": "e085",
+  "concept": "musala",
+  "text": "Musala is a computer.",
+  "kind": "error",
+  "fever_id": 30178,
+  "in_dev55": false,
+  "dup_cluster": "fe085"
+ },
+ {
+  "id": "e086",
+  "concept": "recovery (eminem album)",
+  "text": "Recovery is an album focusing on themes of isolation and addiction.",
+  "kind": "error",
+  "fever_id": 6275,
+  "in_dev55": false,
+  "dup_cluster": "fe086"
+ },
+ {
+  "id": "e087",
+  "concept": "raja hindustani",
+  "text": "Raja Hindustani was directed by Dharmesh Darshan in 1995.",
+  "kind": "error",
+  "fever_id": 45124,
+  "in_dev55": false,
+  "dup_cluster": "fe087"
+ },
+ {
+  "id": "e088",
+  "concept": "the love club ep",
+  "text": "The Love Club EP is the sophomore extended play by Lorde.",
+  "kind": "error",
+  "fever_id": 86361,
+  "in_dev55": false,
+  "dup_cluster": "fe088"
+ },
+ {
+  "id": "e089",
+  "concept": "pearl jam",
+  "text": "Pearl Jam is not a band.",
+  "kind": "error",
+  "fever_id": 127651,
+  "in_dev55": false,
+  "dup_cluster": "fe089"
+ },
+ {
+  "id": "e090",
+  "concept": "camden, new jersey",
+  "text": "Camden, New Jersey is the home of a school that was founded as the South Jersey Law School in 1920.",
+  "kind": "error",
+  "fever_id": 63557,
+  "in_dev55": false,
+  "dup_cluster": "fe090"
+ },
+ {
+  "id": "e091",
+  "concept": "brazilian jiu-jitsu",
+  "text": "Brazilian jiu-jitsu shunned Kodokan judo.",
+  "kind": "error",
+  "fever_id": 26887,
+  "in_dev55": false,
+  "dup_cluster": "fe091"
+ },
+ {
+  "id": "e092",
+  "concept": "aphrodite",
+  "text": "Aphrodite is the son of Poseidon and Hera in Homer's Iliad.",
+  "kind": "error",
+  "fever_id": 91898,
+  "in_dev55": false,
+  "dup_cluster": "fe092"
+ },
+ {
+  "id": "e093",
+  "concept": "abc islands (lesser antilles)",
+  "text": "Australia is one of the ABC Islands.",
+  "kind": "error",
+  "fever_id": 91721,
+  "in_dev55": false,
+  "dup_cluster": "fe093"
+ },
+ {
+  "id": "e094",
+  "concept": "benjamin franklin",
+  "text": "Benjamin Franklin was not born on April 17th, 1790.",
+  "kind": "error",
+  "fever_id": 39811,
+  "in_dev55": false,
+  "dup_cluster": "fe094"
+ },
+ {
+  "id": "e095",
+  "concept": "practical magic",
+  "text": "Practical Magic is based on a dog of the same name.",
+  "kind": "error",
+  "fever_id": 222765,
+  "in_dev55": false,
+  "dup_cluster": "fe095"
+ },
+ {
+  "id": "e096",
+  "concept": "coins of the swiss franc",
+  "text": "Coins of the Swiss franc are toys.",
+  "kind": "error",
+  "fever_id": 194261,
+  "in_dev55": false,
+  "dup_cluster": "fe096"
+ },
+ {
+  "id": "e097",
+  "concept": "libya",
+  "text": "Libya is the smallest country in the world.",
+  "kind": "error",
+  "fever_id": 218248,
+  "in_dev55": false,
+  "dup_cluster": "fe097"
+ },
+ {
+  "id": "e098",
+  "concept": "ann richards",
+  "text": "Ann Richards wasn't a politician.",
+  "kind": "error",
+  "fever_id": 36849,
+  "in_dev55": false,
+  "dup_cluster": "fe098"
+ },
+ {
+  "id": "e099",
+  "concept": "louie (season 1)",
+  "text": "Louie (season 1) began airing in 2000.",
+  "kind": "error",
+  "fever_id": 155930,
+  "in_dev55": false,
+  "dup_cluster": "fe099"
+ },
+ {
+  "id": "e100",
+  "concept": "benzodiazepine",
+  "text": "Benzodiazepine is a genre of music.",
+  "kind": "error",
+  "fever_id": 40221,
+  "in_dev55": false,
+  "dup_cluster": "fe100"
+ },
+ {
+  "id": "e101",
+  "concept": "new york city landmarks preservation commission",
+  "text": "The New York City Landmarks Preservation Commission includes zero architects.",
+  "kind": "error",
+  "fever_id": 198041,
+  "in_dev55": false,
+  "dup_cluster": "fe101"
+ },
+ {
+  "id": "e102",
+  "concept": "palo alto, california",
+  "text": "Palo Alto, California is only a town.",
+  "kind": "error",
+  "fever_id": 206156,
+  "in_dev55": false,
+  "dup_cluster": "fe102"
+ },
+ {
+  "id": "e103",
+  "concept": "the maze runner (film)",
+  "text": "The Maze Runner lost over $348 million.",
+  "kind": "error",
+  "fever_id": 51441,
+  "in_dev55": false,
+  "dup_cluster": "fe103"
+ },
+ {
+  "id": "e104",
+  "concept": "jack dylan grazer",
+  "text": "Jack Dylan Grazer was born in Tampa, Florida.",
+  "kind": "error",
+  "fever_id": 47848,
+  "in_dev55": false,
+  "dup_cluster": "fe104"
+ },
+ {
+  "id": "e105",
+  "concept": "shannon lee",
+  "text": "Shannon Lee is a German.",
+  "kind": "error",
+  "fever_id": 103307,
+  "in_dev55": false,
+  "dup_cluster": "fe105"
+ },
+ {
+  "id": "e106",
+  "concept": "english wikipedia",
+  "text": "The English Wikipedia is the English-language edition of a movie.",
+  "kind": "error",
+  "fever_id": 76285,
+  "in_dev55": false,
+  "dup_cluster": "fe106"
+ },
+ {
+  "id": "e107",
+  "concept": "ingushetia",
+  "text": "Ingushetia was established in 1993.",
+  "kind": "error",
+  "fever_id": 145672,
+  "in_dev55": false,
+  "dup_cluster": "fe107"
+ },
+ {
+  "id": "e108",
+  "concept": "starrcade",
+  "text": "Starrcade was originally broadcast via closed-circuit newspaper.",
+  "kind": "error",
+  "fever_id": 73637,
+  "in_dev55": false,
+  "dup_cluster": "fe108"
+ },
+ {
+  "id": "e109",
+  "concept": "john goodman",
+  "text": "John Goodman did not star in 10 Cloverfield Lane.",
+  "kind": "error",
+  "fever_id": 71187,
+  "in_dev55": false,
+  "dup_cluster": "fe109"
+ },
+ {
+  "id": "e110",
+  "concept": "independent spirit awards",
+  "text": "The Independent Spirit Awards have always been held in Los Angeles.",
+  "kind": "error",
+  "fever_id": 42964,
+  "in_dev55": false,
+  "dup_cluster": "fe110"
+ },
+ {
+  "id": "e111",
+  "concept": "stephen king",
+  "text": "Stephen King always wrote under his own name.",
+  "kind": "error",
+  "fever_id": 140051,
+  "in_dev55": false,
+  "dup_cluster": "fe111"
+ },
+ {
+  "id": "e112",
+  "concept": "gettysburg address",
+  "text": "The Gettysburg Address failed to ever be read or acknowledged.",
+  "kind": "error",
+  "fever_id": 104031,
+  "in_dev55": false,
+  "dup_cluster": "fe112"
+ },
+ {
+  "id": "e113",
+  "concept": "damon albarn",
+  "text": "Damon Albarn's debut album was released in May of 2014.",
+  "kind": "error",
+  "fever_id": 68613,
+  "in_dev55": false,
+  "dup_cluster": "fe113"
+ },
+ {
+  "id": "e114",
+  "concept": "the hunger games (film series)",
+  "text": "The Hunger Games are based on a novel.",
+  "kind": "error",
+  "fever_id": 102417,
+  "in_dev55": false,
+  "dup_cluster": "fe114"
+ },
+ {
+  "id": "e115",
+  "concept": "linkin park",
+  "text": "Linkin Park hit the Billboard Top 200 for the first time in 2007.",
+  "kind": "error",
+  "fever_id": 115898,
+  "in_dev55": false,
+  "dup_cluster": "fe115"
+ },
+ {
+  "id": "e116",
+  "concept": "helmand province",
+  "text": "Helmand Province is far away from Lashkargah.",
+  "kind": "error",
+  "fever_id": 8830,
+  "in_dev55": false,
+  "dup_cluster": "fe116"
+ },
+ {
+  "id": "e117",
+  "concept": "gin",
+  "text": "Gin is a name.",
+  "kind": "error",
+  "fever_id": 23148,
+  "in_dev55": false,
+  "dup_cluster": "fe117"
+ },
+ {
+  "id": "e118",
+  "concept": "cretaceous",
+  "text": "The Cretaceous is a Paleogene extinction event in 2001.",
+  "kind": "error",
+  "fever_id": 204349,
+  "in_dev55": false,
+  "dup_cluster": "fe118"
+ },
+ {
+  "id": "e119",
+  "concept": "kenny chesney",
+  "text": "Kenny Chesney's full name is Kenny Clark Chesney.",
+  "kind": "error",
+  "fever_id": 34924,
+  "in_dev55": false,
+  "dup_cluster": "fe119"
+ },
+ {
+  "id": "e120",
+  "concept": "boeing 767",
+  "text": "The Boeing 767 is used for only local flights.",
+  "kind": "error",
+  "fever_id": 168924,
+  "in_dev55": false,
+  "dup_cluster": "fe120"
+ },
+ {
+  "id": "e121",
+  "concept": "the hunger games (novel)",
+  "text": "The Hunger Games is a piece of glass blown art.",
+  "kind": "error",
+  "fever_id": 125333,
+  "in_dev55": false,
+  "dup_cluster": "fe121"
+ },
+ {
+  "id": "e122",
+  "concept": "bruce shand",
+  "text": "Bruce Shand only has a first and last name.",
+  "kind": "error",
+  "fever_id": 76666,
+  "in_dev55": false,
+  "dup_cluster": "fe122"
+ },
+ {
+  "id": "e123",
+  "concept": "polar bear",
+  "text": "Polar bears depend on lakes as their main food source.",
+  "kind": "error",
+  "fever_id": 164983,
+  "in_dev55": false,
+  "dup_cluster": "fe123"
+ },
+ {
+  "id": "e124",
+  "concept": "trevor griffiths",
+  "text": "Trevor Griffiths was born in Boston, Massachusetts.",
+  "kind": "error",
+  "fever_id": 30486,
+  "in_dev55": false,
+  "dup_cluster": "fe124"
+ },
+ {
+  "id": "e125",
+  "concept": "kung fu panda",
+  "text": "Kung Fu Panda was released on stage.",
+  "kind": "error",
+  "fever_id": 135150,
+  "in_dev55": false,
+  "dup_cluster": "fe125"
+ },
+ {
+  "id": "e126",
+  "concept": "super bowl xlv",
+  "text": "Super Bowl XLV was the first time the Super Bowl was played in the D.C. metropolitan area.",
+  "kind": "error",
+  "fever_id": 129241,
+  "in_dev55": false,
+  "dup_cluster": "fe126"
+ },
+ {
+  "id": "e127",
+  "concept": "billboard dad",
+  "text": "Billboard Dad stars Jennifer Lawrence.",
+  "kind": "error",
+  "fever_id": 43300,
+  "in_dev55": false,
+  "dup_cluster": "fe127"
+ },
+ {
+  "id": "e128",
+  "concept": "eva mendes",
+  "text": "Eva Mendes was drafted in 1974.",
+  "kind": "error",
+  "fever_id": 187106,
+  "in_dev55": false,
+  "dup_cluster": "fe128"
+ },
+ {
+  "id": "e129",
+  "concept": "hindu kush",
+  "text": "Hindu Kush's highest point is the peak called Hindu Kush.",
+  "kind": "error",
+  "fever_id": 16581,
+  "in_dev55": false,
+  "dup_cluster": "fe129"
+ },
+ {
+  "id": "e130",
+  "concept": "chris benoit",
+  "text": "Chris Benoit died in June 2001.",
+  "kind": "error",
+  "fever_id": 17334,
+  "in_dev55": false,
+  "dup_cluster": "fe130"
+ },
+ {
+  "id": "e131",
+  "concept": "jonah hill",
+  "text": "Jonah Hill made $16 million dollars in June of 2014.",
+  "kind": "error",
+  "fever_id": 108767,
+  "in_dev55": false,
+  "dup_cluster": "fe131"
+ },
+ {
+  "id": "e132",
+  "concept": "eurotas (river)",
+  "text": "Eurotas (river) is in Italy.",
+  "kind": "error",
+  "fever_id": 72182,
+  "in_dev55": false,
+  "dup_cluster": "fe132"
+ },
+ {
+  "id": "e133",
+  "concept": "dakota fanning",
+  "text": "Dakota Fanning is incapable of being involved with a film called Coraline.",
+  "kind": "error",
+  "fever_id": 201826,
+  "in_dev55": false,
+  "dup_cluster": "fe133"
+ },
+ {
+  "id": "e134",
+  "concept": "birthday song (2 chainz song)",
+  "text": "Birthday Song (2 Chainz song) was produced by Kanye West.",
+  "kind": "error",
+  "fever_id": 55815,
+  "in_dev55": false,
+  "dup_cluster": "fe134"
+ },
+ {
+  "id": "e135",
+  "concept": "roland emmerich",
+  "text": "Roland Emmerich is a closeted gay.",
+  "kind": "error",
+  "fever_id": 192973,
+  "in_dev55": false,
+  "dup_cluster": "fe135"
+ },
+ {
+  "id": "e136",
+  "concept": "the quiet",
+  "text": "The Quiet was released in 1905.",
+  "kind": "error",
+  "fever_id": 148541,
+  "in_dev55": false,
+  "dup_cluster": "fe136"
+ },
+ {
+  "id": "e137",
+  "concept": "pocahontas",
+  "text": "Pocahontas was from Maine.",
+  "kind": "error",
+  "fever_id": 31960,
+  "in_dev55": false,
+  "dup_cluster": "fe137"
+ },
+ {
+  "id": "e138",
+  "concept": "make it or break it",
+  "text": "The series finale of Make It or Break It is ending on its 5th season.",
+  "kind": "error",
+  "fever_id": 8429,
+  "in_dev55": false,
+  "dup_cluster": "fe138"
+ },
+ {
+  "id": "e139",
+  "concept": "blade runner 2049",
+  "text": "Blade Runner 2049 is a prequel.",
+  "kind": "error",
+  "fever_id": 127596,
+  "in_dev55": false,
+  "dup_cluster": "fe139"
+ },
+ {
+  "id": "e140",
+  "concept": "david attenborough",
+  "text": "David Attenborough served as director of BBC Two.",
+  "kind": "error",
+  "fever_id": 11443,
+  "in_dev55": false,
+  "dup_cluster": "fe140"
+ },
+ {
+  "id": "e141",
+  "concept": "jeong hyeong-don",
+  "text": "Jeong Hyeong-don has refused to ever work under FNC Entertainment.",
+  "kind": "error",
+  "fever_id": 195818,
+  "in_dev55": false,
+  "dup_cluster": "fe141"
+ },
+ {
+  "id": "e142",
+  "concept": "phoenix, arizona",
+  "text": "Phoenix, Arizona is a swamp.",
+  "kind": "error",
+  "fever_id": 93455,
+  "in_dev55": false,
+  "dup_cluster": "fe142"
+ },
+ {
+  "id": "e143",
+  "concept": "poseidon (film)",
+  "text": "Poseidon lacked a budget of $160 million.",
+  "kind": "error",
+  "fever_id": 104021,
+  "in_dev55": false,
+  "dup_cluster": "fe143"
+ },
+ {
+  "id": "e144",
+  "concept": "scotty moore",
+  "text": "Scotty Moore was American and Irish.",
+  "kind": "error",
+  "fever_id": 119519,
+  "in_dev55": false,
+  "dup_cluster": "fe144"
+ },
+ {
+  "id": "e145",
+  "concept": "washington monument",
+  "text": "The Washington Monument is the world's shortest obelisk.",
+  "kind": "error",
+  "fever_id": 84278,
+  "in_dev55": false,
+  "dup_cluster": "fe145"
+ },
+ {
+  "id": "e146",
+  "concept": "the daily show",
+  "text": "The Daily Show is incapable of being satire focused.",
+  "kind": "error",
+  "fever_id": 105077,
+  "in_dev55": false,
+  "dup_cluster": "fe146"
+ },
+ {
+  "id": "e147",
+  "concept": "west ham united f.c.",
+  "text": "West Ham United F.C. was founded in this century.",
+  "kind": "error",
+  "fever_id": 57611,
+  "in_dev55": false,
+  "dup_cluster": "fe147"
+ },
+ {
+  "id": "e148",
+  "concept": "floppy disk",
+  "text": "A Floppy disk is composed of a thin and flexible electronic storage medium.",
+  "kind": "error",
+  "fever_id": 157002,
+  "in_dev55": false,
+  "dup_cluster": "fe148"
+ },
+ {
+  "id": "e149",
+  "concept": "the monster (song)",
+  "text": "The Monster only appears on the album The Marshall Mathers LP.",
+  "kind": "error",
+  "fever_id": 208900,
+  "in_dev55": false,
+  "dup_cluster": "fe149"
+ }
+]

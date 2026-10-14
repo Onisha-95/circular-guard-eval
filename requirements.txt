@@ -1,0 +1,15 @@
+# Python 3.11+ (tested on 3.14, macOS, CPU only)
+torch>=2.0
+transformers>=4.48          # ModernBERT needs >= 4.48
+sentence-transformers
+accelerate                  # needed by MiniCheck
+numpy
+scipy
+matplotlib
+openai                      # LLM judges and KCA via any OpenAI-compatible API (e.g. OpenRouter)
+python-pptx
+PyMuPDF
+nltk                        # MiniCheck sentence splitting (punkt_tab is downloaded automatically)
+minicheck @ git+https://github.com/Liyan06/MiniCheck.git@main
+openpyxl                    # scripts/kappa_true_statements.py (annotation agreement)
+# Optional: OCR of slide images (only for rebuilding course KBs from slides): pytesseract, pdf2image, Pillow

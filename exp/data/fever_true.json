@@ -1,0 +1,1334 @@
+[
+ {
+  "id": "t000",
+  "concept": "john deighton",
+  "text": "John Deighton was forced to pursue work.",
+  "kind": "true",
+  "fever_id": 88918,
+  "in_dev55": false,
+  "dup_cluster": "ft000"
+ },
+ {
+  "id": "t001",
+  "concept": "jarhead (film)",
+  "text": "Jarhead is based upon a memoir.",
+  "kind": "true",
+  "fever_id": 124959,
+  "in_dev55": false,
+  "dup_cluster": "ft001"
+ },
+ {
+  "id": "t002",
+  "concept": "no country for old men (film)",
+  "text": "No Country for Old Men is critically acclaimed.",
+  "kind": "true",
+  "fever_id": 67582,
+  "in_dev55": false,
+  "dup_cluster": "ft002"
+ },
+ {
+  "id": "t003",
+  "concept": "avenged sevenfold (album)",
+  "text": "Avenged Sevenfold is the fourth studio album of Avenged Sevenfold.",
+  "kind": "true",
+  "fever_id": 202926,
+  "in_dev55": false,
+  "dup_cluster": "ft003"
+ },
+ {
+  "id": "t004",
+  "concept": "dissociative identity disorder",
+  "text": "Dissociative identity disorder is known as multiple personality disorder.",
+  "kind": "true",
+  "fever_id": 1933,
+  "in_dev55": false,
+  "dup_cluster": "ft004"
+ },
+ {
+  "id": "t005",
+  "concept": "meteora (album)",
+  "text": "Meteora is an album by Linkin Park.",
+  "kind": "true",
+  "fever_id": 22092,
+  "in_dev55": false,
+  "dup_cluster": "ft005"
+ },
+ {
+  "id": "t006",
+  "concept": "baz luhrmann",
+  "text": "Nicole Kidman stars in Baz Luhrmann's film Australia.",
+  "kind": "true",
+  "fever_id": 161578,
+  "in_dev55": false,
+  "dup_cluster": "ft006"
+ },
+ {
+  "id": "t007",
+  "concept": "aestheticism",
+  "text": "Aestheticism is a movement.",
+  "kind": "true",
+  "fever_id": 74961,
+  "in_dev55": false,
+  "dup_cluster": "ft007"
+ },
+ {
+  "id": "t008",
+  "concept": "military deception",
+  "text": "Military deception is a form of disinformation.",
+  "kind": "true",
+  "fever_id": 207332,
+  "in_dev55": false,
+  "dup_cluster": "ft008"
+ },
+ {
+  "id": "t009",
+  "concept": "civilization iv",
+  "text": "Civilization IV is a turn-based strategy game.",
+  "kind": "true",
+  "fever_id": 40921,
+  "in_dev55": false,
+  "dup_cluster": "ft009"
+ },
+ {
+  "id": "t010",
+  "concept": "gaius julius caesar (proconsul)",
+  "text": "Gaius Julius Caesar was the father of a dictator.",
+  "kind": "true",
+  "fever_id": 205108,
+  "in_dev55": false,
+  "dup_cluster": "ft010"
+ },
+ {
+  "id": "t011",
+  "concept": "stripes (film)",
+  "text": "Stripes featured Conrad Dunn.",
+  "kind": "true",
+  "fever_id": 194915,
+  "in_dev55": false,
+  "dup_cluster": "ft011"
+ },
+ {
+  "id": "t012",
+  "concept": "a united kingdom",
+  "text": "A United Kingdom is a biographical romantic comedy film.",
+  "kind": "true",
+  "fever_id": 222661,
+  "in_dev55": false,
+  "dup_cluster": "ft012"
+ },
+ {
+  "id": "t013",
+  "concept": "halsey (singer)",
+  "text": "Halsey signed a recording contract in 2014.",
+  "kind": "true",
+  "fever_id": 131530,
+  "in_dev55": false,
+  "dup_cluster": "ft013"
+ },
+ {
+  "id": "t014",
+  "concept": "tom delonge",
+  "text": "Tom DeLonge formed Blink-182 in 1992.",
+  "kind": "true",
+  "fever_id": 200370,
+  "in_dev55": false,
+  "dup_cluster": "ft014"
+ },
+ {
+  "id": "t015",
+  "concept": "temple of the dog",
+  "text": "Temple of the Dog celebrated the 25th anniversary of their album.",
+  "kind": "true",
+  "fever_id": 152327,
+  "in_dev55": false,
+  "dup_cluster": "ft015"
+ },
+ {
+  "id": "t016",
+  "concept": "john s. mccain jr.",
+  "text": "John S. McCain Jr. entered the submarine service and has a fan base.",
+  "kind": "true",
+  "fever_id": 35596,
+  "in_dev55": false,
+  "dup_cluster": "ft016"
+ },
+ {
+  "id": "t017",
+  "concept": "watertown, massachusetts",
+  "text": "Watertown, Massachusetts is in the United States.",
+  "kind": "true",
+  "fever_id": 29848,
+  "in_dev55": false,
+  "dup_cluster": "ft017"
+ },
+ {
+  "id": "t018",
+  "concept": "yale university",
+  "text": "Yale University's alumni includes 19 justices.",
+  "kind": "true",
+  "fever_id": 60147,
+  "in_dev55": false,
+  "dup_cluster": "ft018"
+ },
+ {
+  "id": "t019",
+  "concept": "species distribution",
+  "text": "Species distribution can be understood through factors such as river capture.",
+  "kind": "true",
+  "fever_id": 219161,
+  "in_dev55": false,
+  "dup_cluster": "ft019"
+ },
+ {
+  "id": "t020",
+  "concept": "human brain",
+  "text": "The human brain contains a cerebral cortex.",
+  "kind": "true",
+  "fever_id": 30425,
+  "in_dev55": false,
+  "dup_cluster": "ft020"
+ },
+ {
+  "id": "t021",
+  "concept": "vic mensa",
+  "text": "Vic Mensa has been nominated for an award.",
+  "kind": "true",
+  "fever_id": 179836,
+  "in_dev55": false,
+  "dup_cluster": "ft021"
+ },
+ {
+  "id": "t022",
+  "concept": "colombiana",
+  "text": "Colombiana is a French film.",
+  "kind": "true",
+  "fever_id": 7208,
+  "in_dev55": false,
+  "dup_cluster": "ft022"
+ },
+ {
+  "id": "t023",
+  "concept": "pharmacology",
+  "text": "Pharmacology deals with the development, discovery, and characterization of chemicals which show biological effects.",
+  "kind": "true",
+  "fever_id": 95358,
+  "in_dev55": false,
+  "dup_cluster": "ft023"
+ },
+ {
+  "id": "t024",
+  "concept": "english people",
+  "text": "English people are descended from other peoples.",
+  "kind": "true",
+  "fever_id": 12747,
+  "in_dev55": false,
+  "dup_cluster": "ft024"
+ },
+ {
+  "id": "t025",
+  "concept": "dilwale dulhania le jayenge",
+  "text": "Dilwale Dulhania Le Jayenge was partially filmed in Switzerland.",
+  "kind": "true",
+  "fever_id": 88107,
+  "in_dev55": false,
+  "dup_cluster": "ft025"
+ },
+ {
+  "id": "t026",
+  "concept": "morse code",
+  "text": "Morse code is less sensitive to poor signal conditions.",
+  "kind": "true",
+  "fever_id": 20032,
+  "in_dev55": false,
+  "dup_cluster": "ft026"
+ },
+ {
+  "id": "t027",
+  "concept": "the block (album)",
+  "text": "The Block (album) has an official single.",
+  "kind": "true",
+  "fever_id": 221249,
+  "in_dev55": false,
+  "dup_cluster": "ft027"
+ },
+ {
+  "id": "t028",
+  "concept": "otto i, holy roman emperor",
+  "text": "A brief civil war was put down by Otto I, Holy Roman Emperor.",
+  "kind": "true",
+  "fever_id": 132620,
+  "in_dev55": false,
+  "dup_cluster": "ft028"
+ },
+ {
+  "id": "t029",
+  "concept": "spongebob squarepants",
+  "text": "On Nickelodeon SpongeBob SquarePants is the highest rated series to ever air.",
+  "kind": "true",
+  "fever_id": 16250,
+  "in_dev55": false,
+  "dup_cluster": "ft029"
+ },
+ {
+  "id": "t030",
+  "concept": "qui-gon jinn",
+  "text": "Qui-Gon Jinn is a character in the Star Wars franchise.",
+  "kind": "true",
+  "fever_id": 72985,
+  "in_dev55": false,
+  "dup_cluster": "ft030"
+ },
+ {
+  "id": "t031",
+  "concept": "annabelle (doll)",
+  "text": "Annabelle is at The Warrens' Occult Museum.",
+  "kind": "true",
+  "fever_id": 34162,
+  "in_dev55": false,
+  "dup_cluster": "ft031"
+ },
+ {
+  "id": "t032",
+  "concept": "wolfgang amadeus mozart",
+  "text": "Wolfgang Amadeus Mozart was a talented youth.",
+  "kind": "true",
+  "fever_id": 89583,
+  "in_dev55": false,
+  "dup_cluster": "ft032"
+ },
+ {
+  "id": "t033",
+  "concept": "story of my life (one direction song)",
+  "text": "Story of My Life is a song that was recorded.",
+  "kind": "true",
+  "fever_id": 198090,
+  "in_dev55": false,
+  "dup_cluster": "ft033"
+ },
+ {
+  "id": "t034",
+  "concept": "michelin guide",
+  "text": "Michelin Guides have been published for more than a decade.",
+  "kind": "true",
+  "fever_id": 149787,
+  "in_dev55": false,
+  "dup_cluster": "ft034"
+ },
+ {
+  "id": "t035",
+  "concept": "homer hickam",
+  "text": "Homer Hickman has written best-selling memoirs.",
+  "kind": "true",
+  "fever_id": 216384,
+  "in_dev55": false,
+  "dup_cluster": "ft035"
+ },
+ {
+  "id": "t036",
+  "concept": "university of mississippi",
+  "text": "23 percent of the University of Mississippi's students are minorities, with over 60 percent of the overall population coming from the state.",
+  "kind": "true",
+  "fever_id": 96239,
+  "in_dev55": false,
+  "dup_cluster": "ft036"
+ },
+ {
+  "id": "t037",
+  "concept": "danger uxb",
+  "text": "Danger UXB is from the late seventies.",
+  "kind": "true",
+  "fever_id": 21588,
+  "in_dev55": false,
+  "dup_cluster": "ft037"
+ },
+ {
+  "id": "t038",
+  "concept": "highway to heaven",
+  "text": "NBC aired Highway to Heaven.",
+  "kind": "true",
+  "fever_id": 117840,
+  "in_dev55": false,
+  "dup_cluster": "ft038"
+ },
+ {
+  "id": "t039",
+  "concept": "battle of the trebia",
+  "text": "The left hand side of the Trebbia River is the location of the Battle of the Trebia.",
+  "kind": "true",
+  "fever_id": 7032,
+  "in_dev55": false,
+  "dup_cluster": "ft039"
+ },
+ {
+  "id": "t040",
+  "concept": "the fame",
+  "text": "The Fame has sold only digital copies.",
+  "kind": "true",
+  "fever_id": 89483,
+  "in_dev55": false,
+  "dup_cluster": "ft040"
+ },
+ {
+  "id": "t041",
+  "concept": "danielle cormack",
+  "text": "Danielle Cormack was born on December 26, 1970.",
+  "kind": "true",
+  "fever_id": 225254,
+  "in_dev55": false,
+  "dup_cluster": "ft041"
+ },
+ {
+  "id": "t042",
+  "concept": "american library association",
+  "text": "American Library Association is the largest of its kind and it is in the world.",
+  "kind": "true",
+  "fever_id": 192050,
+  "in_dev55": false,
+  "dup_cluster": "ft042"
+ },
+ {
+  "id": "t043",
+  "concept": "san francisco bay area",
+  "text": "San Francisco Bay Area is home to approximately 7.68 million people.",
+  "kind": "true",
+  "fever_id": 5598,
+  "in_dev55": false,
+  "dup_cluster": "ft043"
+ },
+ {
+  "id": "t044",
+  "concept": "nrg recording studios",
+  "text": "NRG Recording Studios is a recording space.",
+  "kind": "true",
+  "fever_id": 23628,
+  "in_dev55": false,
+  "dup_cluster": "ft044"
+ },
+ {
+  "id": "t045",
+  "concept": "lee daniels",
+  "text": "Lee Daniels received a nomination for Best Director.",
+  "kind": "true",
+  "fever_id": 35030,
+  "in_dev55": false,
+  "dup_cluster": "ft045"
+ },
+ {
+  "id": "t046",
+  "concept": "kareem abdul-jabbar",
+  "text": "Kareem Abdul-Jabbar is ranked in rebounds.",
+  "kind": "true",
+  "fever_id": 116026,
+  "in_dev55": false,
+  "dup_cluster": "ft046"
+ },
+ {
+  "id": "t047",
+  "concept": "vedic sanskrit",
+  "text": "Vedic Sanskrit is the language of certain compiled texts.",
+  "kind": "true",
+  "fever_id": 222721,
+  "in_dev55": false,
+  "dup_cluster": "ft047"
+ },
+ {
+  "id": "t048",
+  "concept": "eighth doctor",
+  "text": "The Eighth Doctor is a BBC science fiction character.",
+  "kind": "true",
+  "fever_id": 193411,
+  "in_dev55": false,
+  "dup_cluster": "ft048"
+ },
+ {
+  "id": "t049",
+  "concept": "linkedin",
+  "text": "LinkedIn is available in 24 languages as of March 2013.",
+  "kind": "true",
+  "fever_id": 45349,
+  "in_dev55": false,
+  "dup_cluster": "ft049"
+ },
+ {
+  "id": "t050",
+  "concept": "harold macmillan",
+  "text": "Harold Macmillan was a politician.",
+  "kind": "true",
+  "fever_id": 21852,
+  "in_dev55": false,
+  "dup_cluster": "ft050"
+ },
+ {
+  "id": "t051",
+  "concept": "cordilleran ice sheet",
+  "text": "2.6 million years is how far Cordilleran Ice Sheet dates back to.",
+  "kind": "true",
+  "fever_id": 103833,
+  "in_dev55": false,
+  "dup_cluster": "ft051"
+ },
+ {
+  "id": "t052",
+  "concept": "raabta (song)",
+  "text": "Rabbta (song) is a Hindi song from a 2012 film.",
+  "kind": "true",
+  "fever_id": 220207,
+  "in_dev55": false,
+  "dup_cluster": "ft052"
+ },
+ {
+  "id": "t054",
+  "concept": "pearl (steven universe)",
+  "text": "Pearl (Steven Universe) is a magical gemstone.",
+  "kind": "true",
+  "fever_id": 53329,
+  "in_dev55": false,
+  "dup_cluster": "ft054"
+ },
+ {
+  "id": "t055",
+  "concept": "men in black ii",
+  "text": "Men in Black II is an American film.",
+  "kind": "true",
+  "fever_id": 37092,
+  "in_dev55": false,
+  "dup_cluster": "ft055"
+ },
+ {
+  "id": "t056",
+  "concept": "global warming",
+  "text": "The retreat of sea ice is one of the expected outcomes of global warming.",
+  "kind": "true",
+  "fever_id": 138118,
+  "in_dev55": false,
+  "dup_cluster": "ft056"
+ },
+ {
+  "id": "t057",
+  "concept": "see.sza.run",
+  "text": "See.SZA.Run has a musical style.",
+  "kind": "true",
+  "fever_id": 211851,
+  "in_dev55": false,
+  "dup_cluster": "ft057"
+ },
+ {
+  "id": "t058",
+  "concept": "the times",
+  "text": "The Times switched to a compact format from broadsheet in 2004.",
+  "kind": "true",
+  "fever_id": 141466,
+  "in_dev55": false,
+  "dup_cluster": "ft058"
+ },
+ {
+  "id": "t059",
+  "concept": "loretta sanchez",
+  "text": "Loretta Sanchez is a politician.",
+  "kind": "true",
+  "fever_id": 9842,
+  "in_dev55": false,
+  "dup_cluster": "ft059"
+ },
+ {
+  "id": "t060",
+  "concept": "don hall (filmmaker)",
+  "text": "Don Hall is an employee of Walt Disney Animation Studios.",
+  "kind": "true",
+  "fever_id": 181837,
+  "in_dev55": false,
+  "dup_cluster": "ft060"
+ },
+ {
+  "id": "t061",
+  "concept": "paramore",
+  "text": "Tennessee was the starting place of Paramore.",
+  "kind": "true",
+  "fever_id": 85298,
+  "in_dev55": false,
+  "dup_cluster": "ft061"
+ },
+ {
+  "id": "t062",
+  "concept": "richard fortus",
+  "text": "Richard Fortus has, with Guns N' Roses, recorded a studio album.",
+  "kind": "true",
+  "fever_id": 15389,
+  "in_dev55": false,
+  "dup_cluster": "ft062"
+ },
+ {
+  "id": "t063",
+  "concept": "new orleans pelicans",
+  "text": "New Orleans Pelicans compete in the NBA in the Western Conference.",
+  "kind": "true",
+  "fever_id": 227120,
+  "in_dev55": false,
+  "dup_cluster": "ft063"
+ },
+ {
+  "id": "t064",
+  "concept": "selma to montgomery marches",
+  "text": "The Selma to Montgomery marches were to demonstrate a desire.",
+  "kind": "true",
+  "fever_id": 42209,
+  "in_dev55": false,
+  "dup_cluster": "ft064"
+ },
+ {
+  "id": "t065",
+  "concept": "corsica",
+  "text": "Corsica is an island.",
+  "kind": "true",
+  "fever_id": 219684,
+  "in_dev55": false,
+  "dup_cluster": "ft065"
+ },
+ {
+  "id": "t066",
+  "concept": "brick (film)",
+  "text": "Brick (film) was written by Rian Johnson.",
+  "kind": "true",
+  "fever_id": 211770,
+  "in_dev55": false,
+  "dup_cluster": "ft066"
+ },
+ {
+  "id": "t067",
+  "concept": "luis fonsi",
+  "text": "Luis Fonsi uses a pseudonym when performing.",
+  "kind": "true",
+  "fever_id": 149144,
+  "in_dev55": false,
+  "dup_cluster": "ft067"
+ },
+ {
+  "id": "t068",
+  "concept": "battle of the bastards",
+  "text": "Battle of the Bastards had a viewership of 7.66 million in its initial broadcast.",
+  "kind": "true",
+  "fever_id": 26947,
+  "in_dev55": false,
+  "dup_cluster": "ft068"
+ },
+ {
+  "id": "t069",
+  "concept": "general motors",
+  "text": "General Motors had various components.",
+  "kind": "true",
+  "fever_id": 133803,
+  "in_dev55": false,
+  "dup_cluster": "ft069"
+ },
+ {
+  "id": "t070",
+  "concept": "henry cavill",
+  "text": "One of the cast members of the DC Extended Universe is Henry Cavill.",
+  "kind": "true",
+  "fever_id": 44837,
+  "in_dev55": false,
+  "dup_cluster": "ft070"
+ },
+ {
+  "id": "t071",
+  "concept": "henry iii of england",
+  "text": "Henry III was the son of King John.",
+  "kind": "true",
+  "fever_id": 17063,
+  "in_dev55": false,
+  "dup_cluster": "ft071"
+ },
+ {
+  "id": "t072",
+  "concept": "uta hagen",
+  "text": "January 14th, 2004 is the date when Uta Hagan died.",
+  "kind": "true",
+  "fever_id": 206449,
+  "in_dev55": false,
+  "dup_cluster": "ft072"
+ },
+ {
+  "id": "t073",
+  "concept": "burj khalifa",
+  "text": "57 elevators reside in the Burj Kahlifa.",
+  "kind": "true",
+  "fever_id": 108297,
+  "in_dev55": false,
+  "dup_cluster": "ft073"
+ },
+ {
+  "id": "t074",
+  "concept": "resident evil (film)",
+  "text": "Resident Evil is the first installment in the Resident Evil film series based off of the video game series of the same name.",
+  "kind": "true",
+  "fever_id": 211026,
+  "in_dev55": false,
+  "dup_cluster": "ft074"
+ },
+ {
+  "id": "t075",
+  "concept": "amancio ortega",
+  "text": "Amancio Ortega's last name is Gaona.",
+  "kind": "true",
+  "fever_id": 70074,
+  "in_dev55": false,
+  "dup_cluster": "ft075"
+ },
+ {
+  "id": "t076",
+  "concept": "tilda swinton",
+  "text": "On November 5, 1960, Tilda Swinton was born.",
+  "kind": "true",
+  "fever_id": 194465,
+  "in_dev55": false,
+  "dup_cluster": "ft076"
+ },
+ {
+  "id": "t078",
+  "concept": "mogadishu",
+  "text": "Mogadishu is a capital city.",
+  "kind": "true",
+  "fever_id": 181631,
+  "in_dev55": false,
+  "dup_cluster": "ft078"
+ },
+ {
+  "id": "t079",
+  "concept": "bret easton ellis",
+  "text": "Bret Easton Ellis wrote the screenplay for The Canyons.",
+  "kind": "true",
+  "fever_id": 41850,
+  "in_dev55": false,
+  "dup_cluster": "ft079"
+ },
+ {
+  "id": "t080",
+  "concept": "wildfang",
+  "text": "Wildfang was founded by two people.",
+  "kind": "true",
+  "fever_id": 117699,
+  "in_dev55": false,
+  "dup_cluster": "ft080"
+ },
+ {
+  "id": "t081",
+  "concept": "tatum o'neal",
+  "text": "Tatum O'Neal had three children with John McEnroe.",
+  "kind": "true",
+  "fever_id": 14018,
+  "in_dev55": false,
+  "dup_cluster": "ft081"
+ },
+ {
+  "id": "t082",
+  "concept": "melancholia (2011 film)",
+  "text": "Melancholia's cast includes Kiefer Sutherland.",
+  "kind": "true",
+  "fever_id": 66489,
+  "in_dev55": false,
+  "dup_cluster": "ft082"
+ },
+ {
+  "id": "t083",
+  "concept": "cheese in the trap (tv series)",
+  "text": "Cheese in the Trap (TV series) is from South Korea.",
+  "kind": "true",
+  "fever_id": 44610,
+  "in_dev55": false,
+  "dup_cluster": "ft083"
+ },
+ {
+  "id": "t084",
+  "concept": "faye resnick",
+  "text": "Faye Resnick is an interior designer.",
+  "kind": "true",
+  "fever_id": 22409,
+  "in_dev55": false,
+  "dup_cluster": "ft084"
+ },
+ {
+  "id": "t085",
+  "concept": "barry van dyke",
+  "text": "Barry Van Dyke is an actor and the son of a doctor.",
+  "kind": "true",
+  "fever_id": 193860,
+  "in_dev55": false,
+  "dup_cluster": "ft085"
+ },
+ {
+  "id": "t086",
+  "concept": "grateful dead",
+  "text": "John Perry Barlow was a member of the Grateful Dead.",
+  "kind": "true",
+  "fever_id": 14819,
+  "in_dev55": false,
+  "dup_cluster": "ft086"
+ },
+ {
+  "id": "t087",
+  "concept": "georges gilles de la tourette",
+  "text": "Georges Gilles de la Tourette described things.",
+  "kind": "true",
+  "fever_id": 52139,
+  "in_dev55": false,
+  "dup_cluster": "ft087"
+ },
+ {
+  "id": "t088",
+  "concept": "joni mitchell",
+  "text": "in 2007, Joni Mitchell released a record.",
+  "kind": "true",
+  "fever_id": 107119,
+  "in_dev55": false,
+  "dup_cluster": "ft088"
+ },
+ {
+  "id": "t089",
+  "concept": "steve wozniak",
+  "text": "A microcomputer was designed by Steve Wozniak.",
+  "kind": "true",
+  "fever_id": 34677,
+  "in_dev55": false,
+  "dup_cluster": "ft089"
+ },
+ {
+  "id": "t090",
+  "concept": "kleshas (buddhism)",
+  "text": "Kleshas are part of Buddhism.",
+  "kind": "true",
+  "fever_id": 48204,
+  "in_dev55": false,
+  "dup_cluster": "ft090"
+ },
+ {
+  "id": "t091",
+  "concept": "dan trachtenberg",
+  "text": "Dan Trachtenberg is an American podcast host.",
+  "kind": "true",
+  "fever_id": 42024,
+  "in_dev55": false,
+  "dup_cluster": "ft091"
+ },
+ {
+  "id": "t092",
+  "concept": "calcaneal spur",
+  "text": "Calcaneal spurs can be detected.",
+  "kind": "true",
+  "fever_id": 216578,
+  "in_dev55": false,
+  "dup_cluster": "ft092"
+ },
+ {
+  "id": "t093",
+  "concept": "zoey deutch",
+  "text": "Zoey Deutch did not portray Stephanie Fleming in Why Him?",
+  "kind": "true",
+  "fever_id": 102784,
+  "in_dev55": false,
+  "dup_cluster": "ft093"
+ },
+ {
+  "id": "t094",
+  "concept": "kyra sedgwick",
+  "text": "Kyra Sedgwick received a Golden Globe Award.",
+  "kind": "true",
+  "fever_id": 185999,
+  "in_dev55": false,
+  "dup_cluster": "ft094"
+ },
+ {
+  "id": "t095",
+  "concept": "romani people",
+  "text": "The Romani people's migrations have taken them to Canada.",
+  "kind": "true",
+  "fever_id": 55468,
+  "in_dev55": false,
+  "dup_cluster": "ft095"
+ },
+ {
+  "id": "t096",
+  "concept": "youtube",
+  "text": "Youtube was ranked by Alexa Internet.",
+  "kind": "true",
+  "fever_id": 70276,
+  "in_dev55": false,
+  "dup_cluster": "ft096"
+ },
+ {
+  "id": "t097",
+  "concept": "the hurt locker",
+  "text": "The Hurt Locker is a war thriller about an Iraq War Explosive Ordnance Disposal Team.",
+  "kind": "true",
+  "fever_id": 187209,
+  "in_dev55": false,
+  "dup_cluster": "ft097"
+ },
+ {
+  "id": "t098",
+  "concept": "pbs",
+  "text": "PBS is a public broadcaster.",
+  "kind": "true",
+  "fever_id": 215267,
+  "in_dev55": false,
+  "dup_cluster": "ft098"
+ },
+ {
+  "id": "t099",
+  "concept": "japan",
+  "text": "Japan is in East Asia.",
+  "kind": "true",
+  "fever_id": 156020,
+  "in_dev55": false,
+  "dup_cluster": "ft099"
+ },
+ {
+  "id": "t100",
+  "concept": "richard dawkins",
+  "text": "Richard Dawkins makes regular radio appearances.",
+  "kind": "true",
+  "fever_id": 226121,
+  "in_dev55": false,
+  "dup_cluster": "ft100"
+ },
+ {
+  "id": "t101",
+  "concept": "amgtv",
+  "text": "AMGTV is a network.",
+  "kind": "true",
+  "fever_id": 124339,
+  "in_dev55": false,
+  "dup_cluster": "ft101"
+ },
+ {
+  "id": "t102",
+  "concept": "chinatown (1974 film)",
+  "text": "Chinatown's screenplay was by Robert Towne.",
+  "kind": "true",
+  "fever_id": 225790,
+  "in_dev55": false,
+  "dup_cluster": "ft102"
+ },
+ {
+  "id": "t103",
+  "concept": "derek hough",
+  "text": "Derek Hough starred in an independent dance film.",
+  "kind": "true",
+  "fever_id": 60307,
+  "in_dev55": false,
+  "dup_cluster": "ft103"
+ },
+ {
+  "id": "t104",
+  "concept": "manchester by the sea (film)",
+  "text": "Manchester by the Sea is a film that was premiered at the Sundance Film Festival.",
+  "kind": "true",
+  "fever_id": 108734,
+  "in_dev55": false,
+  "dup_cluster": "ft104"
+ },
+ {
+  "id": "t105",
+  "concept": "hammer film productions",
+  "text": "Hammer Film Productions has worked on horror movies.",
+  "kind": "true",
+  "fever_id": 169313,
+  "in_dev55": false,
+  "dup_cluster": "ft105"
+ },
+ {
+  "id": "t106",
+  "concept": "roberto orci",
+  "text": "Roberto Orci worked.",
+  "kind": "true",
+  "fever_id": 48242,
+  "in_dev55": false,
+  "dup_cluster": "ft106"
+ },
+ {
+  "id": "t107",
+  "concept": "brie larson",
+  "text": "Brie Larson is an actress.",
+  "kind": "true",
+  "fever_id": 21404,
+  "in_dev55": false,
+  "dup_cluster": "ft107"
+ },
+ {
+  "id": "t108",
+  "concept": "pakistan movement",
+  "text": "The Pakistan Movement was the result of a series of transformations in Pakistani society, government, and ways of thinking.",
+  "kind": "true",
+  "fever_id": 217170,
+  "in_dev55": false,
+  "dup_cluster": "ft108"
+ },
+ {
+  "id": "t109",
+  "concept": "sejong the great",
+  "text": "Sejong the Great was a Korean king.",
+  "kind": "true",
+  "fever_id": 226853,
+  "in_dev55": false,
+  "dup_cluster": "ft109"
+ },
+ {
+  "id": "t110",
+  "concept": "zac efron",
+  "text": "Zac Efron acts and sings.",
+  "kind": "true",
+  "fever_id": 13773,
+  "in_dev55": false,
+  "dup_cluster": "ft110"
+ },
+ {
+  "id": "t111",
+  "concept": "despicable me 2",
+  "text": "Despicable Me 2 was written by Cinco Paul.",
+  "kind": "true",
+  "fever_id": 202765,
+  "in_dev55": false,
+  "dup_cluster": "ft111"
+ },
+ {
+  "id": "t112",
+  "concept": "franchising",
+  "text": "Franchising is regulated in thirty-three countries, including Australia and the United States.",
+  "kind": "true",
+  "fever_id": 179317,
+  "in_dev55": false,
+  "dup_cluster": "ft112"
+ },
+ {
+  "id": "t113",
+  "concept": "visigoths",
+  "text": "The culture of their Hispano-Roman subjects was gradually adopted by the Visigoths.",
+  "kind": "true",
+  "fever_id": 109431,
+  "in_dev55": false,
+  "dup_cluster": "ft113"
+ },
+ {
+  "id": "t114",
+  "concept": "island records",
+  "text": "Island Records was founded in the late 1950s.",
+  "kind": "true",
+  "fever_id": 228334,
+  "in_dev55": false,
+  "dup_cluster": "ft114"
+ },
+ {
+  "id": "t115",
+  "concept": "kenneth lonergan",
+  "text": "Kenneth Lonergan date of birth is October 16, 1962.",
+  "kind": "true",
+  "fever_id": 184066,
+  "in_dev55": false,
+  "dup_cluster": "ft115"
+ },
+ {
+  "id": "t116",
+  "concept": "andrew carnegie",
+  "text": "Andrew Carnegie has a 1889 article proclaiming \"The Gospel of Wealth\".",
+  "kind": "true",
+  "fever_id": 207669,
+  "in_dev55": false,
+  "dup_cluster": "ft116"
+ },
+ {
+  "id": "t117",
+  "concept": "gray matters",
+  "text": "Gray Matters was released in 2006.",
+  "kind": "true",
+  "fever_id": 18222,
+  "in_dev55": false,
+  "dup_cluster": "ft117"
+ },
+ {
+  "id": "t118",
+  "concept": "the king and i",
+  "text": "The King and I is based on Anna and the King of Siam.",
+  "kind": "true",
+  "fever_id": 172290,
+  "in_dev55": false,
+  "dup_cluster": "ft118"
+ },
+ {
+  "id": "t119",
+  "concept": "superhuman",
+  "text": "Superhuman abilities may result from human enhancement by nanotechnology.",
+  "kind": "true",
+  "fever_id": 60038,
+  "in_dev55": false,
+  "dup_cluster": "ft119"
+ },
+ {
+  "id": "t120",
+  "concept": "paul von hindenburg",
+  "text": "Paul von Hindenburg was a military officer.",
+  "kind": "true",
+  "fever_id": 82751,
+  "in_dev55": false,
+  "dup_cluster": "ft120"
+ },
+ {
+  "id": "t121",
+  "concept": "stadium arcadium",
+  "text": "Stadium Arcadium came out at least by 2009.",
+  "kind": "true",
+  "fever_id": 209097,
+  "in_dev55": false,
+  "dup_cluster": "ft121"
+ },
+ {
+  "id": "t122",
+  "concept": "the dark tower (2017 film)",
+  "text": "The Dark Tower is a fantasy film.",
+  "kind": "true",
+  "fever_id": 130717,
+  "in_dev55": false,
+  "dup_cluster": "ft122"
+ },
+ {
+  "id": "t123",
+  "concept": "mirny (sloop-of-war)",
+  "text": "The Mirny (sloop-of-war) was commanded by a person.",
+  "kind": "true",
+  "fever_id": 8550,
+  "in_dev55": false,
+  "dup_cluster": "ft123"
+ },
+ {
+  "id": "t124",
+  "concept": "the sugarland express",
+  "text": "The 1974 American dramatic crime film The Sugarland Express was directed by Steven Spielberg.",
+  "kind": "true",
+  "fever_id": 203623,
+  "in_dev55": false,
+  "dup_cluster": "ft124"
+ },
+ {
+  "id": "t125",
+  "concept": "wedding of charles, prince of wales, and lady diana spencer",
+  "text": "Prince Charles and Lady Diana were married in July 1981.",
+  "kind": "true",
+  "fever_id": 199260,
+  "in_dev55": false,
+  "dup_cluster": "ft125"
+ },
+ {
+  "id": "t126",
+  "concept": "shawn carlson",
+  "text": "Shawn Carlson is American.",
+  "kind": "true",
+  "fever_id": 786,
+  "in_dev55": false,
+  "dup_cluster": "ft126"
+ },
+ {
+  "id": "t127",
+  "concept": "kgb",
+  "text": "The KGB was a service that operated under the military.",
+  "kind": "true",
+  "fever_id": 156514,
+  "in_dev55": false,
+  "dup_cluster": "ft127"
+ },
+ {
+  "id": "t128",
+  "concept": "ms-13",
+  "text": "MS-13 is a part of the Mexican Cartel.",
+  "kind": "true",
+  "fever_id": 117398,
+  "in_dev55": false,
+  "dup_cluster": "ft128"
+ },
+ {
+  "id": "t129",
+  "concept": "sweet home alabama",
+  "text": "Sweet Home Alabama is a song that Lynyrd Skynyrd wrote in reply to Neil Young's song Alabama.",
+  "kind": "true",
+  "fever_id": 199807,
+  "in_dev55": false,
+  "dup_cluster": "ft129"
+ },
+ {
+  "id": "t130",
+  "concept": "toy story 2",
+  "text": "Toy Story 2 is a computer-animated movie.",
+  "kind": "true",
+  "fever_id": 72250,
+  "in_dev55": false,
+  "dup_cluster": "ft130"
+ },
+ {
+  "id": "t131",
+  "concept": "alexandria",
+  "text": "Alexandria serves 80% of Egypt's imports and exports.",
+  "kind": "true",
+  "fever_id": 209354,
+  "in_dev55": false,
+  "dup_cluster": "ft131"
+ },
+ {
+  "id": "t132",
+  "concept": "michael hutchence",
+  "text": "Sydney is where Michael Hutchence died.",
+  "kind": "true",
+  "fever_id": 7330,
+  "in_dev55": false,
+  "dup_cluster": "ft132"
+ },
+ {
+  "id": "t133",
+  "concept": "caroline kennedy",
+  "text": "Caroline Kennedy is Ambassador to Japan.",
+  "kind": "true",
+  "fever_id": 27589,
+  "in_dev55": false,
+  "dup_cluster": "ft133"
+ },
+ {
+  "id": "t134",
+  "concept": "excuse my french (album)",
+  "text": "The debut album of a hip hop recording artist is Excuse My French.",
+  "kind": "true",
+  "fever_id": 208422,
+  "in_dev55": false,
+  "dup_cluster": "ft134"
+ },
+ {
+  "id": "t135",
+  "concept": "tremont street subway",
+  "text": "Five closely spaced stations was originally served by the Tremont Street Subway.",
+  "kind": "true",
+  "fever_id": 112471,
+  "in_dev55": false,
+  "dup_cluster": "ft135"
+ },
+ {
+  "id": "t136",
+  "concept": "murda beatz",
+  "text": "Murda Beatz is a hip hop record producer.",
+  "kind": "true",
+  "fever_id": 13757,
+  "in_dev55": false,
+  "dup_cluster": "ft136"
+ },
+ {
+  "id": "t137",
+  "concept": "garden state (film)",
+  "text": "Garden State was an official selection.",
+  "kind": "true",
+  "fever_id": 11404,
+  "in_dev55": false,
+  "dup_cluster": "ft137"
+ },
+ {
+  "id": "t138",
+  "concept": "weekly idol",
+  "text": "Weekly Idol is hosted by Jeong Hyeong-don.",
+  "kind": "true",
+  "fever_id": 215476,
+  "in_dev55": false,
+  "dup_cluster": "ft138"
+ },
+ {
+  "id": "t139",
+  "concept": "jennifer lopez",
+  "text": "Jennifer Lopez was married.",
+  "kind": "true",
+  "fever_id": 46333,
+  "in_dev55": false,
+  "dup_cluster": "ft139"
+ },
+ {
+  "id": "t140",
+  "concept": "near-earth object",
+  "text": "A near-Earth object is shorted to NEO.",
+  "kind": "true",
+  "fever_id": 55733,
+  "in_dev55": false,
+  "dup_cluster": "ft140"
+ },
+ {
+  "id": "t141",
+  "concept": "hundred years' war",
+  "text": "The Hundred Years' War includes a phase.",
+  "kind": "true",
+  "fever_id": 143094,
+  "in_dev55": false,
+  "dup_cluster": "ft141"
+ },
+ {
+  "id": "t142",
+  "concept": "beaverton, oregon",
+  "text": "Beaverton, Oregon is a city in Washington County.",
+  "kind": "true",
+  "fever_id": 54679,
+  "in_dev55": false,
+  "dup_cluster": "ft142"
+ },
+ {
+  "id": "t143",
+  "concept": "harris jayaraj",
+  "text": "Harris Jayaraj was born in January of 1975.",
+  "kind": "true",
+  "fever_id": 14112,
+  "in_dev55": false,
+  "dup_cluster": "ft143"
+ },
+ {
+  "id": "t144",
+  "concept": "dodgeball-colon- a true underdog story",
+  "text": "DodgeBall: A True Underdog Story's writer and director was Rawson Marshall.",
+  "kind": "true",
+  "fever_id": 74555,
+  "in_dev55": false,
+  "dup_cluster": "ft144"
+ },
+ {
+  "id": "t145",
+  "concept": "rick ross",
+  "text": "Rick Ross created the Maybach Music Group.",
+  "kind": "true",
+  "fever_id": 71153,
+  "in_dev55": false,
+  "dup_cluster": "ft145"
+ },
+ {
+  "id": "t146",
+  "concept": "chris kyle",
+  "text": "Chris Kyle was a sniper.",
+  "kind": "true",
+  "fever_id": 31631,
+  "in_dev55": false,
+  "dup_cluster": "ft146"
+ },
+ {
+  "id": "t147",
+  "concept": "glee.com",
+  "text": "Glee.com was launched by Community Connect Inc. in 2007.",
+  "kind": "true",
+  "fever_id": 203998,
+  "in_dev55": false,
+  "dup_cluster": "ft147"
+ },
+ {
+  "id": "t148",
+  "concept": "glow (tv series)",
+  "text": "GLOW (TV series) is incapable of being released.",
+  "kind": "true",
+  "fever_id": 210206,
+  "in_dev55": false,
+  "dup_cluster": "ft148"
+ },
+ {
+  "id": "t149",
+  "concept": "blank space",
+  "text": "Blank Space is on a top 10 list in the country United Kingdom.",
+  "kind": "true",
+  "fever_id": 227088,
+  "in_dev55": false,
+  "dup_cluster": "ft149"
+ }
+]
