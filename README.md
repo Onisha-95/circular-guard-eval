@@ -32,7 +32,7 @@ and tested with:
 
 | Folder / file | What it is |
 |---|---|
-| `core/guard1_hallucination.py`, `config.py` | The guard under study (Eq. 1 in the paper) and its thresholds |
+| `core/guard1_hallucination.py`, `config.py` | The guard under study (its decision rule, Section 3 of the paper) and its thresholds |
 | `core/hybrid_extractor.py`, `core/extraction_engine.py`, `core/parsers/` | KB construction: KCA's LLM proposals and entailment gate, the rule-based extraction, the .pptx reader |
 | `exp/build_kbs.py` | Builds the course KB arms from the slides (`--regate-model minicheck:flan-t5-large` for the MiniCheck arm) |
 | `exp/build_fever.py` | Builds the FEVER test sets and KBs |
