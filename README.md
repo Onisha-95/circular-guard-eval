@@ -1,6 +1,6 @@
 # When AI Evaluates Itself: Code and Data
 
-Code, data, and per-item results for the paper *"When AI Evaluates Itself: Circular Evaluation Bias and Hidden False Alarms in Hallucination Guards for AI Tutoring Systems"*.
+Code, data, and per-item results for the paper *"When AI Evaluates Itself: Circular Evaluation Bias in Measuring the Reliability of Hallucination Guards for AI Tutoring Systems"*.
 
 The paper studies how the reliability of a knowledge-base (KB) hallucination guard in
 an AI tutor is **measured**. It does not propose a new guard. One guard is held fixed
