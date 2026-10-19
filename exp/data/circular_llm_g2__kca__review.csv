@@ -1,0 +1,113 @@
+id,concept,source_fact,llm_error,is_false_given_source (y/n)
+m000,while loop statement,A while loop (statement) has the following syntax: while (condition): statement block //loop body,A while loop (statement) has the following syntax: while (condition): statement block //loop body is executed only once.,y
+m001,for loops,These loops are better suited to traverse a collection of elements.,These loops are better suited to skip a collection of elements.,y
+m002,do-while loops,WHILE loops and DO-WHILE loops differ on when their condition is checked,WHILE loops and FOR loops differ on when their condition is checked,y
+m003,selection statements,if – block of code executes if a Boolean expression is true.,if – block of code executes if a Boolean expression is false.,y
+m005,the return keyword,"If a method returns no data, it doesn’t need a return keyword.","If a method returns data, it doesn’t need a return keyword.",y
+m007,the constructor,This is a special method,This is a regular method,y
+m008,scope – java,"In Java, scope is determined by the curly braces","In Java, scope is determined by the parentheses.",y
+m009,arrays class,"Java has an Arrays class, with lots of helpful methods to interact with arrays.","Java has a Lists class, with lots of helpful methods to interact with arrays.",y
+m010,converting input to numbers,input() always returns strings.,input() always returns integers.,y
+m017,ipv4 vs. ipv6,An example of an IPv4 address is 192.168.1.1.,An example of an IPv6 address is 192.168.1.1.,y
+m018,isp - internet service provider,Xfinity is an example of an Internet Service Provider.,Xfinity is an example of a web browser.,y
+m019,computer networking,Stand alone computers can do amazing things.,Stand alone computers can do nothing.,y
+m020,network types,"LAN (Local Area Network) gives of group of computers in close proximity to each other the ability to share resources like files, printers, games and other applications.","LAN (Local Area Network) gives a group of computers in different parts of the world the ability to share resources like files, printers, games and other applications.",y
+m021,symmetric encryption,"Examples: AES (Advanced Encryption Standard), DES (Data Encryption Standard), Blowfish.","Examples: AES (Advanced Encryption Standard), DES (Data Encryption Standard), RSA.",y
+m022,types of hackers,White Hat Hackers are ethical hackers who work with organizations to improve cybersecurity.,White Hat Hackers are malicious hackers who work against organizations to improve cybersecurity.,y
+m023,ram - random access memory,Think of it this way: It’s how much the computer can think about at once.,Think of it this way: It’s how much the computer can store permanently at once.,y
+m024,gpu - graphics processing unit,"Drawing games, rendering video, doing 3D modeling all requires the computer to be able to draw things.","Drawing games, rendering text, doing 3D modeling all requires the computer to be able to draw things.",n
+m027,pattern recognition,We observe patterns everywhere in our daily lives.,We observe patterns nowhere in our daily lives.,y
+m031,database languages,The primary database languages include:,The primary database languages are limited to only spreadsheets.,y
+m032,data definition language (ddl),"CREATE: to create a database and its objects like (table, index, views, store procedure, function, and triggers)","CREATE: to delete a database and its objects like (table, index, views, store procedure, function, and triggers)",y
+m033,types of dbms,"Examples: MySQL, Oracle, Microsoft SQL Server and Postgre SQL.","Examples: MySQL, Oracle, Microsoft Word and Postgre SQL.",y
+m035,html links,Attributes are used to provide additional information about HTML elements.,Attributes are used to provide additional information about HTML documents.,n
+m036,html headings,HTML headings are defined with the <h1> to <h6> tags.,HTML headings are defined with the <p1> to <p6> tags.,y
+m037,disadvantages of robots,It needs a high supply of power.,It needs a low supply of power.,y
+m041,match vs switch,Case datatypes can be of any type.,Case datatypes can only be of one type.,y
+m042,example of continue,if (number == 5 or number == 6),if (number == 5 and number == 6),y
+m043,method definition,It’s part of the top line of the method.,It’s part of the bottom line of the method.,y
+m045,resizing arrays,"You’ll have to create a new array with the new size, and then copy over the contents of the old array.","You’ll have to create a new array with the old size, and then copy over the contents of the new array.",y
+m046,string multiplication,myString=“ab” * 3 * 2,myString=“ab” * 2 * 3,n
+m051,domain name system (dns),Most sites use .com (company).,Most sites use.org (company).,y
+m052,internet protocols,DNS - Domain Name System,DNS - Dynamic Name System,y
+m053,types of artificial intelligence,"Artificial intelligence can be organized in several ways, depending on stages of development or actions being performed.","Artificial intelligence can be organized in only one way, depending on stages of development or actions being performed.",y
+m055,boolean variables and comparisons,Boolean variables hold either True or False.,Boolean variables hold either True or Zero.,y
+m056,nested conditionals,Caution: Too many nested levels can make code hard to read—strive for clarity.,Caution: Too few nested levels can make code hard to read—strive for clarity.,n
+m057,controlling loops – break and continue,break exits the loop immediately.,continue exits the loop immediately.,y
+m058,the for loop,The for Loop iterates over items in a sequence.,The for Loop iterates over items outside a sequence.,y
+m059,the while loop,Incrementing count is one way to ensure the loop eventually ends.,Decrementing count is one way to ensure the loop eventually ends.,n
+m060,the if statement,Remember to indent the code (usually 4 spaces) inside the if block.,Remember to indent the code (usually 4 spaces) outside the if block.,y
+m061,the if-elif-else statement,"If the grade is greater than or equal to 90, it prints 'A'.","If the grade is less than or equal to 90, it prints 'A'.",y
+m062,using range() with for,"range(start, stop) is start inclusive, stop exclusive.","range(start, stop) is start exclusive, stop inclusive.",y
+m063,nested loops,A loop inside another loop.,A conditional statement inside another loop.,y
+m064,data types in python,"int: Whole numbers (e.g., 10, -5).","int: Decimal numbers (e.g., 10, -5).",y
+m065,dynamic typing in python,Faster to develop prototypes.,Slower to develop prototypes.,y
+m066,working with integers and floats,"Integer Arithmetic includes + (add), - (subtract), * (multiply), // (floor division), ** (exponent).","Integer Arithmetic includes + (add), - (subtract), * (multiply), % (modulus), ** (exponent).",n
+m067,scope,Global scope variables can be accessed throughout a module.,Local scope variables can be accessed throughout a module.,y
+m068,reading input with input(),You can provide text inside input() to guide the user on what to type.,You can provide text inside print() to guide the user on what to type.,n
+m069,slicing,print(s[1:4])  # 'yth',print(s[1:4])  # 'abc',y
+m070,string variables in detail,String creation can be done using single quotes 'hello' or double quotes 'hello'.,String creation can be done using single quotes 'hello' or triple quotes 'hello'.,n
+m071,using functions,AVERAGE() finds the mean.,MEDIAN() finds the mean.,y
+m072,naming conventions,Avoid starting with digits or using special characters (except _).,Avoid starting with letters or using special characters (except _).,y
+m073,logical operators (and and or),"The logical AND expression a AND b is True if both a and b are True, and False otherwise.","The logical AND expression a AND b is True if either a or b are True, and False otherwise.",y
+m074,logical operators (not),"If a is False, then NOT a is True","If a is True, then NOT a is True",y
+m075,comparison operators,Greater than or Equal (>=),Less than or Equal (<=),n
+m076,arithmetic operators (reminder),Note the + sign can also be used for concatenation,Note the - sign can also be used for concatenation,y
+m077,math operators – floor division,Python: We have a floor division operator,Python: We have a ceiling division operator,y
+m078,converting between types,Pretty much anything can be converted to a string.,Pretty much anything can be converted to a number.,y
+m079,objects,"An object might represent a particular dog, employee, student, etc.","An object might represent a particular city, planet, galaxy, etc.",n
+m080,classes,"Classes follow a template, and have a name.","Classes follow a template, and have a function.",y
+m083,"object identity, state and behavior",An object has a unique identity as it represents one entity.,An object has multiple identities as it represents one entity.,y
+m084,designing the constructor,Are all Dogs born with the same rabid state? (yes – they are all born non-rabid),Are all Dogs born with the same rabid state? (yes – they are all born rabid),n
+m085,the constructor – initializing fields,"d1 = Dog(45, name = 'Charlie')","d1 = Cat(45, name = 'Charlie')",y
+m086,defining methods,It’s at the top line.,It’s at the bottom line.,y
+m087,method parameters,def no_parameters():,def one_parameter():,n
+m088,method optional parameters,The method print_name has a default value of 'Alice',The method print_name has a default value of 'Bob'.,y
+m089,boolean expressions,Specific expressions can be evaluated using truth tables.,Specific expressions can be evaluated using flowcharts.,n
+m090,sentinel values,A sentinel value is a special input value that represents the end of inputs from the user.,A sentinel value is a special input value that represents the start of inputs from the user.,y
+m091,input validation,Can issue error messages for invalid data.,Can issue error messages for valid data.,n
+m092,infinite loops,This loop isn’t making a lot of progress!,This loop is making a lot of progress!,y
+m093,multi-dimensional arrays,"In Python, we were able to put lists inside of lists.","In Python, we were able to put strings inside of lists.",n
+m094,comparing arrays,"If you want to compare if two arrays have the same contents, much like with strings, using == will not work.","If you want to compare if two arrays have the same contents, much like with strings, using == will work.",y
+m095,searching arrays,"If you want to check if a particular element is inside an array, you’ll need to do it manually.","If you want to check if a particular element is inside an array, you’ll need to use a built-in function.",y
+m096,slicing arrays,The examples below are equivalent.,The examples below are mutually exclusive.,n
+m098,decomposition,Then you combine different sections together to complete the document.,Then you separate different sections apart to complete the document.,y
+m100,pattern recognition in computational thinking,Patterns help in creating an abstraction of a concept that can be used over and over again without being similar in every instance of the application.,Patterns help in creating a duplication of a concept that can be used over and over again with being identical in every instance of the application.,y
+m107,what is artificial intelligence?,"Artificial intelligence is a field of science concerned with building computers and machines that can reason, learn, and act in such a way that would normally require human intelligence or that involves data whose scale exceeds what humans can analyze.","Artificial intelligence is a field of science concerned with building computers and machines that can reason, learn, and act in such a way that would normally require animal intelligence or that involves data whose scale exceeds what humans can analyze.",y
+m108,how does ai work?,AI systems learn and improve through exposure to vast amounts of data.,AI systems learn and improve through exposure to minimal amounts of data.,y
+m109,classification,The part of a website that the user interacts directly is termed as front end.,The part of a website that the user interacts directly is termed as back end.,y
+m110,what is a network device?,"Examples include computers, cell phones, and gaming consoles.","Examples include typewriters, landline phones, and calculators.",y
+m111,public vs. private ip addresses,Public IP: Routable over the Internet; assigned by ISPs.,Public IP: Routable over the Internet; assigned by device manufacturers.,y
+m112,ip – internet protocol,"IP contains protocols like TCP, UDP, ICMP, etc.","IP is contained by protocols like TCP, UDP, ICMP, etc.",y
+m113,http vs. https,HTTPS uses port 443.,HTTPS uses port 80.,y
+m114,dns – domain name system,DNS is a protocol which allows us to convert names (Domain names) that are easy to remember into IP addresses.,DNS is a protocol which allows us to convert IP addresses into domain names that are easy to remember.,n
+m115,packets,"Much like how humans speak in sentences and pause between them, computers speak in packets.","Much like how humans speak in sentences and pause between them, computers speak in paragraphs.",y
+m116,routing,Your ISP is likely different from Wikipedia’s ISP,Your ISP is likely the same as Wikipedia’s ISP,y
+m117,networking protocol layers (osi/tcp-ip models),"OSI Model (7 layers): Physical, Data Link, Network, Transport, Session, Presentation, Application.","OSI Model (6 layers): Physical, Data Link, Network, Transport, Session, Application.",y
+m118,udp,"UDP is used in applications such as video streaming, online gaming, and DNS.","UDP is used in applications such as file transfers, email, and DNS.",n
+m119,modem,"If your house uses DSL, you have a DSL modem.","If your house uses DSL, you have a cable modem.",y
+m120,encryption,Encryption is the process by which a readable message is converted to an unreadable form to prevent unauthorized parties from reading it.,Encryption is the process by which an unreadable message is converted to a readable form to prevent unauthorized parties from reading it.,y
+m121,types of encryption,Symmetric Encryption uses a single secret key for both encryption and decryption.,Symmetric Encryption uses two separate secret keys for both encryption and decryption.,y
+m122,asymmetric encryption,"Examples: RSA (Rivest-Shamir-Adleman), ECC (Elliptic Curve Cryptography).","Examples: AES (Advanced Encryption Standard), ECC (Elliptic Curve Cryptography).",y
+m123,hashing,"Examples: SHA-256 (Secure Hash Algorithm), MD5 (Message Digest Algorithm – outdated).","Examples: SHA-256 (Message Digest Algorithm), MD5 (Secure Hash Algorithm – outdated).",y
+m124,phishing,Types of Phishing include Spear Phishing.,Types of Phishing include Spear Fishing.,y
+m125,social engineering in the workplace,"Techniques include impersonation, tailgating, and baiting.","Techniques include encryption, tailgating, and baiting.",y
+m126,firewalls,Your home router that your ISP gave you likely has access rules or firewall rules you can use.,Your home router that your ISP gave you likely has virus scans or antivirus rules you can use.,y
+m127,cpu - central processing unit,Typical CPUs are Arm.,Typical GPUs are Arm.,y
+m128,storage devices,"Typically, sizes are in TB.","Typically, sizes are in GB.",n
+m129,what is an operating system (os)?,An OS is the core software that manages all hardware and software resources in a computer.,An OS is the core software that manages all software resources and ignores all hardware resources in a computer.,y
+m130,functions of an operating system,"Your web browser (Chrome, Firefox, Safari, Edge) and PowerPoint (showing this presentation).","Your word processor (Word, Google Docs) and PowerPoint (showing this presentation).",n
+m131,logic gates,A computer has a CPU.,A computer is a CPU.,y
+m132,how an and gate works,"In order to pass this class, you must pass all the assignments AND pass all the tests.","In order to pass this class, you must pass all the assignments OR pass all the tests.",y
+m133,counting in binary,"This works the same way as decimal, but there are only 2 digits.","This works the same way as decimal, but there are only 10 digits.",y
+m134,decimal,Because we have 10 fingers.,Because we have 12 fingers.,y
+m135,what is a dbms?,DBMS minimizes data redundancy.,DBMS maximizes data redundancy.,y
+m136,data manipulation language (dml),INSERT: insert data into a table,DELETE: insert data into a table,y
+m137,advantages of dbms,"A DBMS allows for the organization and storage of data in a structured manner, making it easy to retrieve and query the data as needed.","A DBMS allows for the organization and storage of code in a structured manner, making it easy to retrieve and query the data as needed.",y
+m138,what is html?,"HTML elements label pieces of content such as 'this is a heading', 'this is a paragraph', 'this is a link', etc.","HTML elements label pieces of content such as 'this is a link', 'this is an image', 'this is a heading', etc.",n
+m139,html images,"<img src=""w3schools.jpg"" alt=""W3Schools.com"" width=""104"" height=""142"">","<img src=""w3schools.jpg"" alt=""Wikipedia.com"" width=""104"" height=""142"">",y
+m140,what is css?,"CSS describes how HTML elements are to be displayed on screen, paper, or in other media","CSS describes how JavaScript elements are to be displayed on screen, paper, or in other media",y
+m141,what is javascript?,It can update and change both HTML and CSS.,It can update and change only HTML and CSS.,y
+m142,what is cloud computing?,"In Cloud Computing, the word cloud is used as a metaphor for 'the Internet.'","In Cloud Computing, the word cloud is used as a metaphor for 'the Network.'",n
+m143,benefits of cloud computing,Access to automatic updates,Access to manual updates,y
+m144,service models,Organizations use their own platforms and applications within a service provider's infrastructure.,Organizations use a service provider's platforms and applications within their own infrastructure.,y

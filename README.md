@@ -26,6 +26,9 @@ and tested with:
 | False alarms on the 136 correct statements (KCA) | 28.7% (RoBERTa); 7.4-11.0% (LLM checkers); 67.6-72.8% (MiniCheck, HHEM) |
 | KCA vs rule-based KB, paired | +3.3 points, p = 0.50; not significant for any checker |
 | ProgMiscon (KCA KB): AUROC, misconception vs its correction | 0.48-0.54 for the NLI-based guards (chance); 0.69-0.70 for LLM checkers |
+| LLM-written circular errors, two generators, hand-checked (RoBERTa, KCA / rule-based) | gpt-4o-mini +25.0 / +19.2, Llama-3.3-70B +25.6 / +24.0 points; HHEM -43 to -52 |
+| Second annotator (TA) on 60 LLM-written edits | 88.3% agreement, Cohen's kappa 0.74, Gwet's AC1 0.79 |
+| Published guards scored fact by fact (most favourable setting) | FCR still 52.9-61.8% (MiniCheck), 82.4-84.6% (HHEM) |
 | Oracle KB (exact correction stored): template vs expert misconception | RoBERTa 100% vs 78.8% (+21.2, p < 0.001); GPT-6 Sol 100% vs 92.9% (p = 0.031) |
 
 ## Layout
@@ -42,6 +45,10 @@ and tested with:
 | `exp/run_guards.py`, `exp/run_guards.sh`, `exp/analyze_guards.py` | The two published guards on the same KBs and test sets |
 | `exp/fetch_progmiscon.py`, `exp/run_progmiscon.sh`, `exp/analyze_progmiscon.py` | ProgMiscon test: download, runs, paired and coverage analysis |
 | `exp/make_progmiscon_oracle.py` | Oracle-KB control (ProgMiscon corrections as the KB; expert misconceptions vs template negations) |
+| `exp/make_circular_llm.py`, `exp/run_circular_llm.sh`, `exp/run_circular_llm_g2.sh`, `exp/analyze_circular_llm.py` | Circular errors written by an LLM (small false edits of the same facts) with two generators (gpt-4o-mini: `circular_llm`; Llama-3.3-70B: `circular_llm_g2`), their hand-check files (`exp/data/circular_llm*__review.csv`; rows marked n are excluded), runs, and analysis |
+| `exp/review_agreement.py` | Blind second-annotator sample (`exp/data/circular_llm_second_annotator.csv`) and agreement statistics |
+| `exp/run_guards_perfact.py`, `exp/run_guards_perfact_all.sh` | MiniCheck and HHEM scored fact by fact |
+| `exp/run_chunk_verifier.py` | Chunk-level support verifier, both premise orders (Appendix B) |
 | `exp/run_frontier.sh` | Frontier LLM checker (GPT-6 Sol) on the course, ProgMiscon, and oracle tests |
 | `exp/run_all.sh` | All course and FEVER experiments in order; resumable |
 | `exp/analyze.py` | Statistics (Wilson CIs, exact McNemar, AUROC, catch at FCR <= 5%), tables, ROC figure |
@@ -52,7 +59,8 @@ and tested with:
 | `exp/cache/` | Cached LLM answers (hash keys only), so reruns are free |
 | `experiments/rebuild_log_*.json` | KCA audit trail: every LLM-proposed claim, accepted or rejected |
 | `data/annotation/` | The two annotators' reviews of the correct statements |
-| `scripts/` | Agreement statistics, figure scripts (`make_paper_figures.py`, `make_overview_figure.py`) |
+| `scripts/` | Agreement statistics, figure scripts (`make_paper_figures.py`, `make_overview_figure.py`), anonymization for review |
+| `make_release.sh` | Builds this release from the working folder and checks for API keys |
 
 ## Setup
 
@@ -72,6 +80,12 @@ bash exp/run_all.sh                     # course KBs and FEVER; about 12-16 h on
 bash exp/run_guards.sh                  # MiniCheck and HHEM
 bash exp/run_progmiscon.sh              # ProgMiscon and the oracle KB (downloads ProgMiscon first)
 bash exp/run_frontier.sh                # GPT-6 Sol (about $3 on OpenRouter)
+bash exp/run_circular_llm.sh            # LLM-written circular errors, gpt-4o-mini (under $1); uses the review CSVs
+bash exp/run_circular_llm_g2.sh         # second generator, Llama-3.3-70B
+python3 exp/analyze_circular_llm.py circular_llm_g2
+python3 exp/review_agreement.py agree   # agreement with the second annotator
+bash exp/run_guards_perfact_all.sh      # published guards fact by fact (local, slow)
+for kb in kca baseline_rule; do python3 exp/run_chunk_verifier.py --kb $kb; python3 exp/run_chunk_verifier.py --kb $kb --order claim_first; done
 python3 exp/analyze.py --accepted-only --out exp/results/accepted
 python3 exp/analyze_guards.py --accepted-only
 python3 exp/analyze_progmiscon.py

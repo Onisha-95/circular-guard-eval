@@ -1,0 +1,39 @@
+{
+ "kb": "kca",
+ "guard": "MiniCheck-Flan-T5-Large",
+ "mode": "per-fact max",
+ "catch": {
+  "k": 136,
+  "n": 150,
+  "rate": 90.7,
+  "ci": [
+   84.9,
+   94.4
+  ]
+ },
+ "fcr": {
+  "k": 84,
+  "n": 136,
+  "rate": 61.8,
+  "ci": [
+   53.4,
+   69.5
+  ]
+ },
+ "auroc": 0.798,
+ "catch_at_fcr5": 42.0,
+ "gap_circular": {
+  "n": 112,
+  "independent": 91.1,
+  "circular": 81.2,
+  "gap": -9.8,
+  "p": 0.043285250663757324
+ },
+ "gap_circular_llm": {
+  "n": 72,
+  "independent": 91.7,
+  "circular": 83.3,
+  "gap": -8.3,
+  "p": 0.210113525390625
+ }
+}

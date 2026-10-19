@@ -1,0 +1,46 @@
+{
+ "kb": "baseline_rule",
+ "guard": "Vectara HHEM-2.1-Open",
+ "mode": "per-fact max",
+ "catch": {
+  "k": 144,
+  "n": 150,
+  "rate": 96.0,
+  "ci": [
+   91.5,
+   98.2
+  ]
+ },
+ "fcr": {
+  "k": 112,
+  "n": 136,
+  "rate": 82.4,
+  "ci": [
+   75.1,
+   87.8
+  ]
+ },
+ "auroc": 0.704,
+ "catch_at_fcr5": 21.3,
+ "gap_circular": {
+  "n": 119,
+  "independent": 95.8,
+  "circular": 81.5,
+  "gap": -14.3,
+  "p": 0.0009105205535888672
+ },
+ "gap_circular_llm": {
+  "n": 73,
+  "independent": 94.5,
+  "circular": 67.1,
+  "gap": -27.4,
+  "p": 1.0967254638671875e-05
+ },
+ "gap_circular_llm_g2": {
+  "n": 100,
+  "independent": 96.0,
+  "circular": 66.0,
+  "gap": -30.0,
+  "p": 1.5366822481155396e-08
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "kb": "baseline_rule",
+ "guard": "MiniCheck-Flan-T5-Large",
+ "mode": "per-fact max",
+ "catch": {
+  "k": 136,
+  "n": 150,
+  "rate": 90.7,
+  "ci": [
+   84.9,
+   94.4
+  ]
+ },
+ "fcr": {
+  "k": 72,
+  "n": 136,
+  "rate": 52.9,
+  "ci": [
+   44.6,
+   61.1
+  ]
+ },
+ "auroc": 0.802,
+ "catch_at_fcr5": 32.0,
+ "gap_circular": {
+  "n": 119,
+  "independent": 89.9,
+  "circular": 82.4,
+  "gap": -7.6,
+  "p": 0.13604594767093658
+ },
+ "gap_circular_llm": {
+  "n": 73,
+  "independent": 87.7,
+  "circular": 78.1,
+  "gap": -9.6,
+  "p": 0.1670684814453125
+ },
+ "gap_circular_llm_g2": {
+  "n": 100,
+  "independent": 90.0,
+  "circular": 79.0,
+  "gap": -11.0,
+  "p": 0.052238985896110535
+ }
+}

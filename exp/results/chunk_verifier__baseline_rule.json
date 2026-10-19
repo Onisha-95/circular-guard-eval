@@ -1,0 +1,39 @@
+{
+ "kb": "baseline_rule",
+ "order": "chunk_first",
+ "chunks": 284,
+ "catch": {
+  "k": 110,
+  "n": 150,
+  "rate": 73.3,
+  "ci": [
+   65.7,
+   79.8
+  ]
+ },
+ "fcr": {
+  "k": 31,
+  "n": 136,
+  "rate": 22.8,
+  "ci": [
+   16.5,
+   30.5
+  ]
+ },
+ "auroc": 0.846,
+ "catch_at_fcr5": 44.0,
+ "circular_rule": {
+  "n": 119,
+  "independent": 79.0,
+  "circular": 58.0,
+  "gap": -21.0,
+  "p": 2.2361520677804947e-05
+ },
+ "circular_llm": {
+  "n": 73,
+  "independent": 76.7,
+  "circular": 57.5,
+  "gap": -19.2,
+  "p": 0.016124801710247997
+ }
+}

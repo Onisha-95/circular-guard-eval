@@ -1,0 +1,240 @@
+{
+ "kca": {
+  "n_llm_items": 111,
+  "rejected_by_review": 39,
+  "review_filled": true,
+  "overlap_with_source_fact": {
+   "rule": 0.69,
+   "llm": 0.76
+  },
+  "rows": [
+   {
+    "checker": "roberta-large-mnli",
+    "paths": "all",
+    "llm_circular": {
+     "n": 72,
+     "independent": 62.5,
+     "circular": 87.5,
+     "gap": 25.0,
+     "p": 0.0005335211753845215
+    },
+    "rule_circular": {
+     "n": 72,
+     "independent": 62.5,
+     "circular": 93.1,
+     "gap": 30.6,
+     "p": 0.00011307420209050179
+    }
+   },
+   {
+    "checker": "roberta-large-mnli",
+    "paths": "nli_fact_only",
+    "llm_circular": {
+     "n": 72,
+     "independent": 55.6,
+     "circular": 87.5,
+     "gap": 31.9,
+     "p": 1.5236437320709229e-05
+    },
+    "rule_circular": {
+     "n": 72,
+     "independent": 55.6,
+     "circular": 93.1,
+     "gap": 37.5,
+     "p": 1.4011748135089874e-06
+    }
+   },
+   {
+    "checker": "llm:qwen/qwen3.8-flash",
+    "paths": "all",
+    "llm_circular": {
+     "n": 72,
+     "independent": 83.3,
+     "circular": 88.9,
+     "gap": 5.6,
+     "p": 0.480682373046875
+    },
+    "rule_circular": {
+     "n": 72,
+     "independent": 83.3,
+     "circular": 100.0,
+     "gap": 16.7,
+     "p": 0.00048828125
+    }
+   },
+   {
+    "checker": "llm:qwen/qwen3.8-flash",
+    "paths": "nli_fact_only",
+    "llm_circular": {
+     "n": 72,
+     "independent": 79.2,
+     "circular": 87.5,
+     "gap": 8.3,
+     "p": 0.28627872467041016
+    },
+    "rule_circular": {
+     "n": 72,
+     "independent": 79.2,
+     "circular": 97.2,
+     "gap": 18.1,
+     "p": 0.002349853515625
+    }
+   },
+   {
+    "checker": "minicheck",
+    "paths": "-",
+    "llm_circular": {
+     "n": 72,
+     "independent": 97.2,
+     "circular": 91.7,
+     "gap": -5.6,
+     "p": 0.21875
+    },
+    "rule_circular": {
+     "n": 72,
+     "independent": 97.2,
+     "circular": 100.0,
+     "gap": 2.8,
+     "p": 0.5
+    }
+   },
+   {
+    "checker": "hhem",
+    "paths": "-",
+    "llm_circular": {
+     "n": 72,
+     "independent": 91.7,
+     "circular": 44.4,
+     "gap": -47.2,
+     "p": 1.076841726899147e-09
+    },
+    "rule_circular": {
+     "n": 72,
+     "independent": 91.7,
+     "circular": 79.2,
+     "gap": -12.5,
+     "p": 0.049041748046875
+    }
+   }
+  ]
+ },
+ "baseline_rule": {
+  "n_llm_items": 119,
+  "rejected_by_review": 46,
+  "review_filled": true,
+  "overlap_with_source_fact": {
+   "rule": 0.8,
+   "llm": 0.76
+  },
+  "rows": [
+   {
+    "checker": "roberta-large-mnli",
+    "paths": "all",
+    "llm_circular": {
+     "n": 73,
+     "independent": 63.0,
+     "circular": 82.2,
+     "gap": 19.2,
+     "p": 0.012540951371192932
+    },
+    "rule_circular": {
+     "n": 73,
+     "independent": 63.0,
+     "circular": 97.3,
+     "gap": 34.2,
+     "p": 1.6242265701293945e-06
+    }
+   },
+   {
+    "checker": "roberta-large-mnli",
+    "paths": "nli_fact_only",
+    "llm_circular": {
+     "n": 73,
+     "independent": 52.1,
+     "circular": 80.8,
+     "gap": 28.8,
+     "p": 0.00019219517707824707
+    },
+    "rule_circular": {
+     "n": 73,
+     "independent": 52.1,
+     "circular": 90.4,
+     "gap": 38.4,
+     "p": 1.941574737429619e-06
+    }
+   },
+   {
+    "checker": "llm:qwen/qwen3.8-flash",
+    "paths": "all",
+    "llm_circular": {
+     "n": 73,
+     "independent": 79.5,
+     "circular": 93.2,
+     "gap": 13.7,
+     "p": 0.0308837890625
+    },
+    "rule_circular": {
+     "n": 73,
+     "independent": 79.5,
+     "circular": 100.0,
+     "gap": 20.5,
+     "p": 6.103515625e-05
+    }
+   },
+   {
+    "checker": "llm:qwen/qwen3.8-flash",
+    "paths": "nli_fact_only",
+    "llm_circular": {
+     "n": 73,
+     "independent": 75.3,
+     "circular": 93.2,
+     "gap": 17.8,
+     "p": 0.007197380065917969
+    },
+    "rule_circular": {
+     "n": 73,
+     "independent": 75.3,
+     "circular": 97.3,
+     "gap": 21.9,
+     "p": 0.00014495849609375
+    }
+   },
+   {
+    "checker": "minicheck",
+    "paths": "-",
+    "llm_circular": {
+     "n": 73,
+     "independent": 94.5,
+     "circular": 84.9,
+     "gap": -9.6,
+     "p": 0.0654296875
+    },
+    "rule_circular": {
+     "n": 73,
+     "independent": 94.5,
+     "circular": 97.3,
+     "gap": 2.7,
+     "p": 0.6875
+    }
+   },
+   {
+    "checker": "hhem",
+    "paths": "-",
+    "llm_circular": {
+     "n": 73,
+     "independent": 89.0,
+     "circular": 37.0,
+     "gap": -52.1,
+     "p": 4.1109160520136356e-10
+    },
+    "rule_circular": {
+     "n": 73,
+     "independent": 89.0,
+     "circular": 49.3,
+     "gap": -39.7,
+     "p": 2.4299079086631536e-06
+    }
+   }
+  ]
+ }
+}

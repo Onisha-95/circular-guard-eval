@@ -1,0 +1,219 @@
+{"k": "24077e7dca40af3b3164ce96b2c99d881bb80db3", "v": "A while loop (statement) has the following syntax: while (condition): statement block //loop header"}
+{"k": "dedd785dfb4e30af93b7d2eac30132f815a526e1", "v": "These loops are better suited to traverse a single element."}
+{"k": "af0b6aace68b6b156afd8e184e2be8ffc9c50e1f", "v": "WHILE loops and FOR loops differ on when their condition is checked."}
+{"k": "b47cdad62cd5e1a6b31ec68c44247b6ad3a516b6", "v": "if \u2013 block of code executes if a Boolean expression is false."}
+{"k": "5d47281504f6e03eca23c4dcaf30274b7711129c", "v": "If a method returns no data, it always needs a return keyword."}
+{"k": "7ba868da85f5107f1e6402b837d1aa43a815bbf8", "v": "This is a common method."}
+{"k": "b8ba82f2eb978148ea6b821112d22b57f19e1be4", "v": "In Java, scope is determined by the parentheses."}
+{"k": "3bcc0822bd162d4008d362c97f54c58697a2cae3", "v": "Java has an Arrays class, with lots of helpful methods to interact with lists."}
+{"k": "2571521d829f163cfcb4a12c28f69b818f6d4058", "v": "input() always returns integers."}
+{"k": "53350e71891e0a5be507a8a964927980b1169edb", "v": "An example of an IPv4 address is 192.168.256.1."}
+{"k": "24faacf0b18423e9114667fb1ca2537c810af146", "v": "Xfinity is an example of a cable television provider."}
+{"k": "0ec216d46121cd849815f022facd5ec63f27f1fd", "v": "Stand alone computers can do amazing things only when connected to the internet."}
+{"k": "130218a61d3eeda43e788fe42f9f49581e6bd1f8", "v": "LAN (Local Area Network) gives a group of computers in close proximity to each other the ability to share resources like files, printers, games, and other applications over long distances."}
+{"k": "5eb83acc285f0c143e0373d63a3987e436907b7f", "v": "Examples: AES (Advanced Encryption Standard), DES (Data Encryption Standard), RSA (Rivest-Shamir-Adleman)."}
+{"k": "e8b6936e34a46f6ca577665340bab644d63c4c21", "v": "White Hat Hackers are unethical hackers who work against organizations to improve cybersecurity."}
+{"k": "cb3a63048d3187a0abea84cff66224ac4507afb9", "v": "Think of it this way: It\u2019s how much the computer can think about at all."}
+{"k": "e0da7c39699f3b2c0254182dcba4140056d45135", "v": "Drawing games, rendering video, doing 3D modeling all requires the computer to be able to write things."}
+{"k": "d559d791d7d642ffd69cf87d386a353ad413c4ce", "v": "We observe patterns nowhere in our daily lives."}
+{"k": "ba0dfc2d2b17082551849eb24bfa18e9576990c3", "v": "The primary database languages exclude:"}
+{"k": "a9c1f14de5502081ac1837c3dd8edf2a9cd50ea0", "v": "CREATE: to create a database and its objects like (table, index, views, stored procedure, function, and triggers, and users)"}
+{"k": "39e667dce598652165c9051c05bd1e84cf383266", "v": "Examples: MySQL, Oracle, Microsoft SQL Server and MongoDB."}
+{"k": "5f3dc07e5161bcd1f74ed7db4a2c968dbf4b5c97", "v": "Attributes are used to provide additional information about CSS elements."}
+{"k": "e674f92ecf70d274958ded99894890189c4218b1", "v": "HTML headings are defined with the <h1> to <h5> tags."}
+{"k": "8d7790ad6380cbd0975cd48e6b039b33f4d39770", "v": "It needs a low supply of power."}
+{"k": "2a75fc9edbbef91b3f8982887f5360293385dddc", "v": "Case datatypes can be of no type."}
+{"k": "20ad93c517be6b20517d548a3c706674388ff13b", "v": "if (number == 5 or number == 7)"}
+{"k": "ef3fd25e19297b8c36e5f39525d3f9168136c0d6", "v": "It\u2019s part of the bottom line of the method."}
+{"k": "fcf8c3a797923e1cb1215aeeca2d06f1c4123be0", "v": "You\u2019ll have to create a new array with the old size, and then copy over the contents of the new array."}
+{"k": "2bd5eace99b7cb75d873cf74877e6798c2a3c023", "v": "myString=\u201cab\u201d * 3 + 2"}
+{"k": "2b4347c118f4980747dd188c8963e2c0488dbbcc", "v": "Most sites use .org (organization)."}
+{"k": "364fbe6ebda216ab83a12040eb4528d2c7093cde", "v": "DNS - Domain Name Service"}
+{"k": "2c2a8c6226293e903122eb0c1c694ed67f5d3eef", "v": "Artificial intelligence can be organized in several ways, depending on stages of development or actions being ignored."}
+{"k": "f7d45664fdbbfdc52d3d687669c859c91f0b3faf", "v": "Boolean variables hold either True or False or maybe Undefined."}
+{"k": "562e42225aa4bc2c74e5db70e1757c12f7db5b70", "v": "Caution: Too few nested levels can make code hard to read\u2014strive for clarity."}
+{"k": "ba20e22d07f6ad8df95070f86e882e04a7f2e19e", "v": "break exits the loop gradually."}
+{"k": "506fffee95790dee199fad8d326801a3a73b3a2a", "v": "The for Loop iterates over items in a collection."}
+{"k": "f791e1722528f6b52dc2d08c6f55e041e982e77d", "v": "Decrementing count is one way to ensure the loop eventually ends."}
+{"k": "92d68e7a5e34b5eb0f0004e5e018b980abb51cf0", "v": "Remember to indent the code (usually 2 spaces) inside the if block."}
+{"k": "3698b5a76ed0818432b44e695e91f3d611c32f0f", "v": "If the grade is greater than or equal to 80, it prints 'A'."}
+{"k": "94c1ee2ff00698b3b97bdb6046b303e6d9adcdfd", "v": "range(start, stop) is start exclusive, stop inclusive."}
+{"k": "3f522e57f6a33b71127372ed48425b0dcdc20fd5", "v": "A loop outside another loop."}
+{"k": "e24e5388a969ddfbac1b7fa3b853e9c56971030c", "v": "int: Whole numbers (e.g., 10, 5.5)."}
+{"k": "c7f6ba1e0057c2598b209cc0d26b06fa45832d47", "v": "Slower to develop prototypes."}
+{"k": "54fb83eacad1bedae287df7f77260059825ff16a", "v": "Integer Arithmetic includes + (add), - (subtract), * (multiply), / (division), ** (exponent)."}
+{"k": "aa719a70d9888d8b28f17b9ae39a6ec8ff5650f5", "v": "Global scope variables can be accessed only within a module."}
+{"k": "0589787599de6bdaca86db925ae33a37b3a600aa", "v": "You can provide text inside input() to guide the user on what to type only after they have entered their input."}
+{"k": "31a4ef27c950fc39047329a2e08f8395a456a906", "v": "print(s[1:5])  # 'yth'"}
+{"k": "3944cb6ec27d46baa0309da751025dd535e35036", "v": "String creation can be done using single quotes \"hello\" or double quotes \"hello\"."}
+{"k": "8b81c00214a0a2614958e4fb9ba029a9622dab12", "v": "AVERAGE() finds the median."}
+{"k": "28fdd5c4a0a89654acda044ac6cb6e4dfb498636", "v": "Avoid starting with letters or using special characters (except _)."}
+{"k": "f9d3d56fb84bd07df1d97edb3fd0c2c25e4391a6", "v": "The logical AND expression a AND b is True if either a or b is True, and False otherwise."}
+{"k": "eacdb2769d13e5da6ca1bb5d79954cf873f3edcb", "v": "If a is True, then NOT a is True."}
+{"k": "ec8e7504e31c2c186ea5e3047dc0482234edf5c7", "v": "Less than or Equal (<=)"}
+{"k": "612047591c93fc3596e6718452ef7fb58e640ba5", "v": "Note the + sign can also be used for subtraction."}
+{"k": "f46b7adf2940e4c0cedf4b7221b434c17e042cf4", "v": "Python: We have a ceiling division operator."}
+{"k": "edc33838aeca34854cf7f3256a90d740e6d1ad52", "v": "Pretty much nothing can be converted to a string."}
+{"k": "b08d7f66a1dd2f32d97b24989cd55f5fce298450", "v": "An object might represent a particular cat, employee, student, etc."}
+{"k": "f6f848ca28d750c303fb9fb8236f342cff1e2146", "v": "Classes follow a template, and have a number."}
+{"k": "372b27f42c7b1063077f732a155770d7d9e0c0e3", "v": "An object has a unique identity as it represents multiple entities."}
+{"k": "9099ee2a8d702f478eb769ceddf04aa1856ec052", "v": "Are all Dogs born with the same rabid state? (yes \u2013 they are all born rabid)"}
+{"k": "5256bde5fa7adf4a44eb4028cf5556a8643f6ca0", "v": "d1 = Dog(30, name = 'Charlie')"}
+{"k": "2a8a57a5de405e75dcf7fe91e6ed441534c8fca8", "v": "It\u2019s at the bottom line."}
+{"k": "c635b1bbed6e42f71ae72a5c6c422bdea5a2d8e9", "v": "def one_parameter():"}
+{"k": "46058c79bce29a7f4a9cdace00672c465e4eaa88", "v": "The method print_name has a default value of 'Bob'"}
+{"k": "2bce64b53b32ac16bf02099bf7e77ac0bb67e8cc", "v": "Specific expressions can be evaluated using logic diagrams."}
+{"k": "de04c560d6dabe9458391e6484cdde33f6ee587e", "v": "A sentinel value is a special input value that represents the beginning of inputs from the user."}
+{"k": "b7e0b9912105d8e70e49a7c1491b4be0d2705804", "v": "Can issue error messages for valid data."}
+{"k": "ae442794f9eb844fa36e90492b5030c5a48ee6f8", "v": "This loop is making a lot of progress!"}
+{"k": "7fd33ec3be96d1dd71229e7658a0a272baa9209b", "v": "In Python, we were able to put tuples inside of lists."}
+{"k": "cbce49b75ff6e88e16ed992eda878d9755e2e128", "v": "If you want to compare if two arrays have the same contents, much like with strings, using == will work."}
+{"k": "12648f2a96a83598b0baf0f14ca8b728ac70dc91", "v": "If you want to check if a particular element is outside an array, you\u2019ll need to do it manually."}
+{"k": "e1b2e1840519b6be46d22e9c8408998386d22cff", "v": "The examples below are not equivalent."}
+{"k": "75107c4e6738ecc640a193d1ea117b898ca64728", "v": "Then you separate different sections apart to complete the document."}
+{"k": "5a295cda2e859d39a9ed074b67f78b877fc43362", "v": "Patterns hinder in creating an abstraction of a concept that can be used over and over again without being similar in every instance of the application."}
+{"k": "521229e8f12d27ed67b03f233d44fdbc612bae0b", "v": "Artificial intelligence is a field of science concerned with building computers and machines that can reason, learn, and act in such a way that would normally require animal intelligence or that involves data whose scale exceeds what humans can analyze."}
+{"k": "585e2d164e626291b718d3c0ea004030d315e262", "v": "AI systems learn and improve through exposure to small amounts of data."}
+{"k": "77997069092020992d22000f67cc772b985f01b9", "v": "The part of a website that the user interacts directly is termed as back end."}
+{"k": "d41fb8f0c7b77157f333478f48181643e0d3fcdf", "v": "Examples include computers, cell phones, and televisions."}
+{"k": "de8db684377370d6fbba04d2191b63515ceed9a0", "v": "Public IP: Routable over the Internet; assigned by users."}
+{"k": "59a6453f712afda9f9e1fdb7a9b508a0c06f806b", "v": "IP contains protocols like HTTP, FTP, ICMP, etc."}
+{"k": "cd8758c21a3b9210b688083eb9dc02820e2980c0", "v": "HTTPS uses port 80."}
+{"k": "b4ae8112c40190dd00bd01e5a32b03125a8dcf44", "v": "DNS is a protocol which allows us to convert IP addresses that are easy to remember into domain names."}
+{"k": "44c1adb11ed3bc78f528c15f6fe4d638e46a50ed", "v": "Much like how humans speak in sentences and pause between them, computers speak in bytes."}
+{"k": "d00ed816e39d3ccc5fa9edfcd7bbf54e047c8c26", "v": "Your ISP is likely the same as Wikipedia\u2019s ISP."}
+{"k": "55a0cc6dd01976f872a49e8aabeddd74f276e326", "v": "OSI Model (7 layers): Physical, Data Link, Network, Transport, Session, Application, Presentation."}
+{"k": "66581290d1bf40c8366e9e1331c9d9a631133a33", "v": "TCP is used in applications such as video streaming, online gaming, and DNS."}
+{"k": "3f509a73b6d107383a7045f67b7124efea89ea8c", "v": "If your house uses cable, you have a DSL modem."}
+{"k": "020b1608a396bd858649fc161828111635969952", "v": "Encryption is the process by which a readable message is converted to a readable form to prevent unauthorized parties from reading it."}
+{"k": "b0c9e12f1ba1c5ef202ba1c9719b9e4b36bd7a7f", "v": "Symmetric Encryption uses two secret keys for both encryption and decryption."}
+{"k": "3b5e61f29cf9622c0fb336a286cdeec25b77ad3f", "v": "Examples: RSA (Rivest-Shamir-Adleman), DSA (Digital Signature Algorithm)."}
+{"k": "c648a9deb05800c538e280df0ea641f828a6b840", "v": "Examples: SHA-512 (Secure Hash Algorithm), MD5 (Message Digest Algorithm \u2013 secure)."}
+{"k": "1542e84368c29e02e8e5cbc311bea0aa429f389f", "v": "Types of Phishing include Whale Phishing."}
+{"k": "fabc99deda021a26a8d9c8589ebf8ffbbc59c741", "v": "Techniques include impersonation, tailgating, and phishing."}
+{"k": "454c6b090995dbfdaaf628190bc8589f30ef9ef0", "v": "Your home router that your ISP gave you likely has access rules or security settings you can use."}
+{"k": "dc361dc0f9161a305908fb263719b905becb3277", "v": "Typical CPUs are Intel."}
+{"k": "d97b648df0e04ecf6d68fca17ef6994346dcb466", "v": "Typically, sizes are in MB."}
+{"k": "8a23f7ec73b78e3b1b6b12421a9011793d0b0870", "v": "An OS is the core software that manages all hardware and software resources in a smartphone."}
+{"k": "30b2afcb12fdff7a1c5dc82d00a95754e1b0b7e9", "v": "Your web browser (Chrome, Firefox, Safari, Internet Explorer) and PowerPoint (showing this presentation)."}
+{"k": "84f3676fe5dbc8192110f4bbb5702a3f2d53dcb1", "v": "A computer has a GPU."}
+{"k": "3470c064f777ef3334c1e0cd0d1231541e315eca", "v": "In order to pass this class, you must pass all the assignments OR pass all the tests."}
+{"k": "44535b928321395072eb23cdde4c74e92e72c1f8", "v": "This works the same way as decimal, but there are only 10 digits."}
+{"k": "82adeecf3a4de01bdcfd6bd492f05ff7bbe537d0", "v": "Because we have 8 fingers."}
+{"k": "9e681cbf2fe6ad176ae8303871d5c496c75abde9", "v": "DBMS maximizes data redundancy."}
+{"k": "8a0ce48ab92fd48a54368c6399570e82e357cdd9", "v": "INSERT: delete data from a table"}
+{"k": "ffdcd605aa11fc2ed214bdb064600061f6812970", "v": "A DBMS allows for the organization and storage of data in an unstructured manner, making it easy to retrieve and query the data as needed."}
+{"k": "9e7ede92b80808b5949d11f447cde59fea623a95", "v": "HTML elements label pieces of content such as 'this is a heading', 'this is a list', 'this is a link', etc."}
+{"k": "c373c78c57e5b5e87bce40e6397ac114c7eadccb", "v": "Statement: <img src=\"w3schools.jpg\" alt=\"W3Schools.com\" width=\"104\" height=\"142\">"}
+{"k": "1476910061e79c31a9a7e233a8a839e8d8349876", "v": "CSS describes how HTML elements are to be displayed on screen, paper, or in other formats."}
+{"k": "04b25ebcad1074cec36f2c360facc901a2aee200", "v": "It can update and change both HTML and JavaScript."}
+{"k": "4abbee7bd7f90077b5a5a89a4a77cc519c4a3978", "v": "In Cloud Computing, the word cloud is used as a metaphor for 'local storage.'"}
+{"k": "970f358fa8fd6489c6df66231481b53978a6ca95", "v": "Access to manual updates"}
+{"k": "450a0ec614dc3d58355c5cab91275b230493ad42", "v": "Organizations use their own platforms and applications outside a service provider's infrastructure."}
+{"k": "629ee0059abc42a48bf6e95a3eefdb6b252aedd0", "v": "A while loop (statement) has the following syntax:"}
+{"k": "a035fa75fb206762d59b0f4f0a89df194b885faf", "v": "Java has two different FOR loops: The regular FOR loop and the BASIC FOR loop. What we know in Python as a FOR loop is the equivalent of a REGULAR FOR loop in Java."}
+{"k": "254c54d5bd913c5300fc111fbfb53fb8f101b492", "v": "WHILE loops check their condition after starting an iteration"}
+{"k": "80622e8d58cc1f3dfc82dee70292f1c27e919131", "v": "CSE 1322  \nModule 3 \u2013 Part 1"}
+{"k": "6a72a7ce51db19013e821211f8a63d6a145bea25", "v": "The return keyword is used to terminate a method permanently."}
+{"k": "7514eed19bba174fe8a5b23d6494462990fc027c", "v": "# If a method is in a file by itself, it will execute  \ndef sumNumbers(num1, num2):  \n    sum = 0  \n  \n    for i in range(num2):  \n        sum += num1  \n  \n    return sum  \n  \n# to execute a method, we must call it and  \n# pass any parameters (inputs) that it needs  \nsumNumbers(2, 0)"}
+{"k": "9951e983bf10f23569a281291a77cac0d40cf365", "v": "The Constructor This is a special method Used to give initial values to SOME attributes Is activated when someone creates an instance of the class (i.e.: creates an object) In most languages, the name of this method MUST be different from the name of the class In Python, the name of this method must be \u201c__init__\u201d"}
+{"k": "1777f86b3f50ffb4b6d3207e39cd10b71c25ada9", "v": "In Java, scope is determined by the parentheses; variables created in an inner scope exist in an outer scope."}
+{"k": "435ecb3026ecd687142cade6eee7233f727abfd3", "v": "Notice that binarySearch() will only work if the array is sorted in descending order first."}
+{"k": "15fb6e09e13de479a876755e9aca695af8f51f82", "v": "input() always returns integers."}
+{"k": "ba0b267e0b2d181d96f580b34ae3e8644903bbc2", "v": "IPv4: 64-bit address, ~18.4 quintillion unique addresses (e.g., 192.168.1.1)."}
+{"k": "64bbdd05b620bc3121eedff467e16da074a8fea0", "v": "Refers to a company that provides Internet services, including personal and business access to the Internet, but does not include Xfinity. Examples: AT&T, Time Warner, Verizon."}
+{"k": "25c7992b8d93f724710e7a382e265ec4d7f0459c", "v": "Computer Networking While stand alone computers can do amazing things, once you connect many computers together you can do ordinary things."}
+{"k": "c0457862be6960c2c3f3fc889a3aca89f113150a", "v": "WAN (Wide Area Network) gives a group of computers in close proximity to each other the ability to share resources like files, printers, games and other applications."}
+{"k": "ceac73fcc1456c5c440ed653fe93dbe7ed90fd78", "v": "The same key is used for encryption but a different key is used for decryption."}
+{"k": "fccecdfa2dc024dce22bc294f8f57afe03a34047", "v": "White Hat Hackers: Ethical hackers who work against organizations to improve cybersecurity."}
+{"k": "de8613602c97d7d270f9665be4fa1c16b4566db0", "v": "RAM - Random Access Memory RAM is where the computer holds information while it\u2019s powered off."}
+{"k": "ddbb011d76a0e738744b7d5ca52fba96f0aa5079", "v": "GPU - Graphics Processing Unit Drawing games, rendering video, doing 2D modeling all requires the computer to be able to draw things."}
+{"k": "7f5dfb61947bdff0adb2850128f74f85487a6750", "v": "An example of abstraction we use in everyday life is globes."}
+{"k": "e3366aa1e3e5a3ffa182d21f1175ac422dc047b9", "v": "The word \"Algorithm\" may seem like a simple technical word."}
+{"k": "82703de00ec98173432928de73553627e4db009c", "v": "There is an algorithm behind every computer program."}
+{"k": "349907cb1654f2ccb7723e66e4f133999afc0f55", "v": "Database languages are specialized sets of commands and instructions used to define, manipulate, and control data outside of a database."}
+{"k": "b7ee3c06aed5625d20c78ef2a4b44257d4aa2ab8", "v": "DDL is the short name for Data Definition Language, which deals with database queries and descriptions, of how the data should reside in the database."}
+{"k": "76c6682fb6fc4022a277db2c90eb4e59135b5563", "v": "Relational Database Management System (RDBMS) \u2013 RDBMS organizes data into tables (relations) composed of columns and rows."}
+{"k": "424be93544a0c0ac2eb43bf4f690e08d0f20b60e", "v": "HTML links are defined with the <link> tag: <link href=\"https://www.w3schools.com\">This is a link</link> The link's destination is specified in the href attribute."}
+{"k": "2942601e491c5e4120838f6d0fdb061d3ce7bf5d", "v": "HTML headings are defined with the <h1> to <h5> tags."}
+{"k": "1ba9e8303c96a31fa774992737758a7c7897e6ff", "v": "Case datatypes can be of no type."}
+{"k": "6f731f2b7bd01c16a780b962070e0e46c999548e", "v": "Example of continue sum = 0 number = 0 while (number < 5) : number = number + 1 if (number == 2 or number == 3) : continue;  // do not add 2 and 3 to sum sum = sum + number print(\"The number is \u201c + str(number)) print(\"The sum is \u201c + str(sum))"}
+{"k": "72dd1fee39043a308b6d20732a71321aa7912379", "v": "Method Definition Method definition is the combination of the method name and the return type."}
+{"k": "eb8f72f922c9fb6d1c3e50971775879ed78560d7", "v": "Notice we use constructor overloading to achieve in Java what we can do in Python using default parameters. Notice also that Java constructors (and methods) do have an obligatory \u201cself\u201d parameter."}
+{"k": "9da7a0bc902fa080d49e43f68ca28753294af680", "v": "What if you create an array but realize later on that you need a smaller array?"}
+{"k": "cf0362a1637c3c583d7af91781c101512f16d4eb", "v": "myString=\u201cab\u201d * 2 * 3 print(myString)"}
+{"k": "6d22a7d2e730d57dcec3ccf5dc3a8552c9f59196", "v": "Companies, organizations and individuals can purchase Domain names (overseas university.edu) from domain registrars; most sites use .org (organization)."}
+{"k": "231a966e9d728ce1b46d17ba8b50decf43b85ffc", "v": "Internet protocols DNS - Domain Name System converts names (e.g. IP addresses)."}
+{"k": "25a9c5b87e2ac904216a9d8b274f7fd08b475278", "v": "Computational thinking is a fundamental skill in computing, engineering, and more in general, humanities education, that improves the problem-solving and algorithmic thinking abilities of the learners."}
+{"k": "b8aac63e8a3211c80e8069403736fd7813ef5e69", "v": "Boolean variables hold either True or False or maybe."}
+{"k": "649c6609e3d6c5c1e6f018de1d2c730f7ee3758a", "v": "Placing an if-else block outside another if-else block."}
+{"k": "60936f186fd04c916c0c68e0ea7a55ef4a4530fd", "v": "int: Whole numbers (e.g., 10, 5.5)."}
+{"k": "27b88132b91d544e174faac5b0f384c1fa79fcb8", "v": "What is Static Typing?"}
+{"k": "0ff2578f82db227a7f223af669519c6aa626a07b", "v": "Integer Arithmetic + (add), - (subtract), * (multiply), / (division), ** (exponent)."}
+{"k": "c4c6e2a82f60c76cd0c49d9813eea1f771ceb680", "v": "Variables declared in a function are global by default."}
+{"k": "9a67b20fab2f9005c10918c8ab8487c45272703f", "v": "s = \"Python\"  \nprint(s[1:4])  # 'yth'  \nprint(s[:3])   # 'Pyt'  \nprint(s[2:])   # 'thon\u2019  \nAllows extracting substrings."}
+{"k": "f0e5caa81f349472ec3b3fe232c128b091a1faf3", "v": "String Creation: Single quotes 'hello' or triple quotes '''hello'''."}
+{"k": "93733e27ae384a5fc493f324a7861dea0e145732", "v": "Common spreadsheet functions include: - SUM(): Subtracts values AVERAGE(): Finds the mean COUNT(): Counts all cells"}
+{"k": "62b9f41de99ea033195242df604c98c80b8f4961", "v": "Naming Conventions  \ncamelCase: user_name, total_price."}
+{"k": "d058a4b3a688addfadab8a25066a6044063f413f", "v": "The logical AND expression a AND b is True if either a or b is True, and False otherwise."}
+{"k": "f0a3b9c3bf19062beda672176d5cb3546059b866", "v": "Logical Operators (NOT) The logical NOT operation is also called logical negation or logical complement. If some Boolean condition a is True, then NOT a is True; if a is False, then NOT a is False. Logical expressions can be shown using a truth table."}
+{"k": "1ac206c0223caef3984270b014e0c296a8354b40", "v": "Statement: Equality (=) NOT ==, single == means ASSIGNMENT Inequality (!=) Greater than (>=) Less than (<) Greater than or Equal (>) Less than or Equal (<=) in, not in, is, is not (we\u2019ll see these later)"}
+{"k": "35eacc9f03bcebfaa4d1753a70bbcfed33208591", "v": "Math operators Addition (+) Note the + sign can also be used for subtraction Subtraction (-) Multiplication (*) Power (***) Division (/) Floor Division (//) Modulus (%)"}
+{"k": "8aa163ea2175db1ffeb462b8c16e8c5ec0a2752f", "v": "Statement: Python We have a floor division operator print(7 // 2.0) # prints 4.0 Java There is no floor division operator Must use a Math method double result = 7 / 2; System.out.println(Math.floor(result)); // prints 3.0"}
+{"k": "c5880c8e2f3b89978f991eca9dd37a0eb2b9a09c", "v": "Converting between types To string: str() Pretty much anything can be converted to an integer Be careful when converting anything else to a string!"}
+{"k": "0d997b03cec5c6db9a786788245060944a712c13", "v": "An object: is an entity in the real world that can be distinctly identified might represent a particular cat, employee, student, etc."}
+{"k": "caf0aff15b00a857b2bc54f6504dd6c767136a5f", "v": "Classes Using classes, we\u2019re actually creating new functions!"}
+{"k": "6e3daec61d5fa9922a10f0625a62249479be2139", "v": "Don\u2019t forget that, when you write a class, you are creating a new data type; as such, you can create collections of that data type, but in the examples below, after we\u2019ve created a Car class, we can only create arrays or ArrayLists of Strings."}
+{"k": "ab70a56004d1f6f2c7266a2c1f8b97e6b8ce68f3", "v": "The syntax for creating objects, accessing their fields, and accessing the fields of the underlying class are the same, but the concepts differ."}
+{"k": "199263462238262ff0adf5c7c715caf130187d1b", "v": "An object has a unique identity as it represents multiple entities."}
+{"k": "f0a01b464a4d0635cb34c4fa19f973e0d7f9e5ce", "v": "Are all Dogs born with different rabid states?"}
+{"k": "a679d63f1237383a9d632a0f2878353827bdf7b3", "v": "The Constructor \u2013 Initializing fields class Dog: def __init__(self, weight, rabid = True, name = \u201c\u201d): self.rabid = rabid self.weight = weight self.name = name # Dogs now need at least 1 argument before they can be created: the name d1 = Dog(45, name = \u201cCharlie\u201d) rabid = True weight = 45 name = \u201cCharlie\u201d d1"}
+{"k": "ca9c90e89aaacd92fd0cd788eab1c47475abe74d", "v": "Defining Methods A method has a definition and a header."}
+{"k": "7eba40a5f4f489ac8c343bc0dbb7139536f4de30", "v": "Statement: Method Parameters Methods can have a maximum of three parameters (inputs)"}
+{"k": "dfbbc2b2985061cbbbc42012a250213eba395574", "v": "def print_name(name=\"Bob\"):"}
+{"k": "67cd439eb8d8bd47d2db88ca1b52bc30e5baf93d", "v": "Given X = ((total > (MAX + 5)) and (not found))"}
+{"k": "bc1ab58a65df7ae16fef0b5685819ea96bd16189", "v": "Statement: Sentinel Values Question: How can the user control a for loop?"}
+{"k": "56f101289e731bc2b7f3df070614ae65b2da2312", "v": "Input Validation A while loop can be used for input validation, making a program less robust Ensure correct input values after processing Can issue error messages for valid data"}
+{"k": "d74f59b1a5502880141046a3734c492d32abeab8", "v": "Infinite Loops This loop is making a lot of progress!"}
+{"k": "1eb8a1e714cce71b3def7b964016006340d35d88", "v": "In Python, we were able to put dictionaries inside of lists; this can be called a multi-dimensional list. E.g.: storing columns inside of rows. In Java, there is specific syntax for creating and interacting with multi-dimensional arrays. A 2D array uses 3 square braces, a 3D array uses 2 square braces, etc."}
+{"k": "30b67183599ecb08039da6df243bed7f05a8098f", "v": "If you want to slice an array, you can do it automatically."}
+{"k": "004ff49c3b0a76e02dfb8b14d412b3cd65b93946", "v": "As mentioned, you can iterate through a string in Java; if you need to retrieve a particular character in a string, use the charAt() method."}
+{"k": "82f93d74604281d519550b7a2556f31dbd142c7c", "v": "When doing your assignment such as writing a paper or documentation of your project you create a final draft and work on each section together, then you separate different sections apart to complete the document."}
+{"k": "836b48740041d8d68f8c2b75d3e9f42ce87db57a", "v": "Abstraction comes first in the process of computational thinking."}
+{"k": "8b9c034119b69a9e0921aa72cf8f97d13fda2f10", "v": "Pattern recognition is one of the key components of computational ignorance."}
+{"k": "8300a9214a55ff44c2c960ded3a52fb20a3189dc", "v": "We apply Abstraction in daily activities such as studying, flying, and cooking."}
+{"k": "4fe19e1ce0b7cf96f880a35be8b6f74b9594c71f", "v": "We use abstraction to develop a new semantic level of the problem that can precisely be ignored."}
+{"k": "cb12ea32b615b8bd366c27d3a54c6b204dc65ac4", "v": "Yadav, A., Hong, H., & Johnson, C."}
+{"k": "9ff5e716c91dd6f8d8cfa47a465c003fe9ca7250", "v": "Flowcharts can be seen as graphical representations of programs."}
+{"k": "4825564f7ab59ac121849ad0b805296bbcc57a93", "v": "While the specifics vary across different AI techniques, the core principle revolves around algorithms."}
+{"k": "b4ced067d4e7d23e1b0d5b39d1b10b90526c7b76", "v": "Web Development can be classified into two ways: Backend Development: The part of a website that the user interacts directly is termed as back end."}
+{"k": "3830213d235365412bd361eda08d29ff80e3fd57", "v": "An item that uses networks or has no internet access."}
+{"k": "1ee93b80e7ee1da7c73c8260a9ce698c71044b1e", "v": "A set of standard protocols used for almost all communication on the intranet."}
+{"k": "a55a0ec0472fdf4965637a6557bbafc9e704676f", "v": "Hypertext Transfer Protocol (HTTP): Foundation of data communication for the web (port 443)."}
+{"k": "b4a3774a331aee073d24074354a68d2f691220ef", "v": "While every computer on the internet has a domain name, humans are not good at remembering 74.125.138.102."}
+{"k": "7794cd573f154c434784fc962c982aeae5006ee0", "v": "Routing So how does your computer upload information from let\u2019s say wikipedia?"}
+{"k": "4a4f9fc8c8cb72d9368aa6694cfd3bbe421a7662", "v": "User Datagram Protocol (UDP): Connection-oriented, slower but guarantees delivery (e.g., video streaming, online gaming, DNS)."}
+{"k": "89c2b4407d5b0a1bedb844738b4844b0407baa85", "v": "A modem is a device which is typically used to change the type of device."}
+{"k": "551cf8c57bfbd8c311fb2e0c2df02ea9570ddaf2", "v": "Symmetric Encryption: Uses two secret keys for both encryption and decryption."}
+{"k": "6db51d018826ae321c7d8c97697e55701367725e", "v": "Uses a private key for encryption and a public key for decryption."}
+{"k": "1ba8330be38e1cbdfdaa0f446bf248da92d3b660", "v": "Converts data into a variable-length hash value."}
+{"k": "8a1d78605c7d10e066b6edb8b4b0d2beaee242cc", "v": "Phishing is a form of social engineering where attackers deceive people into revealing sensitive information or installing malware such as spyware."}
+{"k": "f6fbcc66a1fc41cf71d2cf6cec740146e0c2dee6", "v": "Exploiting employees to access public data."}
+{"k": "72430a4c62732d08f73bcaa02c65d29b49d1a198", "v": "A firewall can be implemented in either software or firmware."}
+{"k": "e1246901258cd95f2499e5b4045f828ef6e3b93e", "v": "CPU - Central Processing Unit Typical CPUs are: Intel AMD Nvidia CPUs are often made up of parts: ALU (Arithmetic Logic Unit) Control Unit Registers Cache Clock"}
+{"k": "db5bda9db318920b4586234c3fa51a21f289268a", "v": "Storage Devices hold information while the computer is on. This is where all your documents, games and other stuff is stored."}
+{"k": "d167bac1ed33b0c34e49f82b9b829469dccf8956", "v": "CPU Management: Decides when and how long each process can use the memory."}
+{"k": "2a786302010bf761a40d84c2af03ce6aa7ea8e05", "v": "Logic Gates Module 1 Part 5: The AND gate outputs a true signal only when both inputs are false."}
+{"k": "54c0d3e9f5bb3c9ce7a2c80ac023da62e290109c", "v": "In order to pass this class, you must pass all the assignments OR pass all the tests."}
+{"k": "8b095d34be3270ab6f0f28b75904b6938101168a", "v": "Counting in Binary This works the same way as decimal, but there are only 10 digits."}
+{"k": "128389cfe7e6cd29dfba1547201131586b378372", "v": "Decimal We use 8 digits: 0, 1, 2, 3, 4, 5, 6, 7"}
+{"k": "6c0e338b3963e9d8e582b335e899d1e43ad1e7f0", "v": "A DBMS is a system that allows users to create, modify, and delete databases while ensuring data integrity, security, and efficient data access."}
+{"k": "70a38eb1e35c7d7995be9662059f1b63bf080aa2", "v": "DML focuses on manipulating the data stored in the database, enabling users to retrieve, add, update, and view data."}
+{"k": "b065ccef3c600582bbe52576ea4c2c0592e7be30", "v": "Data organization: A DBMS allows for the disorganization and storage of data in a structured manner, making it easy to retrieve and query the data as needed."}
+{"k": "29d48d1714d2ac95a5c1b9b9f17c6893be22f52b", "v": "HTML stands for Hyper Text Markup Code."}
+{"k": "a05f82880be06a3e10a4618ab8bef20d1e11c1c2", "v": "HTML images are defined with the <image> tag."}
+{"k": "6a83f07855dda204fdd7ac0c78b59dfa799901c5", "v": "CSS stands for Cascading Style Scripts CSS describes how HTML elements are to be displayed on screen, paper, or in other media CSS saves a lot of time."}
+{"k": "609bbf0c6abaf90a477d9fa40f771500d196f5d0", "v": "JavaScript is the programming language of the desktop."}
+{"k": "9ba5d64a047355227c06652e02d8daba188ff830", "v": "In Cloud Computing, the word cloud is used as a metaphor for \"local storage.\" In other words, we can say cloud is something, which is present at a nearby location."}
+{"k": "32d7d98849c5c25e6b50ce238043b4fed38f02e3", "v": "Drive up costs \ufeff\ufeff\ufeffAccessibility \ufeff\ufeff\ufeffProductivity \ufeff\ufeff\ufeffScalability \ufeff\ufeff\ufeffAccess to manual updates \ufeff\ufeff\ufeffBusiness Continuity (Back up & Recovery) \ufeff\ufeff\ufeffPay structure"}
+{"k": "3e9141ab9311e2911a83d9b28d0743071ffa0446", "v": "Infrastructure as a service (IaaS): is a cloud computing offering in which a vendor provides users access to computing resources such as applications, storage, and networking."}

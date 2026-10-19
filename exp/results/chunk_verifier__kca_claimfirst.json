@@ -1,0 +1,39 @@
+{
+ "kb": "kca",
+ "order": "claim_first",
+ "chunks": 144,
+ "catch": {
+  "k": 53,
+  "n": 150,
+  "rate": 35.3,
+  "ci": [
+   28.1,
+   43.3
+  ]
+ },
+ "fcr": {
+  "k": 23,
+  "n": 136,
+  "rate": 16.9,
+  "ci": [
+   11.5,
+   24.1
+  ]
+ },
+ "auroc": 0.62,
+ "catch_at_fcr5": 8.0,
+ "circular_rule": {
+  "n": 112,
+  "independent": 40.2,
+  "circular": 42.9,
+  "gap": 2.7,
+  "p": 0.7607916425613439
+ },
+ "circular_llm": {
+  "n": 72,
+  "independent": 37.5,
+  "circular": 38.9,
+  "gap": 1.4,
+  "p": 1.0
+ }
+}

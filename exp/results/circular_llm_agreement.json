@@ -1,0 +1,45 @@
+{
+ "n": 60,
+ "agreement": 88.3,
+ "cohen_kappa": 0.738,
+ "gwet_ac1": 0.792,
+ "first_yes": 44,
+ "second_yes": 37,
+ "disagreements": [
+  {
+   "item": "circular_llm__kca:l114",
+   "first": "y",
+   "second": "n"
+  },
+  {
+   "item": "circular_llm__kca:l065",
+   "first": "y",
+   "second": "n"
+  },
+  {
+   "item": "circular_llm__kca:l007",
+   "first": "y",
+   "second": "n"
+  },
+  {
+   "item": "circular_llm__kca:l056",
+   "first": "y",
+   "second": "n"
+  },
+  {
+   "item": "circular_llm_g2__kca:m021",
+   "first": "y",
+   "second": "n"
+  },
+  {
+   "item": "circular_llm_g2__kca:m143",
+   "first": "y",
+   "second": "n"
+  },
+  {
+   "item": "circular_llm__kca:l080",
+   "first": "y",
+   "second": "n"
+  }
+ ]
+}

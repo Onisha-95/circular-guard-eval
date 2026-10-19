@@ -1,0 +1,112 @@
+id,concept,source_fact,llm_error,added_negation_word,is_false_given_source (y/n),claude_check,claude_reason
+l000,while loop statement,A while loop (statement) has the following syntax: while (condition): statement block //loop body,A while loop (statement) has the following syntax: while (condition): statement block //loop header,,y,clear,"body, not header"
+l001,for loops,These loops are better suited to traverse a collection of elements.,These loops are better suited to traverse a single element.,,y,clear,loops traverse collections
+l002,do-while loops,WHILE loops and DO-WHILE loops differ on when their condition is checked,WHILE loops and FOR loops differ on when their condition is checked.,,y,clear,WHILE vs DO-WHILE differ; FOR checks first too
+l003,selection statements,if – block of code executes if a Boolean expression is true.,if – block of code executes if a Boolean expression is false.,,y,clear,if runs when true
+l005,the return keyword,"If a method returns no data, it doesn’t need a return keyword.","If a method returns no data, it always needs a return keyword.",,y,clear,void methods need no return
+l007,the constructor,This is a special method,This is a common method.,,y,clear,constructor is special
+l008,scope – java,"In Java, scope is determined by the curly braces","In Java, scope is determined by the parentheses.",,y,clear,curly braces
+l009,arrays class,"Java has an Arrays class, with lots of helpful methods to interact with arrays.","Java has an Arrays class, with lots of helpful methods to interact with lists.",,y,CHECK,"Arrays class is for arrays; ""lists"" arguable"
+l010,converting input to numbers,input() always returns strings.,input() always returns integers.,,y,clear,input() returns strings
+l017,ipv4 vs. ipv6,An example of an IPv4 address is 192.168.1.1.,An example of an IPv4 address is 192.168.256.1.,,y,clear,256 is not a valid octet
+l018,isp - internet service provider,Xfinity is an example of an Internet Service Provider.,Xfinity is an example of a cable television provider.,,n,clear,Xfinity is also a cable TV provider; true
+l019,computer networking,Stand alone computers can do amazing things.,Stand alone computers can do amazing things only when connected to the internet.,,y,clear,stand-alone computers do amazing things without internet
+l020,network types,"LAN (Local Area Network) gives of group of computers in close proximity to each other the ability to share resources like files, printers, games and other applications.","LAN (Local Area Network) gives a group of computers in close proximity to each other the ability to share resources like files, printers, games, and other applications over long distances.",,y,clear,LAN is short distance
+l021,symmetric encryption,"Examples: AES (Advanced Encryption Standard), DES (Data Encryption Standard), Blowfish.","Examples: AES (Advanced Encryption Standard), DES (Data Encryption Standard), RSA (Rivest-Shamir-Adleman).",,y,clear,RSA is asymmetric
+l022,types of hackers,White Hat Hackers are ethical hackers who work with organizations to improve cybersecurity.,White Hat Hackers are unethical hackers who work against organizations to improve cybersecurity.,,y,clear,white hats are ethical
+l023,ram - random access memory,Think of it this way: It’s how much the computer can think about at once.,Think of it this way: It’s how much the computer can think about at all.,,n,clear,"""at all"" is meaningless"
+l024,gpu - graphics processing unit,"Drawing games, rendering video, doing 3D modeling all requires the computer to be able to draw things.","Drawing games, rendering video, doing 3D modeling all requires the computer to be able to write things.",,n,CHECK,"""write things"": odd, not clearly false"
+l027,pattern recognition,We observe patterns everywhere in our daily lives.,We observe patterns nowhere in our daily lives.,,y,clear,contradicts source
+l031,database languages,The primary database languages include:,The primary database languages exclude:,,n,clear,fragment
+l032,data definition language (ddl),"CREATE: to create a database and its objects like (table, index, views, store procedure, function, and triggers)","CREATE: to create a database and its objects like (table, index, views, stored procedure, function, and triggers, and users)",,n,clear,CREATE USER exists; still true
+l033,types of dbms,"Examples: MySQL, Oracle, Microsoft SQL Server and Postgre SQL.","Examples: MySQL, Oracle, Microsoft SQL Server and MongoDB.",,n,CHECK,MongoDB is a DBMS; context (relational?) unclear
+l035,html links,Attributes are used to provide additional information about HTML elements.,Attributes are used to provide additional information about CSS elements.,,y,clear,HTML attributes
+l036,html headings,HTML headings are defined with the <h1> to <h6> tags.,HTML headings are defined with the <h1> to <h5> tags.,,y,clear,headings go to <h6>
+l037,disadvantages of robots,It needs a high supply of power.,It needs a low supply of power.,,y,clear,contradicts source
+l041,match vs switch,Case datatypes can be of any type.,Case datatypes can be of no type.,yes,n,CHECK,"""no type"" is meaningless rather than false"
+l042,example of continue,if (number == 5 or number == 6),if (number == 5 or number == 7),,n,clear,code fragment
+l043,method definition,It’s part of the top line of the method.,It’s part of the bottom line of the method.,,y,clear,top line
+l045,resizing arrays,"You’ll have to create a new array with the new size, and then copy over the contents of the old array.","You’ll have to create a new array with the old size, and then copy over the contents of the new array.",,y,clear,new size; copy old into new
+l046,string multiplication,myString=“ab” * 3 * 2,myString=“ab” * 3 + 2,,n,clear,code fragment
+l051,domain name system (dns),Most sites use .com (company).,Most sites use .org (organization).,,y,clear,most sites use .com
+l052,internet protocols,DNS - Domain Name System,DNS - Domain Name Service,,n,clear,"""Domain Name Service"" is a common expansion"
+l053,types of artificial intelligence,"Artificial intelligence can be organized in several ways, depending on stages of development or actions being performed.","Artificial intelligence can be organized in several ways, depending on stages of development or actions being ignored.",,n,clear,"""actions being ignored"" is meaningless"
+l055,boolean variables and comparisons,Boolean variables hold either True or False.,Boolean variables hold either True or False or maybe Undefined.,,y,clear,booleans have two values
+l056,nested conditionals,Caution: Too many nested levels can make code hard to read—strive for clarity.,Caution: Too few nested levels can make code hard to read—strive for clarity.,,y,clear,too MANY levels hurt readability
+l057,controlling loops – break and continue,break exits the loop immediately.,break exits the loop gradually.,,y,clear,break exits immediately
+l058,the for loop,The for Loop iterates over items in a sequence.,The for Loop iterates over items in a collection.,,n,clear,collection vs sequence; still true
+l059,the while loop,Incrementing count is one way to ensure the loop eventually ends.,Decrementing count is one way to ensure the loop eventually ends.,,n,clear,decrementing can also end a loop
+l060,the if statement,Remember to indent the code (usually 4 spaces) inside the if block.,Remember to indent the code (usually 2 spaces) inside the if block.,,y,CHECK,Python convention is 4 spaces
+l061,the if-elif-else statement,"If the grade is greater than or equal to 90, it prints 'A'.","If the grade is greater than or equal to 80, it prints 'A'.",,n,CHECK,depends on the slide example
+l062,using range() with for,"range(start, stop) is start inclusive, stop exclusive.","range(start, stop) is start exclusive, stop inclusive.",,y,clear,"start inclusive, stop exclusive"
+l063,nested loops,A loop inside another loop.,A loop outside another loop.,,y,clear,nested = inside
+l064,data types in python,"int: Whole numbers (e.g., 10, -5).","int: Whole numbers (e.g., 10, 5.5).",,y,clear,5.5 is not a whole number
+l065,dynamic typing in python,Faster to develop prototypes.,Slower to develop prototypes.,,y,clear,dynamic typing speeds prototyping
+l066,working with integers and floats,"Integer Arithmetic includes + (add), - (subtract), * (multiply), // (floor division), ** (exponent).","Integer Arithmetic includes + (add), - (subtract), * (multiply), / (division), ** (exponent).",,n,CHECK,"""/"" is also usable on integers; arguable"
+l067,scope,Global scope variables can be accessed throughout a module.,Global scope variables can be accessed only within a module.,,n,CHECK,"""only within a module"" is close to true"
+l068,reading input with input(),You can provide text inside input() to guide the user on what to type.,You can provide text inside input() to guide the user on what to type only after they have entered their input.,,y,clear,prompt is shown before input
+l069,slicing,print(s[1:4])  # 'yth',print(s[1:5])  # 'yth',,y,clear,"s[1:5] is ""ytho"""
+l070,string variables in detail,String creation can be done using single quotes 'hello' or double quotes 'hello'.,"String creation can be done using single quotes ""hello"" or double quotes ""hello"".",,n,clear,quote swap; still true
+l071,using functions,AVERAGE() finds the mean.,AVERAGE() finds the median.,,y,clear,AVERAGE is the mean
+l072,naming conventions,Avoid starting with digits or using special characters (except _).,Avoid starting with letters or using special characters (except _).,,y,clear,names may start with letters
+l073,logical operators (and and or),"The logical AND expression a AND b is True if both a and b are True, and False otherwise.","The logical AND expression a AND b is True if either a or b is True, and False otherwise.",,y,clear,AND needs both
+l074,logical operators (not),"If a is False, then NOT a is True","If a is True, then NOT a is True.",,y,clear,NOT True is False
+l075,comparison operators,Greater than or Equal (>=),Less than or Equal (<=),,n,clear,true statement on its own
+l076,arithmetic operators (reminder),Note the + sign can also be used for concatenation,Note the + sign can also be used for subtraction.,,y,clear,+ is not subtraction
+l077,math operators – floor division,Python: We have a floor division operator,Python: We have a ceiling division operator.,,y,clear,Python has floor division //
+l078,converting between types,Pretty much anything can be converted to a string.,Pretty much nothing can be converted to a string.,,y,clear,almost anything converts to str
+l079,objects,"An object might represent a particular dog, employee, student, etc.","An object might represent a particular cat, employee, student, etc.",,n,clear,"""cat"" still a valid example"
+l080,classes,"Classes follow a template, and have a name.","Classes follow a template, and have a number.",,y,clear,classes have a name
+l083,"object identity, state and behavior",An object has a unique identity as it represents one entity.,An object has a unique identity as it represents multiple entities.,,y,clear,one object = one entity
+l084,designing the constructor,Are all Dogs born with the same rabid state? (yes – they are all born non-rabid),Are all Dogs born with the same rabid state? (yes – they are all born rabid),,y,clear,dogs are born non-rabid (per slide)
+l085,the constructor – initializing fields,"d1 = Dog(45, name = 'Charlie')","d1 = Dog(30, name = 'Charlie')",,n,clear,different but valid code
+l086,defining methods,It’s at the top line.,It’s at the bottom line.,,y,clear,definition is the top line
+l087,method parameters,def no_parameters():,def one_parameter():,,n,clear,code fragment
+l088,method optional parameters,The method print_name has a default value of 'Alice',The method print_name has a default value of 'Bob',,y,clear,"default is ""Alice"""
+l089,boolean expressions,Specific expressions can be evaluated using truth tables.,Specific expressions can be evaluated using logic diagrams.,,n,CHECK,"""logic diagrams"": plausible"
+l090,sentinel values,A sentinel value is a special input value that represents the end of inputs from the user.,A sentinel value is a special input value that represents the beginning of inputs from the user.,,y,clear,sentinel marks the end
+l091,input validation,Can issue error messages for invalid data.,Can issue error messages for valid data.,,y,clear,errors are for invalid data
+l092,infinite loops,This loop isn’t making a lot of progress!,This loop is making a lot of progress!,,y,CHECK,depends on the slide example (infinite loop)
+l093,multi-dimensional arrays,"In Python, we were able to put lists inside of lists.","In Python, we were able to put tuples inside of lists.",,n,clear,tuples in lists is possible; true
+l094,comparing arrays,"If you want to compare if two arrays have the same contents, much like with strings, using == will not work.","If you want to compare if two arrays have the same contents, much like with strings, using == will work.",,y,clear,== compares references
+l095,searching arrays,"If you want to check if a particular element is inside an array, you’ll need to do it manually.","If you want to check if a particular element is outside an array, you’ll need to do it manually.",,n,clear,"""outside an array"" is meaningless"
+l096,slicing arrays,The examples below are equivalent.,The examples below are not equivalent.,yes,y,CHECK,depends on the slide examples
+l098,decomposition,Then you combine different sections together to complete the document.,Then you separate different sections apart to complete the document.,,y,clear,reverses decomposition
+l100,pattern recognition in computational thinking,Patterns help in creating an abstraction of a concept that can be used over and over again without being similar in every instance of the application.,Patterns hinder in creating an abstraction of a concept that can be used over and over again without being similar in every instance of the application.,,y,clear,"patterns help, not hinder"
+l107,what is artificial intelligence?,"Artificial intelligence is a field of science concerned with building computers and machines that can reason, learn, and act in such a way that would normally require human intelligence or that involves data whose scale exceeds what humans can analyze.","Artificial intelligence is a field of science concerned with building computers and machines that can reason, learn, and act in such a way that would normally require animal intelligence or that involves data whose scale exceeds what humans can analyze.",,y,clear,human intelligence
+l108,how does ai work?,AI systems learn and improve through exposure to vast amounts of data.,AI systems learn and improve through exposure to small amounts of data.,,y,clear,vast amounts of data
+l109,classification,The part of a website that the user interacts directly is termed as front end.,The part of a website that the user interacts directly is termed as back end.,,y,clear,user-facing part is front end
+l110,what is a network device?,"Examples include computers, cell phones, and gaming consoles.","Examples include computers, cell phones, and televisions.",,n,clear,smart TVs are network devices
+l111,public vs. private ip addresses,Public IP: Routable over the Internet; assigned by ISPs.,Public IP: Routable over the Internet; assigned by users.,,y,clear,public IPs assigned by ISPs
+l112,ip – internet protocol,"IP contains protocols like TCP, UDP, ICMP, etc.","IP contains protocols like HTTP, FTP, ICMP, etc.",,n,CHECK,TCP/IP suite does include HTTP/FTP; arguable
+l113,http vs. https,HTTPS uses port 443.,HTTPS uses port 80.,,y,clear,HTTPS is 443
+l114,dns – domain name system,DNS is a protocol which allows us to convert names (Domain names) that are easy to remember into IP addresses.,DNS is a protocol which allows us to convert IP addresses that are easy to remember into domain names.,,y,clear,direction reversed
+l115,packets,"Much like how humans speak in sentences and pause between them, computers speak in packets.","Much like how humans speak in sentences and pause between them, computers speak in bytes.",,n,CHECK,"""bytes"": loose but not clearly false"
+l116,routing,Your ISP is likely different from Wikipedia’s ISP,Your ISP is likely the same as Wikipedia’s ISP.,,y,clear,ISPs usually differ
+l117,networking protocol layers (osi/tcp-ip models),"OSI Model (7 layers): Physical, Data Link, Network, Transport, Session, Presentation, Application.","OSI Model (7 layers): Physical, Data Link, Network, Transport, Session, Application, Presentation.",,y,clear,Presentation before Application
+l118,udp,"UDP is used in applications such as video streaming, online gaming, and DNS.","TCP is used in applications such as video streaming, online gaming, and DNS.",,n,CHECK,"TCP is also used (DNS over TCP, some streaming)"
+l119,modem,"If your house uses DSL, you have a DSL modem.","If your house uses cable, you have a DSL modem.",,y,clear,cable needs a cable modem
+l120,encryption,Encryption is the process by which a readable message is converted to an unreadable form to prevent unauthorized parties from reading it.,Encryption is the process by which a readable message is converted to a readable form to prevent unauthorized parties from reading it.,,y,clear,encryption makes it unreadable
+l121,types of encryption,Symmetric Encryption uses a single secret key for both encryption and decryption.,Symmetric Encryption uses two secret keys for both encryption and decryption.,,y,clear,symmetric = one key
+l122,asymmetric encryption,"Examples: RSA (Rivest-Shamir-Adleman), ECC (Elliptic Curve Cryptography).","Examples: RSA (Rivest-Shamir-Adleman), DSA (Digital Signature Algorithm).",,n,clear,DSA is asymmetric; true
+l123,hashing,"Examples: SHA-256 (Secure Hash Algorithm), MD5 (Message Digest Algorithm – outdated).","Examples: SHA-512 (Secure Hash Algorithm), MD5 (Message Digest Algorithm – secure).",,y,clear,MD5 is not secure
+l124,phishing,Types of Phishing include Spear Phishing.,Types of Phishing include Whale Phishing.,,n,clear,whaling is a type of phishing; true
+l125,social engineering in the workplace,"Techniques include impersonation, tailgating, and baiting.","Techniques include impersonation, tailgating, and phishing.",,n,clear,phishing is a social-engineering technique; true
+l126,firewalls,Your home router that your ISP gave you likely has access rules or firewall rules you can use.,Your home router that your ISP gave you likely has access rules or security settings you can use.,,n,clear,security settings; true
+l127,cpu - central processing unit,Typical CPUs are Arm.,Typical CPUs are Intel.,,n,clear,Intel is a typical CPU; true
+l128,storage devices,"Typically, sizes are in TB.","Typically, sizes are in MB.",,y,CHECK,"modern sizes are TB/GB, not MB"
+l129,what is an operating system (os)?,An OS is the core software that manages all hardware and software resources in a computer.,An OS is the core software that manages all hardware and software resources in a smartphone.,,n,clear,true for smartphones too
+l130,functions of an operating system,"Your web browser (Chrome, Firefox, Safari, Edge) and PowerPoint (showing this presentation).","Your web browser (Chrome, Firefox, Safari, Internet Explorer) and PowerPoint (showing this presentation).",,n,clear,Internet Explorer is a browser; true
+l131,logic gates,A computer has a CPU.,A computer has a GPU.,,n,clear,computers have GPUs; true
+l132,how an and gate works,"In order to pass this class, you must pass all the assignments AND pass all the tests.","In order to pass this class, you must pass all the assignments OR pass all the tests.",,y,clear,"AND, not OR"
+l133,counting in binary,"This works the same way as decimal, but there are only 2 digits.","This works the same way as decimal, but there are only 10 digits.",,y,clear,binary has 2 digits
+l134,decimal,Because we have 10 fingers.,Because we have 8 fingers.,,y,clear,10 fingers
+l135,what is a dbms?,DBMS minimizes data redundancy.,DBMS maximizes data redundancy.,,y,clear,DBMS minimizes redundancy
+l136,data manipulation language (dml),INSERT: insert data into a table,INSERT: delete data from a table,,y,clear,INSERT adds data
+l137,advantages of dbms,"A DBMS allows for the organization and storage of data in a structured manner, making it easy to retrieve and query the data as needed.","A DBMS allows for the organization and storage of data in an unstructured manner, making it easy to retrieve and query the data as needed.",,y,clear,structured manner
+l138,what is html?,"HTML elements label pieces of content such as 'this is a heading', 'this is a paragraph', 'this is a link', etc.","HTML elements label pieces of content such as 'this is a heading', 'this is a list', 'this is a link', etc.",,n,clear,HTML labels lists too; true
+l140,what is css?,"CSS describes how HTML elements are to be displayed on screen, paper, or in other media","CSS describes how HTML elements are to be displayed on screen, paper, or in other formats.",,n,clear,"""formats"": still true"
+l141,what is javascript?,It can update and change both HTML and CSS.,It can update and change both HTML and JavaScript.,,n,CHECK,JS can change scripts; arguable
+l142,what is cloud computing?,"In Cloud Computing, the word cloud is used as a metaphor for 'the Internet.'","In Cloud Computing, the word cloud is used as a metaphor for 'local storage.'",,y,clear,cloud = the Internet
+l143,benefits of cloud computing,Access to automatic updates,Access to manual updates,,y,clear,automatic updates
+l144,service models,Organizations use their own platforms and applications within a service provider's infrastructure.,Organizations use their own platforms and applications outside a service provider's infrastructure.,,y,clear,within the provider infrastructure
