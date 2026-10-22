@@ -22,7 +22,7 @@ and tested with:
 | Result | Value |
 |---|---|
 | Circular vs independent misconceptions, same 112 concepts (KCA, RoBERTa) | 94.6% vs 59.8% (+34.8 points, p < 0.001) |
-| Circular gap, all 17 matched comparisons (every checker, KB, dataset) | +10.1 to +36.6 points; all significant after Holm correction |
+| Circular gap, all 17 matched comparisons (every checker, both datasets, and every KB with a circular set) | +10.1 to +36.6 points; all significant after Holm correction |
 | False alarms on the 136 correct statements (KCA) | 28.7% (RoBERTa); 7.4-11.0% (LLM checkers); 67.6-72.8% (MiniCheck, HHEM) |
 | KCA vs rule-based KB, paired | +3.3 points, p = 0.50; not significant for any checker |
 | ProgMiscon (KCA KB): AUROC, misconception vs its correction | 0.48-0.54 for the NLI-based guards (chance); 0.69-0.70 for LLM checkers |
