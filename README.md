@@ -1,6 +1,6 @@
 # When AI Evaluates Itself: Code and Data
 
-Code, data, and per-item results for the paper *"When AI Evaluates Itself: Circular Evaluation Bias in Measuring the Reliability of Hallucination Guards for AI Tutoring Systems"*.
+Code, data, and per-item results for the paper *"When AI Evaluates Itself: Circular Evaluation Bias in Measuring the Reliability of Hallucination Guards in AI-Assisted Learning"*.
 
 The paper studies how the reliability of a knowledge-base (KB) hallucination guard in
 an AI tutor is **measured**. It does not propose a new guard. One guard is held fixed
@@ -35,7 +35,7 @@ and tested with:
 
 | Folder / file | What it is |
 |---|---|
-| `core/guard1_hallucination.py`, `config.py` | The guard under study (its decision rule, Section 3 of the paper) and its thresholds |
+| `core/guard1_hallucination.py`, `config.py` | The guard under study, KBGuard (its decision rule, Section 3 of the paper) and its thresholds |
 | `core/hybrid_extractor.py`, `core/extraction_engine.py`, `core/parsers/` | KB construction: KCA's LLM proposals and entailment gate, the rule-based extraction, the .pptx reader |
 | `exp/build_kbs.py` | Builds the course KB arms from the slides (`--regate-model minicheck:flan-t5-large` for the MiniCheck arm) |
 | `exp/build_fever.py` | Builds the FEVER test sets and KBs |
@@ -124,5 +124,5 @@ stopped and resumed.
 - About half of DeepSeek-V4.1-Flash's answers came without log-probabilities and
   GPT-6 Sol's probabilities were almost always 0 or 1, so their AUROC is coarse. Catch
   rates and false-alarm rates are unaffected.
-- Only the code the paper uses is included. The original prototype tutor's other components are
+- Only the code the paper uses is included. The tutor's other components are
   not needed: every KB is a JSONL file in `exp/kbs/`.

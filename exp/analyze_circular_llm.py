@@ -4,7 +4,7 @@ analyze_circular_llm.py -- circular gap with LLM-written circular errors.
 For each KB and checker it compares, on the SAME concepts (matched pairs):
   independent misconceptions  vs  rule-made circular errors (main study)
   independent misconceptions  vs  LLM-written circular errors (make_circular_llm.py)
-with exact McNemar tests, for our guard (all paths and path (a) only) and for
+with exact McNemar tests, for KBGuard (all paths and path (a) only) and for
 the published guards (MiniCheck, HHEM).
 
 Items marked "n" in exp/data/circular_llm__<kb>__review.csv (not actually false)

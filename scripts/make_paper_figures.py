@@ -100,14 +100,14 @@ fig.legend(h, l, loc="lower center", ncol=3, frameon=False)
 fig.tight_layout(rect=(0, .09, 1, 1)); fig.savefig(f"{out}/Figure_4.pdf"); plt.close(fig)
 
 # ---------------------------------------------------------------- ProgMiscon: catch vs false alarms
-P = [("RoBERTa (ours)", 48.2, 50.6, "nli"), ("MiniCheck", 65.9, 62.4, "nli"), ("HHEM", 55.3, 50.6, "nli"),
+P = [("KBGuard (RoBERTa)", 48.2, 50.6, "nli"), ("MiniCheck", 65.9, 62.4, "nli"), ("HHEM", 55.3, 50.6, "nli"),
      ("Qwen", 15.3, 29.4, "llm"), ("GPT-6 Sol", 16.5, 47.1, "llm")]
 fig, ax = plt.subplots(figsize=(W1, 82 * MM))
 ax.plot([0, 100], [0, 100], color=MUTED, lw=0.9, ls=(0, (4, 3)), zorder=1, label="Chance (catch = false alarms)")
 for name, f, c, kind in P:
     col, mk = (BLUE, "o") if kind == "nli" else (AQUA, "s")
     ax.scatter(f, c, s=34, color=col, marker=mk, edgecolor="white", linewidth=1.2, zorder=3)
-off = {"RoBERTa (ours)": (-2, 4, "right"), "MiniCheck": (3, -1.5, "left"), "HHEM": (3, -6, "left"),
+off = {"KBGuard (RoBERTa)": (-2, 4, "right"), "MiniCheck": (3, -1.5, "left"), "HHEM": (3, -6, "left"),
        "Qwen": (3, -4, "left"), "GPT-6 Sol": (3, -5, "left")}
 for name, f, c, _ in P:
     dx, dy, ha = off[name]
@@ -121,7 +121,7 @@ ax.legend(frameon=False, loc="upper left")
 fig.tight_layout(); fig.savefig(f"{out}/Figure_5.pdf"); plt.close(fig)
 
 # ---------------------------------------------------------------- oracle KB: wording vs coverage
-O = [("RoBERTa\n(ours)", 100.0, 78.8, 50.6), ("Qwen", 100.0, 90.6, 29.4), ("GPT-6\nSol", 100.0, 92.9, 47.1),
+O = [("KBGuard\n(RoBERTa)", 100.0, 78.8, 50.6), ("Qwen", 100.0, 90.6, 29.4), ("GPT-6\nSol", 100.0, 92.9, 47.1),
      ("MiniCheck", 97.6, 92.9, 62.4), ("HHEM", 42.4, 32.9, 50.6)]
 x = np.arange(len(O)); w = .27
 fig, ax = plt.subplots(figsize=(W15, 62 * MM))

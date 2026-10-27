@@ -33,7 +33,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT)
 from exp.analyze import auroc, flags, item_score, mcnemar_exact, wilson  # noqa: E402
 
-NAMES = {"roberta-large-mnli": "RoBERTa (ours)", "llm:qwen/qwen3.8-flash": "Qwen judge",
+NAMES = {"roberta-large-mnli": "KBGuard (RoBERTa)", "llm:qwen/qwen3.8-flash": "Qwen judge",
          "minicheck": "MiniCheck", "hhem": "HHEM",
          "llm:openai/gpt-6-sol": "GPT-6 Sol"}
 

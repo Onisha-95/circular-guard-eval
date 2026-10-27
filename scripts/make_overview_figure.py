@@ -192,7 +192,7 @@ stage(xs[0], sy, sw, sh, "1  Test statements",
        "Independent errors: 150 course\nmisconceptions, 85 ProgMiscon,\n149 FEVER refuted",
        "Correct statements: 136 course,\n85 ProgMiscon, 148 FEVER"], icon_list)
 stage(xs[1], sy, sw, sh, "2  Systems under test",
-      ["Our guard with 6 checkers,\non 5 course KBs and FEVER",
+      ["KBGuard with 6 checkers,\non 5 course KBs and FEVER",
        "Published guards:\nMiniCheck, HHEM",
        "Chunk verifier (Appendix B)",
        "Controls: path (a) only, oracle\nKB, open retrieval, held-out\nitems"], icon_gear)
