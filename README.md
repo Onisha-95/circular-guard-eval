@@ -25,7 +25,7 @@ and tested with:
 | Circular gap, all 17 matched comparisons (every checker, both datasets, and every KB with a circular set) | +10.1 to +36.6 points; all significant after Holm correction |
 | False alarms on the 136 correct statements (KCA) | 28.7% (RoBERTa); 7.4-11.0% (LLM checkers); 67.6-72.8% (MiniCheck, HHEM) |
 | KCA vs rule-based KB, paired | +3.3 points, p = 0.50; not significant for any checker |
-| ProgMiscon (KCA KB): AUROC, misconception vs its correction | 0.48-0.54 for the NLI-based guards (chance); 0.69-0.70 for LLM checkers |
+| ProgMiscon (KCA KB): AUROC, misconception vs its correction | 0.48-0.54 for the NLI-based guards (chance); 0.68-0.70 for LLM checkers |
 | LLM-written circular errors, two generators, hand-checked (RoBERTa, KCA / rule-based) | gpt-4o-mini +25.0 / +19.2, Llama-3.3-70B +25.6 / +24.0 points; HHEM -43 to -52 |
 | Second annotator (TA) on 60 LLM-written edits | 88.3% agreement, Cohen's kappa 0.74, Gwet's AC1 0.79 |
 | Published guards scored fact by fact (most favourable setting) | FCR still 52.9-61.8% (MiniCheck), 82.4-84.6% (HHEM) |
@@ -92,10 +92,10 @@ python3 exp/analyze_progmiscon.py
 mkdir -p figures
 python3 scripts/make_paper_figures.py exp/results/accepted/summary.json figures
 python3 scripts/make_overview_figure.py figures
-cp exp/results/accepted/fig_roc.pdf figures/Figure_3.pdf
+cp exp/results/accepted/fig_roc.pdf figures/Figure_2.pdf
 ```
 
-Figures are written as `Figure_1.pdf` ... `Figure_6.pdf` and `Figure_A1.pdf` and follow
+Figures are written as `Figure_1.pdf` ... `Figure_5.pdf` and `Figure_A1.pdf` and follow
 Elsevier's artwork rules: 90, 140 or 190 mm wide, Arial-compatible font, no text below
 7 pt at final size, vector PDF with embedded fonts.
 
@@ -126,3 +126,8 @@ stopped and resumed.
   rates and false-alarm rates are unaffected.
 - Only the code the paper uses is included. The tutor's other components are
   not needed: every KB is a JSONL file in `exp/kbs/`.
+
+## License
+
+Code: MIT (see `LICENSE`). Our KBs, test sets, annotations, and logs: CC BY 4.0.
+Third-party data keep their own terms: FEVER is CC BY-SA 3.0, and ProgMiscon text is not redistributed.

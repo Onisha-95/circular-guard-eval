@@ -1,6 +1,6 @@
 """All result figures of the journal version, in Elsevier's artwork format:
 widths of 90 mm (single column) or 140 mm (1.5 columns), named by figure number
-(Figure_2, Figure_4, Figure_5, Figure_6, Figure_A1), Arial-compatible font
+(Figure_3, Figure_4, Figure_5, Figure_A1; plus one extra figure not used in the paper), Arial-compatible font
 (Liberation Sans), every label at least 7 pt at final size, vector PDF with embedded fonts.
 
   python3 scripts/make_paper_figures.py exp/results/accepted/summary.json figures
@@ -63,7 +63,7 @@ for ax, (arm, title) in zip(axes, [("baseline_rule", "Rule-based KB"), ("kca", "
 axes[0].set_ylabel("Catch rate, same concepts (%)")
 h, l = axes[0].get_legend_handles_labels()
 fig.legend(h, l, loc="lower center", ncol=2, frameon=False)
-fig.tight_layout(rect=(0, .1, 1, 1)); fig.savefig(f"{out}/Figure_2.pdf"); plt.close(fig)
+fig.tight_layout(rect=(0, .1, 1, 1)); fig.savefig(f"{out}/extra_figure_not_in_paper.pdf"); plt.close(fig)
 
 # ---------------------------------------------------------------- contradiction signal by fact length
 bands = ["<=8 words", "9-15", "16-30", ">30"]
@@ -97,7 +97,7 @@ for xs, vs in [(x - w - .02, cir), (x, non), (x + w + .02, fcr)]:
 ax.set_xticks(x); ax.set_xticklabels(lab); ax.set_ylabel("Rate (%)"); ax.set_ylim(0, 114); style(ax)
 h, l = ax.get_legend_handles_labels()
 fig.legend(h, l, loc="lower center", ncol=3, frameon=False)
-fig.tight_layout(rect=(0, .09, 1, 1)); fig.savefig(f"{out}/Figure_4.pdf"); plt.close(fig)
+fig.tight_layout(rect=(0, .09, 1, 1)); fig.savefig(f"{out}/Figure_3.pdf"); plt.close(fig)
 
 # ---------------------------------------------------------------- ProgMiscon: catch vs false alarms
 P = [("KBGuard (RoBERTa)", 48.2, 50.6, "nli"), ("MiniCheck", 65.9, 62.4, "nli"), ("HHEM", 55.3, 50.6, "nli"),
@@ -118,7 +118,7 @@ ax.set_xlim(0, 100); ax.set_ylim(0, 100); ax.set_aspect("equal")
 ax.set_xlabel("False alarms on the corrections (%)"); ax.set_ylabel("Catch rate on the misconceptions (%)")
 ax.xaxis.grid(True, color=GRID, lw=0.6); style(ax)
 ax.legend(frameon=False, loc="upper left")
-fig.tight_layout(); fig.savefig(f"{out}/Figure_5.pdf"); plt.close(fig)
+fig.tight_layout(); fig.savefig(f"{out}/Figure_4.pdf"); plt.close(fig)
 
 # ---------------------------------------------------------------- oracle KB: wording vs coverage
 O = [("KBGuard\n(RoBERTa)", 100.0, 78.8, 50.6), ("Qwen", 100.0, 90.6, 29.4), ("GPT-6\nSol", 100.0, 92.9, 47.1),
@@ -135,5 +135,5 @@ ax.set_xticks(x); ax.set_xticklabels([o[0] for o in O]); ax.set_ylabel("Catch ra
 style(ax)
 h, l = ax.get_legend_handles_labels()
 fig.legend(h, l, loc="lower center", ncol=3, frameon=False)
-fig.tight_layout(rect=(0, .09, 1, 1)); fig.savefig(f"{out}/Figure_6.pdf"); plt.close(fig)
+fig.tight_layout(rect=(0, .09, 1, 1)); fig.savefig(f"{out}/Figure_5.pdf"); plt.close(fig)
 print("ok")
